@@ -13,5 +13,6 @@ class StateSerializer(serializers.ModelSerializer):
             'name',
             'capital',
             'short_code',
-            'lgas'
+            'lgas',
+            'website'
         ]

@@ -12,13 +12,10 @@ class StateAdmin(admin.ModelAdmin):
         'short_code',
         'capital',
         'slogan',
+        'website',
         'get_lgas_count',
         'get_cities_count',
     ]
-    # ordering = [
-    #     'get_cities_count',
-    #     'get_lgas_count'
-    # ]
 
     @admin.display(description=_('Total LGAs'))
     def get_lgas_count(self, state):
