@@ -2,6 +2,7 @@ from django.contrib import admin
 from django.db.models import Count
 from django.utils.translation import gettext_lazy as _
 
+from .lga import LGAInline
 from ..models import State
 
 
@@ -15,6 +16,9 @@ class StateAdmin(admin.ModelAdmin):
         'website',
         'get_lgas_count',
         'get_cities_count',
+    ]
+    inlines = [
+        LGAInline
     ]
 
     @admin.display(description=_('Total LGAs'))

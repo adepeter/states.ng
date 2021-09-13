@@ -1,3 +1,3 @@
 from .city import City
 from .lga import LGA, LocalGovernmentArea
-from .state import State
+from .state import Governor, State

@@ -1,4 +1,5 @@
 from django.db import models
+from django.utils import timezone
 from django.utils.text import slugify
 from django.utils.translation import gettext_lazy as _
 
@@ -34,5 +35,26 @@ class State(NameMixin):
             self.website = 'https://' + self.website + 'state.gov.ng'
         super().save(*args, **kwargs)
 
-    def __str__(self):
-        return self.name
+
+class Governor(NameMixin):
+    state = models.ForeignKey(
+        verbose_name=_('State'),
+        to='states.State',
+        on_delete=models.PROTECT,
+        related_name='governors'
+    )
+    date_started = models.DateField(
+        verbose_name=_('Start year'),
+        default=timezone.now,
+        help_text=_('Tenure start date')
+    )
+    date_ended = models.DateField(
+        verbose_name=_('End year'),
+        default=timezone.now,
+        help_text=_('Tenure end date')
+    )
+    is_current = models.BooleanField(
+        verbose_name=_('Current governor'),
+        default=False,
+        help_text=_('Currently active as Governor?')
+    )

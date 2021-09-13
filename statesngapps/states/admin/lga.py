@@ -3,6 +3,11 @@ from django.contrib import admin
 from ..models import LGA
 
 
+class LGAInline(admin.StackedInline):
+    model = LGA
+    extra = 10
+
+
 @admin.register(LGA)
 class LGAAdmin(admin.ModelAdmin):
     list_display = [
@@ -14,5 +19,6 @@ class LGAAdmin(admin.ModelAdmin):
 
 
 __all__ = [
-    'LGAAdmin'
+    'LGAAdmin',
+    'LGAInline'
 ]
