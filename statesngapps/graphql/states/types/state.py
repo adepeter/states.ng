@@ -4,7 +4,7 @@ from graphene_django import DjangoObjectType
 from django.utils.translation import gettext_lazy as _
 
 from .lga import LGAType
-from ....states.models import State, LGA
+from ....states.models import State, LGA, Governor
 
 
 class StateType(DjangoObjectType):
@@ -26,3 +26,10 @@ class StateCountType(graphene.ObjectType):
     total = graphene.Int(
         description=_('Total number of states')
     )
+
+
+class GovernorType(DjangoObjectType):
+    class Meta:
+        model = Governor
+        fields = '__all__'
+        description = _('Governor Object in Nigeria')

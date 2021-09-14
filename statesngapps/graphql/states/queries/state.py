@@ -3,8 +3,9 @@ from django.shortcuts import get_object_or_404
 
 from django.utils.translation import gettext_lazy as _
 
-from ....states.models import State
-from ..types.state import StateType, StateCountType
+from ..types.inputs.state import StateInputType
+from ....states.models import State, Governor
+from ..types.state import StateType, StateCountType, GovernorType
 
 
 class StateQuery:
@@ -36,3 +37,25 @@ class StateQuery:
 
     def resolve_all_states(self, info):
         return State.objects.all()
+
+
+class GovernorQuery:
+    all_governors = graphene.List(
+        graphene.NonNull(
+            GovernorType
+        ),
+        description=_('List of all governors in Nigeria')
+    )
+    all_governors_by_state = graphene.List(
+        graphene.NonNull(
+            GovernorType
+        ),
+        state=graphene.Argument(StateInputType),
+        description=_('List of all governors by state name or state short code')
+    )
+
+    def resolve_all_governors(self, info):
+        return Governor.objects.select_related('state').all()
+
+    def resolve_all_governors_by_state(self, info, state, **kwargs):
+        return Governor.objects.select_related('state').filter(state__name__iexact=state)

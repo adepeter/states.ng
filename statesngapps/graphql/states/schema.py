@@ -1,7 +1,7 @@
 from .queries.city import CityQuery
 from .queries.lga import LGAQuery
-from .queries.state import StateQuery
+from .queries.state import StateQuery, GovernorQuery
 
 
-class StatesRootQueries(CityQuery, LGAQuery, StateQuery):
+class StatesRootQueries(CityQuery, GovernorQuery, LGAQuery, StateQuery):
     pass

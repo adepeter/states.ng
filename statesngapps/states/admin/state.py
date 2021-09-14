@@ -23,10 +23,10 @@ class StateAdmin(admin.ModelAdmin):
         'get_governors_count',
         'get_cities_count',
     ]
-    inlines = [
-        GovernorInline,
-        LGAInline
-    ]
+    # inlines = [
+    #     # GovernorInline,
+    #     # LGAInline
+    # ]
 
     @admin.display(description=_('Current governor'))
     def get_current_governor(self, state):
