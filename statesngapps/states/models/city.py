@@ -8,7 +8,8 @@ class City(NameMixin):
     state = models.ForeignKey(
         'states.State',
         on_delete=models.CASCADE,
-        related_name='cities'
+        related_name='cities',
+        help_text=_('State city belongs to')
     )
 
     class Meta:

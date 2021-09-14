@@ -11,22 +11,26 @@ class State(NameMixin):
         verbose_name=_('capital'),
         max_length=255,
         unique=True,
-        db_index=True
+        db_index=True,
+        help_text=_('Capital of state')
     )
     slogan = models.CharField(
         verbose_name=_('slogan'),
         max_length=255,
+        help_text=_('Slogan for state')
     )
     short_code = models.CharField(
         verbose_name=_('Short Code'),
         max_length=3,
         unique=True,
-        db_index=True
+        db_index=True,
+        help_text=_('Two SHORT CODE to identify a state')
     )
     website = models.URLField(
         verbose_name=_('Website'),
         blank=True,
-        null=True
+        null=True,
+        help_text=_('Official website of state')
     )
 
     def save(self, *args, **kwargs):
@@ -41,7 +45,8 @@ class Governor(NameMixin):
         verbose_name=_('State'),
         to='states.State',
         on_delete=models.PROTECT,
-        related_name='governors'
+        related_name='governors',
+        help_text=_('State governing')
     )
     date_started = models.DateField(
         verbose_name=_('Start year'),

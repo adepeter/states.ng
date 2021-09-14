@@ -8,19 +8,22 @@ class LocalGovernmentArea(NameMixin):
     state = models.ForeignKey(
         'states.State',
         on_delete=models.CASCADE,
-        related_name='lgas'
+        related_name='lgas',
+        help_text=_('State LGA belongs to')
     )
     short_code = models.CharField(
         verbose_name=_('Short code'),
         max_length=3,
         unique=True,
-        db_index=True
+        db_index=True,
+        help_text=_('Three characters unique identifier of lga')
     )
     zip_code = models.CharField(
         verbose_name=_('Zip Code'),
         max_length=6,
         db_index=True,
-        blank=True
+        blank=True,
+        help_text=_('Zipcode for LGA')
     )
 
     class Meta:
