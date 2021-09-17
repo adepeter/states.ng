@@ -22,7 +22,7 @@ COPY . /srv/http/statesng
 WORKDIR /srv/http/statesng
 RUN pip install --upgrade pip && \
     pip install pipenv
-RUN pipenv install --deploy
+RUN pipenv install
 # pip install -r requirements.txt --no-warn-script-location
 CMD ["uwsgi", "uwsgi.ini"]
 EXPOSE 8000
