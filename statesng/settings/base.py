@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
 
     # 3rd party packages
+    'PIL',
     'drf_spectacular',
     'graphene_django',
     'rest_framework',

@@ -16,7 +16,8 @@ RUN apt-get upgrade -y && apt-get update && apt-get install -y \
     build-essential \
     python3 \
     python3-dev \
-    uwsgi-plugin-python3
+    uwsgi-plugin-python3 \
+    uwsgi-plugins-all
 RUN useradd -m statesng
 RUN pip install --upgrade pip
 USER statesng
@@ -24,6 +25,6 @@ COPY . /srv/http/statesng
 WORKDIR /srv/http/statesng
 ENV STATESNG_ENVIRONMENT sleekforum.settings.$statesng_environment
 RUN pip install -r requirements.txt --no-warn-script-location
-# CMD ["uwsgi", "--emperor", "uwsgi.ini", "--uid", "www-data", "--gid", "www-data"]
+# CMD ["uwsgi", "--emperor", "uwsgi.ini"]
 CMD ["uwsgi", "--ini", "uwsgi.ini"]
 EXPOSE 8000
