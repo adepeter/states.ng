@@ -14,7 +14,6 @@ RUN apt-get upgrade -y && apt-get update && apt-get install -y \
     gettext \
     build-essential \
     python3 \
-    python3-pipenv \
     python3-dev \
     uwsgi-plugin-python3
 RUN useradd -m statesng
