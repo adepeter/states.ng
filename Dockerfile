@@ -20,11 +20,11 @@ RUN apt-get upgrade -y && apt-get update && apt-get install -y \
     uwsgi-plugins-all
 RUN useradd -m statesng
 RUN pip install --upgrade pip
+RUN echo "statesng:statesng" | chpasswd
 USER statesng
-COPY . /srv/http/statesng
+COPY --chown=statesng . /srv/http/statesng
 WORKDIR /srv/http/statesng
 ENV STATESNG_ENVIRONMENT sleekforum.settings.$statesng_environment
 RUN pip install -r requirements.txt --no-warn-script-location
-# CMD ["uwsgi", "--emperor", "uwsgi.ini"]
-CMD ["uwsgi", "--ini", "uwsgi.ini"]
+CMD ["uwsgi", "--emperor", "uwsgi.ini"]
 EXPOSE 8000
