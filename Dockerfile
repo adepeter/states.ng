@@ -17,13 +17,12 @@ RUN apt-get upgrade -y && apt-get update && apt-get install -y \
     python3-dev \
     uwsgi-plugin-python3
 RUN useradd -m statesng
+USER statesng
 COPY . /srv/http/statesng
 WORKDIR /srv/http/statesng
-# USER statesng
 RUN pip install --upgrade pip && \
     pip install pipenv
 RUN pipenv shell
-RUN pipenv install
 RUN pip install -r requirements.txt --no-warn-script-location
 CMD ["uwsgi", "uwsgi.ini"]
 EXPOSE 8000
