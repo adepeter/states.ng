@@ -4,6 +4,7 @@ ENV PYTHONUNBUFFERED 1
 ENV PYTHONDONTWRITEBYTECODE 1
 RUN apt-get upgrade -y && apt-get update && apt-get install -y \
     nano \
+    sudo \
     libffi-dev \
     libssl-dev \
     sqlite3 \
@@ -18,13 +19,14 @@ RUN apt-get upgrade -y && apt-get update && apt-get install -y \
     python3-dev \
     uwsgi-plugin-python3 \
     uwsgi-plugins-all
-RUN useradd -m statesng
-RUN pip install --upgrade pip
-RUN echo "statesng:statesng" | chpasswd
+RUN useradd -m statesng && \
+    echo "statesng:statesng" | chpasswd && \
+    adduser statesng sudo && \
+    pip install --upgrade pip
 USER statesng
 COPY --chown=statesng . /srv/http/statesng
 WORKDIR /srv/http/statesng
 ENV STATESNG_ENVIRONMENT sleekforum.settings.$statesng_environment
 RUN pip install -r requirements.txt --no-warn-script-location
-CMD ["uwsgi", "--emperor", "uwsgi.ini"]
+CMD ["uwsgi", "--ini", "uwsgi.ini"]
 EXPOSE 8000
