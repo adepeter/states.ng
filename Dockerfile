@@ -15,7 +15,7 @@ RUN apt-get upgrade -y && apt-get update && apt-get install -y \
     build-essential \
     python3 \
     python3-dev \
-    uwsgi-plugin-python3 \
+    uwsgi-plugin-python3
 RUN useradd -m statesng
 RUN pip install --upgrade pip
 RUN pip install pipenv
