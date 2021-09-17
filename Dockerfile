@@ -23,8 +23,9 @@ RUN useradd -m statesng && \
     echo "statesng:statesng" | chpasswd && \
     adduser statesng sudo && \
     pip install --upgrade pip
-USER statesng
-COPY --chown=statesng . /srv/http/statesng
+#USER statesng
+# COPY --chown=statesng . /srv/http/statesng
+COPY . /srv/http/statesng
 WORKDIR /srv/http/statesng
 ENV STATESNG_ENVIRONMENT sleekforum.settings.$statesng_environment
 RUN pip install -r requirements.txt --no-warn-script-location
