@@ -1,4 +1,6 @@
 FROM python
+ENV PYTHONUNBUFFERED 1
+ENV PYTHONDONTWRITEBYTECODE 1
 RUN apt-get upgrade && apt-get update && apt-get install -y \
     nano \
     libffi-dev \
