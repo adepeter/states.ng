@@ -1,4 +1,5 @@
 FROM python
+ARG statesng_environment=development
 ENV PYTHONUNBUFFERED 1
 ENV PYTHONDONTWRITEBYTECODE 1
 RUN apt-get upgrade -y && apt-get update && apt-get install -y \
@@ -21,6 +22,8 @@ RUN pip install --upgrade pip
 USER statesng
 COPY . /srv/http/statesng
 WORKDIR /srv/http/statesng
+ENV STATESNG_ENVIRONMENT sleekforum.settings.$statesng_environment
 RUN pip install -r requirements.txt --no-warn-script-location
-CMD ["uwsgi", "--emperor", "uwsgi.ini", "--uid", "www-data", "--gid", "www-data"]
+# CMD ["uwsgi", "--emperor", "uwsgi.ini", "--uid", "www-data", "--gid", "www-data"]
+CMD ["uwsgi", "--ini", "uwsgi.ini"]
 EXPOSE 8000
