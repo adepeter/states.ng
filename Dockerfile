@@ -24,5 +24,5 @@ COPY --chown=${STATESNG_USER} . ${STATESNG_PATH}
 WORKDIR $STATESNG_PATH
 ENV STATESNG_ENVIRONMENT ${STATESNG_USER}.settings.${statesng_environment}
 RUN pip install -r requirements.txt --no-warn-script-location
-CMD ["uwsgi", "uwsgi.ini"]
+CMD ["uwsgi", "--emperor", "uwsgi.ini"]
 EXPOSE 8000
