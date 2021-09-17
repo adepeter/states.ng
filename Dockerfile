@@ -18,6 +18,7 @@ RUN apt-get upgrade -y && apt-get update && apt-get install -y \
     uwsgi-plugin-python3
 RUN useradd -m statesng
 USER statesng
+ENV PATH="~/.local/bin:$PATH"
 RUN pip install --upgrade pip
 RUN pip install --user pipenv && pipenv install
 ## USER statesng
