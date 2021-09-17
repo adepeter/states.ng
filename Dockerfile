@@ -15,7 +15,7 @@ RUN apt-get upgrade -y && apt-get update && apt-get install -y \
     build-essential \
     python-dev \
     uwsgi-plugin-python \
-RUN useradd --create-home statesng
+RUN useradd -m statesng
 COPY . /srv/http/statesng
 WORKDIR /srv/http/statesng
 RUN pip install -r requirements.txt --no-warn-script-location
