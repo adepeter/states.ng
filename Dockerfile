@@ -19,10 +19,11 @@ RUN apt-get upgrade -y && apt-get update && apt-get install -y \
 RUN useradd -m statesng
 COPY . /srv/http/statesng
 WORKDIR /srv/http/statesng
+USER statesng
 RUN pip install --upgrade pip && \
-    pip install pipenv && \
-    pipenv shell && \
-    pipenv install && \
-    pip install -r requirements.txt --no-warn-script-location
+    pip install pipenv
+RUN pipenv shell
+RUN pipenv install
+RUN pip install -r requirements.txt --no-warn-script-location
 CMD ["uwsgi", "uwsgi.ini"]
 EXPOSE 8000
