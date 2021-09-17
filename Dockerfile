@@ -22,6 +22,6 @@ RUN pip install --upgrade pip
 USER statesng
 COPY . /srv/http/statesng
 WORKDIR /srv/http/statesng
-pip install -r requirements.txt --no-warn-script-location
+RUN pip install -r requirements.txt --no-warn-script-location
 CMD ["uwsgi", "uwsgi.ini"]
 EXPOSE 8000
