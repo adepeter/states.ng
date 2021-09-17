@@ -18,7 +18,7 @@ RUN apt-get upgrade -y && apt-get update && apt-get install -y \
     uwsgi-plugin-python3
 RUN useradd -m statesng
 # USER statesng
-COPY . /srv/http/statesng
+# COPY . /srv/http/statesng
 WORKDIR /srv/http/statesng
 RUN pip install --upgrade pip && \
     pip install pipenv
