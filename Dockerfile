@@ -13,7 +13,8 @@ RUN apt-get upgrade -y && apt-get update && apt-get install -y \
     postgresql-client \
     gettext \
     build-essential \
-    python-dev \
+    python3 \
+    python3-dev \
     uwsgi-plugin-python3
 RUN useradd -m statesng
 COPY . /srv/http/statesng
