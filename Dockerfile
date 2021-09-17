@@ -20,7 +20,6 @@ RUN useradd -m statesng
 RUN pip install --upgrade pip
 RUN pip install pipenv
 RUN pipenv install
-RUN pipenv shell
 ## USER statesng
 ## COPY . /srv/http/statesng
 #WORKDIR /srv/http/statesng
