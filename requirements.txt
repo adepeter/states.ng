@@ -4,3 +4,4 @@ drf-spectacular
 graphene-django
 Pillow
 psycopg2
+uWSGI
