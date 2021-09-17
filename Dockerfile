@@ -14,7 +14,7 @@ RUN apt-get upgrade -y && apt-get update && apt-get install -y \
     gettext \
     build-essential \
     python-dev \
-    uwsgi-plugin-python
+    uwsgi-plugin-python3
 RUN useradd -m statesng
 COPY . /srv/http/statesng
 WORKDIR /srv/http/statesng
