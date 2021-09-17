@@ -15,12 +15,12 @@ RUN apt-get upgrade -y && apt-get update && apt-get install -y \
     build-essential \
     python3 \
     python3-dev \
-    uwsgi-plugin-python3
+    uwsgi-plugin-python3 \
+RUN pip install --upgrade pip
+RUN pip install --user pipenv
 RUN useradd -m statesng
 USER statesng
-ENV PATH="/.local/bin:$PATH"
-RUN pip install --upgrade pip
-RUN pip install --user pipenv && pipenv install
+RUN pipenv install && pipenv shell
 ## USER statesng
 ## COPY . /srv/http/statesng
 #WORKDIR /srv/http/statesng
