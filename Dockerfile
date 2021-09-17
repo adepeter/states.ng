@@ -1,7 +1,8 @@
 FROM archlinux
 ARG statesng_user=statesng
-ENV STATESNG_USER=$statesng
-ENV STATESNG_PATH /srv/http/$STATESNG_USER
+ARG statesng_environment=development
+ENV STATESNG_USER ${statesng_user}
+ENV STATESNG_PATH /srv/http/${STATESNG_USER}
 ENV PIPENV_VERBOSITY=-1
 RUN pacman -Syu --noconfirm base-devel \
     lynx \
@@ -15,13 +16,13 @@ RUN pacman -Syu --noconfirm base-devel \
     python-{pip,setuptools,wheel} && \
     pip install --upgrade pip setuptools wheel uwsgi && \
     pacman -Scc --noconfirm
-RUN useradd --create-home -G wheel $statesng_user && \
+RUN useradd --create-home -G wheel ${statesng_user} && \
     echo "statesng:statesng" | chpasswd && \
     echo "${statesng_user} ALL=(ALL) ALL" >> /etc/sudoers
-USER $statesng_user
-COPY --chown=$STATESNG_USER . $STATESNG_PATH
+USER ${statesng_user}
+COPY --chown=${STATESNG_USER} . ${STATESNG_PATH}
 WORKDIR $STATESNG_PATH
-ENV STATESNG_ENVIRONMENT statesng.settings.$statesng_environment
+ENV STATESNG_ENVIRONMENT ${STATESNG_USER}.settings.${statesng_environment}
 RUN pip install -r requirements.txt --no-warn-script-location
 CMD ["uwsgi", "uwsgi.ini"]
 EXPOSE 8000
