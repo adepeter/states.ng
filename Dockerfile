@@ -1,0 +1,21 @@
+FROM python
+RUN apt-get upgrade && apt-get update && apt-get install -y \
+    nano \
+    libffi-dev \
+    libssl-dev \
+    sqlite3 \
+    libjpeg-dev \
+    libopenjp2-7-dev \
+    locales \
+    cron \
+    postgresql-client \
+    gettext \
+    build-essential \
+    python-dev \
+    uwsgi-plugin-python \
+RUN useradd --create-home statesng
+COPY . /srv/http/statesng
+WORKDIR /srv/http/statesng
+RUN pip install -r requirements.txt --no-warn-script-location
+CMD ["uwsgi", "uwsgi.ini"]
+EXPOSE 8000
