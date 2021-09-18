@@ -11,7 +11,7 @@ services:
       - postgres
       - nginxproxy
     env_file:
-      - ./configs/env/statesng
+      - ./configs/envs/statesng
     environment:
       - VIRTUAL_PORT=8000
       - VIRTUAL_PROTO=uwsgi
@@ -27,7 +27,7 @@ services:
   postgres:
     image: postgres
     env_file:
-      - ./configs/env/postgres
+      - ./configs/envs/postgres
     environment:
       - POSTGRES_HOST=postgres
     restart: always
@@ -46,6 +46,8 @@ services:
     labels:
       - "com.github.jrcs.letsencrypt_nginx_proxy_companion.nginx_proxy=true"
     restart: always
+    env_file:
+      - ./configs/envs/nginxproxy.env
     environment:
       - ENABLE_IPV6=true
     volumes:
@@ -70,7 +72,7 @@ services:
     depends_on:
       - nginxproxy
     env_file:
-      - ./configs/env/nginxproxy_acme.env
+      - ./configs/envs/nginxproxy_acme.env
     environment:
       - DEFAULT_EMAIL=mail@yourdomain.tld
 
