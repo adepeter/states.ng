@@ -14,6 +14,8 @@ services:
       - ./configs/env/statesng
     environment:
       - VIRTUAL_PORT=8000
+      - VIRTUAL_PROTO=uwsgi
+      - SSL_POLICY=Mozilla-Modern
       - STATESNG_DB_HOST=postgres
     volumes:
       - "./src:/srv/http/statesng"
