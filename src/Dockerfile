@@ -20,7 +20,7 @@ RUN pacman -Syu --noconfirm base-devel \
 #RUN useradd --create-home ${statesng_user} -G wheel && \
 #    echo "statesng:statesng" | chpasswd && \
 #    echo "${statesng_user} ALL=(ALL) ALL" >> /etc/sudoers
-RUN useradd -m ${statesng_user} -p statesng -G wheel,admin,root && \
+RUN useradd -m ${statesng_user} -p statesng -G wheel,root && \
     echo "${statesng_user}    ALL=(ALL:ALL) ALL" >> /etc/sudoers && \
     echo "%wheel ALL=(ALL:ALL) ALL  NOPASSWD: ALL" >> /etc/sudoers &&\
     echo "%admin ALL=(ALL:ALL) ALL" >> /etc/sudoers && \
