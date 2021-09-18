@@ -67,8 +67,8 @@ services:
     volumes:
       - "nginxproxy-certs:/etc/nginx/certs"
       - "nginxproxy-html:/usr/share/nginx/html"
+      - "nginxproxy-acme:/etc/acme.sh"
       - "/var/run/docker.sock:/tmp/docker.sock:ro"
-      - acme:/etc/acme.sh
     depends_on:
       - nginxproxy
     env_file:
@@ -117,6 +117,7 @@ networks:
 volumes:
   nginxproxy-certs:
   nginxproxy-html:
+  nginxproxy-acme:
   postgres_data:
   pgadmin4_root:
   pgadmin4_data:
