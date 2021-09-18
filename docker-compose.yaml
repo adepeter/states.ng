@@ -27,7 +27,7 @@ services:
   postgres:
     image: postgres
     env_file:
-      - ./configs/envs/postgres
+      - ./configs/envs/postgres.env
     environment:
       - POSTGRES_HOST=postgres
     restart: always
