@@ -16,3 +16,13 @@ DATABASES = {
         'PORT': os.environ.get('STATESNG_DB_PORT', '5432')
     }
 }
+
+STATIC_ROOT = os.path.join(BASE_DIR, 'static')
+
+SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')
+
+SECURE_SSL_REDIRECT = True
+
+USE_X_FORWARDED_HOST = True
+
+USE_X_FORWARDED_PORT = True
