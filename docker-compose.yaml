@@ -120,4 +120,5 @@ volumes:
   nginxproxy-acme:
   postgres_data:
   pgadmin4_root:
+  pgadmin4_data:
   redis_data:
