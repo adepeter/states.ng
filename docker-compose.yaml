@@ -23,7 +23,7 @@ services:
       - "./src:/srv/http/statesng"
     depends_on:
       - postgres
-      - nginxproxy
+      - nginxproxy-acme
       - redis
 
   postgres:
@@ -40,7 +40,6 @@ services:
     networks:
       - postgres
       - pgadmin4
-      - nginxproxy
     ports:
       - "5432"
 
@@ -67,6 +66,8 @@ services:
 
   nginxproxy-acme:
     image: nginxproxy/acme-companion
+    networks:
+      - nginxproxy
     volumes:
       - "nginxproxy-certs:/etc/nginx/certs"
       - "nginxproxy-html:/usr/share/nginx/html"
@@ -98,7 +99,7 @@ services:
       - nginxproxy
     depends_on:
       - postgres
-      - nginxproxy
+      - nginxproxy-acme
     restart: always
     ports:
       - "5050:5050"
