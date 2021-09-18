@@ -11,6 +11,6 @@ DATABASES = {
         'USER': 'statesng_user',
         'PASSWORD': 'statesng_password',
         'HOST': 'postgres',
-        'PORT': '5432'
+        'PORT': 5432
     }
 }
