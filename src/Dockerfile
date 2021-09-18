@@ -7,20 +7,23 @@ ENV PIPENV_VERBOSITY=-1
 RUN pacman -Syu --noconfirm base-devel \
     lynx \
     nano \
+    vi \
     postgresql \
     git \
     uwsgi \
     uwsgi-plugin-python \
     uwsgitop \
     python \
-    python-{pip,setuptools,wheel} && \
+    python-{pip,setuptools,wheel,django} && \
     pip install --upgrade pip setuptools wheel uwsgi && \
     pacman -Scc --noconfirm
-RUN useradd --create-home -G wheel ${statesng_user} && \
-    echo "statesng:statesng" | chpasswd && \
-    echo "${statesng_user} ALL=(ALL) ALL" >> /etc/sudoers
+#RUN useradd --create-home ${statesng_user} -G wheel && \
+#    echo "statesng:statesng" | chpasswd && \
+#    echo "${statesng_user} ALL=(ALL) ALL" >> /etc/sudoers
+RUN useradd -m ${statesng_user} -p statesng -G wheel && \
+    echo "%wheel ALL=(ALL) ALL" >> /etc/sudoers
 USER ${statesng_user}
-COPY . ${STATESNG_PATH}
+COPY --chown=${STATESNG_USER} . ${STATESNG_PATH}
 WORKDIR $STATESNG_PATH
 ENV STATESNG_ENVIRONMENT ${STATESNG_USER}.settings.${statesng_environment}
 RUN pip install -r requirements.txt --no-warn-script-location
