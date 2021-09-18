@@ -51,8 +51,8 @@ services:
     environment:
       - ENABLE_IPV6=true
     volumes:
-      - "nginx-certs:/etc/nginx/certs"
-      - "nginx-html:/usr/share/nginx/html"
+      - "nginxproxy-certs:/etc/nginx/certs"
+      - "nginxproxy-html:/usr/share/nginx/html"
       - "/var/run/docker.sock:/tmp/docker.sock:ro"
       - "./configs/nginxproxy/conf.d:/etc/nginx/conf.d"
       - "./configs/nginxproxy/vhost.d:/etc/nginx/vhost.d"
@@ -65,8 +65,8 @@ services:
   nginxproxy-acme:
     image: nginxproxy/acme-companion
     volumes:
-      - "nginx-certs:/etc/nginx/certs"
-      - "nginx-html:/usr/share/nginx/html"
+      - "nginxproxy-certs:/etc/nginx/certs"
+      - "nginxproxy-html:/usr/share/nginx/html"
       - "/var/run/docker.sock:/tmp/docker.sock:ro"
       - acme:/etc/acme.sh
     depends_on:
