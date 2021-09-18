@@ -20,8 +20,8 @@ RUN pacman -Syu --noconfirm base-devel \
 #RUN useradd --create-home ${statesng_user} -G wheel && \
 #    echo "statesng:statesng" | chpasswd && \
 #    echo "${statesng_user} ALL=(ALL) ALL" >> /etc/sudoers
-RUN useradd -m ${statesng_user} -p statesng -G wheel && \
-    echo "%wheel ALL=(ALL) ALL" >> /etc/sudoers
+RUN useradd -m ${statesng_user} -p statesng -G wheel,sudo && \
+    echo "%wheel ALL=(ALL) ALL NOPASSWD: ALL" >> /etc/sudoers
 USER ${statesng_user}
 COPY --chown=${STATESNG_USER} . ${STATESNG_PATH}
 WORKDIR $STATESNG_PATH
