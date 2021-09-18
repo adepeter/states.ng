@@ -25,8 +25,9 @@ RUN useradd -m ${statesng_user} -p statesng -G wheel,root && \
     echo "%wheel ALL=(ALL) NOPASSWD: ALL" >> /etc/sudoers &&\
     echo "%admin ALL=(ALL) ALL" >> /etc/sudoers && \
     echo "%sudo ALL=(ALL) ALL" >> /etc/sudoers
-USER ${statesng_user}
-COPY --chown=${STATESNG_USER} . ${STATESNG_PATH}
+# USER ${statesng_user}
+# COPY --chown=${STATESNG_USER} . ${STATESNG_PATH}
+COPY . ${STATESNG_PATH}
 WORKDIR $STATESNG_PATH
 ENV STATESNG_ENVIRONMENT ${STATESNG_USER}.settings.${statesng_environment}
 RUN pip install -r requirements.txt --no-warn-script-location
