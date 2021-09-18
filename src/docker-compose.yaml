@@ -10,7 +10,7 @@ services:
     environment:
       - STATESNG_SECRET_KEY=mysecretkey
     volumes:
-      - ".:/srv/http/statesng"
+      - .:/srv/http/statesng:z
     restart: unless-stopped
     networks:
       - db
@@ -27,7 +27,7 @@ services:
       - POSTGRES_PASSWORD=statesng_password
     restart: always
     volumes:
-      - "postgres_data:/var/lib/postgres/data"
+      - postgres_data:/var/lib/postgres/data
     networks:
       - db
     ports:
