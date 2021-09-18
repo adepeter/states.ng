@@ -71,7 +71,6 @@ services:
       - "nginxproxy-certs:/etc/nginx/certs"
       - "nginxproxy-html:/usr/share/nginx/html"
       - "nginxproxy-acme:/etc/acme.sh"
-      - "/var/run/docker.sock:/tmp/docker.sock:ro"
       - "/var/run/docker.sock:/var/run/docker.sock:ro"
       - "./configs/nginxproxy/vhost.d:/etc/nginx/vhost.d"
     depends_on:
