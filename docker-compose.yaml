@@ -41,7 +41,7 @@ services:
       - pgadmin4
       - nginxproxy
     ports:
-      - "5432:5432"
+      - "5432"
 
   nginxproxy:
     image: nginxproxy/nginx-proxy
