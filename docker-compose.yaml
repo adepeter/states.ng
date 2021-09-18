@@ -15,6 +15,7 @@ services:
       - ./configs/envs/statesng.env
     environment:
       - VIRTUAL_PORT=8000
+      - STATESNG_DB_PORT=5432
       - VIRTUAL_PROTO=uwsgi
       - SSL_POLICY=Mozilla-Modern
       - STATESNG_DB_HOST=postgres
@@ -85,7 +86,6 @@ services:
     env_file:
       - ./configs/envs/pgadmin4.env
     environment:
-      - PGADMIN_ENABLE_TLS=true
       - PGADMIN_DEFAULT_EMAIL=adepeter26@gmail.com
       - PGADMIN_DEFAULT_PASSWORD=pgadmin
       - PGADMIN_LISTEN_PORT=5050
