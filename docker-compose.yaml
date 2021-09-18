@@ -11,7 +11,7 @@ services:
       - postgres
       - nginxproxy
     env_file:
-      - ./configs/envs/statesng
+      - ./configs/envs/statesng.env
     environment:
       - VIRTUAL_PORT=8000
       - VIRTUAL_PROTO=uwsgi
