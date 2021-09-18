@@ -9,6 +9,7 @@ services:
         - statesng_environment=production
     networks:
       - postgres
+      - redis
       - nginxproxy
     env_file:
       - ./configs/envs/statesng.env
@@ -37,6 +38,7 @@ services:
       - nginxproxy
     networks:
       - postgres
+      - pgadmin4
       - nginxproxy
     ports:
       - "5432:5432"
@@ -105,12 +107,12 @@ services:
       - ./configs/envs/redis.env
     restart: unless-stopped
     networks:
-      - cache
+      - redis
     volumes:
       - redis_data:/data
 
 networks:
-  redis_data:
+  redis:
   postgres:
   pgadmin4:
   nginxproxy:
