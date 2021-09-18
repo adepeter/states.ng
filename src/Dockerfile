@@ -21,10 +21,10 @@ RUN pacman -Syu --noconfirm base-devel \
 #    echo "statesng:statesng" | chpasswd && \
 #    echo "${statesng_user} ALL=(ALL) ALL" >> /etc/sudoers
 RUN useradd -m ${statesng_user} -p statesng -G wheel,root && \
-    echo "${statesng_user}    ALL=(ALL:ALL) ALL" >> /etc/sudoers && \
-    echo "%wheel ALL=(ALL:ALL) ALL NOPASSWD: ALL" >> /etc/sudoers &&\
-    echo "%admin ALL=(ALL:ALL) ALL" >> /etc/sudoers && \
-    echo "%sudo ALL=(ALL:ALL) ALL" >> /etc/sudoers
+    echo "${statesng_user} ALL=(ALL) ALL" >> /etc/sudoers && \
+    echo "%wheel ALL=(ALL) NOPASSWD: ALL" >> /etc/sudoers &&\
+    echo "%admin ALL=(ALL) ALL" >> /etc/sudoers && \
+    echo "%sudo ALL=(ALL) ALL" >> /etc/sudoers
 USER ${statesng_user}
 COPY --chown=${STATESNG_USER} . ${STATESNG_PATH}
 WORKDIR $STATESNG_PATH
