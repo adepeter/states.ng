@@ -78,7 +78,7 @@ services:
     env_file:
       - ./configs/envs/nginxproxy_acme.env
     environment:
-      - DEFAULT_EMAIL=mail@yourdomain.tld
+      - DEFAULT_EMAIL=adepeter26@gmail.com
 
 
   pgadmin4:
