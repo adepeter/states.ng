@@ -1,0 +1,14 @@
+version: "3.9"
+
+services:
+
+  backend:
+    build:
+      context: .
+    environment:
+      - STATESNG_SECRET_KEY=mysecretkey
+    volumes:
+      - ".:/srv/http/statesng"
+    restart: unless-stopped
+    ports:
+      - "80:8000"

@@ -2,8 +2,9 @@ import os
 
 from .base import *
 
+SECRET_KEY = os.environ.get('STATESNG_SECRET_KEY')
 DEBUG = False
-ALLOWED_HOSTS = os.environ.get('STATESNG_HOST')
+ALLOWED_HOSTS = [os.environ.get('STATESNG_HOST')]
 
 DATABASES = {
     'default': {

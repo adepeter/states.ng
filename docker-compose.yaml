@@ -1,0 +1,118 @@
+version: "3.9"
+
+services:
+
+  statesng:
+    build:
+      context: ./src
+      args:
+        - statesng_environment=production
+    networks:
+      - postgres
+      - nginxproxy
+    env_file:
+      - ./configs/env/statesng
+    environment:
+      - VIRTUAL_PORT=8000
+      - STATESNG_DB_HOST=postgres
+    volumes:
+      - "./src:/srv/http/statesng"
+    depends_on:
+      - postgres
+      - nginxproxy
+      - redis
+
+  postgres:
+    image: postgres
+    env_file:
+      - ./configs/env/postgres
+    environment:
+      - POSTGRES_HOST=postgres
+    restart: always
+    volumes:
+      - "postgres_data:/var/lib/postgres/data"
+    depends_on:
+      - nginxproxy
+    networks:
+      - postgres
+      - nginxproxy
+    ports:
+      - "5432:5432"
+
+  nginxproxy:
+    image: nginxproxy/nginxproxy
+    labels:
+      - "com.github.jrcs.letsencrypt_nginx_proxy_companion.nginx_proxy=true"
+    restart: always
+    environment:
+      - ENABLE_IPV6=true
+    volumes:
+      - "nginx-certs:/etc/nginx/certs"
+      - "nginx-html:/usr/share/nginx/html"
+      - "/var/run/docker.sock:/tmp/docker.sock:ro"
+      - "./configs/nginxproxy/conf.d:/etc/nginx/conf.d"
+      - "./configs/nginxproxy/vhost.d:/etc/nginx/vhost.d"
+      - "./src/static:/srv/ftp/statesng/static:z"
+      - "./src/media:/srv/ftp/statesng/media:z"
+    ports:
+      - "80:80"
+      - "443:443"
+
+  nginxproxy-acme:
+    image: nginxproxy/acme-companion
+    volumes:
+      - "nginx-certs:/etc/nginx/certs"
+      - "nginx-html:/usr/share/nginx/html"
+      - "/var/run/docker.sock:/tmp/docker.sock:ro"
+      - acme:/etc/acme.sh
+    depends_on:
+      - nginxproxy
+    env_file:
+      - ./configs/env/nginxproxy_acme.env
+    environment:
+      - DEFAULT_EMAIL=mail@yourdomain.tld
+
+
+  pgadmin4:
+    image: dpage/pgadmin4
+    env_file:
+      - ./configs/envs/pgadmin4.env
+    environment:
+      - PGADMIN_ENABLE_TLS=true
+      - PGADMIN_DEFAULT_EMAIL=adepeter26@gmail.com
+      - PGADMIN_DEFAULT_PASSWORD=pgadmin
+      - PGADMIN_LISTEN_PORT=5050
+    volumes:
+      - "pgadmin4_data:/var/lib/pgadmin"
+      - "pgadmin4_root:/root/.pgadmin"
+    networks:
+      - pgadmin4
+      - nginxproxy
+    depends_on:
+      - postgres
+      - nginxproxy
+    restart: always
+    ports:
+      - "5050:5050"
+
+  redis:
+    image: redis
+    env_file:
+      - ./configs/envs/redis.env
+    restart: unless-stopped
+    networks:
+      - cache
+    volumes:
+      - redis_data:/data
+
+networks:
+  redis_data:
+  postgres:
+  pgadmin4:
+  nginxproxy:
+volumes:
+  nginxproxy-certs:
+  nginxproxy-html:
+  postgres_data:
+  pgadmin4_root:
+  pgadmin4_data:
