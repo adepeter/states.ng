@@ -71,6 +71,7 @@ services:
       - "nginxproxy-html:/usr/share/nginx/html"
       - "nginxproxy-acme:/etc/acme.sh"
       - "/var/run/docker.sock:/tmp/docker.sock:ro"
+      - "/var/run/docker.sock:/var/run/docker.sock:ro"
     depends_on:
       - nginxproxy
     env_file:
@@ -89,6 +90,7 @@ services:
       - PGADMIN_DEFAULT_PASSWORD=pgadmin
       - PGADMIN_LISTEN_PORT=5050
     volumes:
+      - "nginxproxy-certs:/certs"
       - "pgadmin4_data:/var/lib/pgadmin"
       - "pgadmin4_root:/root/.pgadmin"
     networks:
