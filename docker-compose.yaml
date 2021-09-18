@@ -15,10 +15,10 @@ services:
       - ./configs/envs/statesng.env
     environment:
       - VIRTUAL_PORT=8000
-      - STATESNG_DB_PORT=5432
       - VIRTUAL_PROTO=uwsgi
       - SSL_POLICY=Mozilla-Modern
       - STATESNG_DB_HOST=postgres
+      - STATESNG_DB_PORT=5432
     volumes:
       - "./src:/srv/http/statesng"
     depends_on:
@@ -73,6 +73,7 @@ services:
       - "nginxproxy-acme:/etc/acme.sh"
       - "/var/run/docker.sock:/tmp/docker.sock:ro"
       - "/var/run/docker.sock:/var/run/docker.sock:ro"
+      - "./configs/nginxproxy/vhost.d:/etc/nginx/vhost.d"
     depends_on:
       - nginxproxy
     env_file:
