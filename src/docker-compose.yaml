@@ -5,10 +5,36 @@ services:
   backend:
     build:
       context: .
+      args:
+        - statesng_environment=staging
     environment:
       - STATESNG_SECRET_KEY=mysecretkey
     volumes:
       - ".:/srv/http/statesng"
     restart: unless-stopped
+    networks:
+      - db
+    depends_on:
+      - postgres
     ports:
       - "80:8000"
+
+  postgres:
+    image: postgres
+    environment:
+      - POSTGRES_HOST=postgres
+      - POSTGRES_DB=statesng_db
+      - POSTGRES_USER=statesng_user
+      - POSTGRES_PASSWORD=statesng_password
+    restart: always
+    volumes:
+      - "postgres_data:/var/lib/postgres/data"
+    networks:
+      - db
+    ports:
+      - "5432"
+
+networks:
+  db:
+volumes:
+  postgres_data:
