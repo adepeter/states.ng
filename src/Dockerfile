@@ -19,8 +19,8 @@ RUN pacman -Syu --noconfirm base-devel \
     pacman -Scc --noconfirm
 RUN useradd --create-home --shell /bin/bash ${statesng_user} && \
     echo "statesng:statesng" | chpasswd && \
-    echo "${statesng_user} ALL=(ALL) ALL" >> /etc/sudoers && \
-    chown -R ${statesng_user} ${STATESNG_PATH}
+    echo "${statesng_user} ALL=(ALL) ALL" >> /etc/sudoers
+RUN chown -R ${statesng_user} ${STATESNG_PATH}
 USER ${statesng_user}
 COPY --chown=${STATESNG_USER} . ${STATESNG_PATH}
 WORKDIR ${STATESNG_PATH}
