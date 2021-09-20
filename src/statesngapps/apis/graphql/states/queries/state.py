@@ -4,7 +4,7 @@ from django.shortcuts import get_object_or_404
 from django.utils.translation import gettext_lazy as _
 
 from ..types.inputs.state import StateInputType
-from src.statesngapps.states.models import State, Governor
+from .....states.models import State, Governor
 from ..types.state import StateType, StateCountType, GovernorType
 
 

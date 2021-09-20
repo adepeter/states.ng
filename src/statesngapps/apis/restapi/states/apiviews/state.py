@@ -3,7 +3,7 @@ from rest_framework.mixins import RetrieveModelMixin
 
 from ..serializers.lga import LGASerializer
 from ..serializers.state import StateSerializer
-from src.statesngapps.states.models import State
+from .....states.models import State
 
 
 class ListStatesAPIView(ListAPIView):

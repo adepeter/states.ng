@@ -1,7 +1,7 @@
 from django.utils.translation import gettext_lazy as _
 from rest_framework import serializers
 
-from src.statesngapps.states.models import LGA
+from .....states.models import LGA
 
 
 class LGASerializer(serializers.ModelSerializer):
