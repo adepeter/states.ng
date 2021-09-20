@@ -34,4 +34,4 @@ USE_X_FORWARDED_PORT = True
 
 ROOT_HOSTCONF = 'statesng.hosts'
 
-DEFAULT_HOST = ''
+DEFAULT_HOST = 'statesng_root'
