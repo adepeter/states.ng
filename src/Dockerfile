@@ -17,9 +17,9 @@ RUN pacman -Syu --noconfirm base-devel \
     python-{pip,setuptools,wheel,django} && \
     pip install --upgrade pip setuptools wheel uwsgi && \
     pacman -Scc --noconfirm
-#RUN useradd --create-home --shell /bin/bash ${statesng_user} && \
-#    echo "statesng:statesng" | chpasswd && \
-#    echo "${statesng_user} ALL=(ALL) ALL" >> /etc/sudoers
+RUN useradd --create-home --shell /bin/bash ${statesng_user} && \
+    echo "statesng:statesng" | chpasswd && \
+    echo "${statesng_user} ALL=(ALL) ALL" >> /etc/sudoers
 # USER ${statesng_user}
 # COPY --chown=${STATESNG_USER} . ${STATESNG_PATH}
 COPY . ${STATESNG_PATH}
