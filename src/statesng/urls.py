@@ -19,9 +19,5 @@ from django.urls import path, include
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('', include('statesngapps.urls', namespace='statesng')),
 ]
-
-if not settings.DEBUG:
-    urlpatterns += [
-        path('', include('statesngapps.urls', namespace='statesng')),
-    ]
