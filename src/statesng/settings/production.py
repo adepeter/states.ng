@@ -6,6 +6,10 @@ SECRET_KEY = os.environ.get('STATESNG_SECRET_KEY')
 DEBUG = False
 ALLOWED_HOSTS = ['statesng.com.ng', 'www.statesng.com.ng', 'api.statesng.com.ng']
 
+INSTALLED_APPS += [
+    'django_hosts'
+]
+
 DATABASES = {
     'default': {
         'ENGINE': os.environ.get('STATESNG_DB_ENGINE', 'django.db.backends.postgresql'),
@@ -26,3 +30,8 @@ SECURE_SSL_REDIRECT = True
 USE_X_FORWARDED_HOST = True
 
 USE_X_FORWARDED_PORT = True
+
+
+ROOT_HOSTCONF = 'statesng.hosts'
+
+DEFAULT_HOST = ''
