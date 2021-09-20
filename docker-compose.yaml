@@ -53,7 +53,7 @@ services:
     environment:
       - ENABLE_IPV6=true
     volumes:
-      - nginxproxy-certs:/etc/nginx/certs
+      - nginxproxy-certs:/etc/nginx/certs:ro
       - nginxproxy-html:/usr/share/nginx/html
       - /var/run/docker.sock:/tmp/docker.sock:ro
       - ./configs/nginxproxy/conf.d:/etc/nginx/conf.d
@@ -101,6 +101,8 @@ services:
       - postgres
       - nginxproxy-acme
     restart: always
+    expose:
+      - "5050"
     ports:
       - "5050:5050"
 
