@@ -24,6 +24,8 @@ services:
       - postgres
       - nginxproxy-acme
       - redis
+    ports:
+      - "8000:8000"
 
   postgres:
     image: postgres
