@@ -4,7 +4,7 @@ from .base import *
 
 SECRET_KEY = os.environ.get('STATESNG_SECRET_KEY')
 DEBUG = False
-ALLOWED_HOSTS = os.environ.get('STATESNG_ALLOWED_HOSTS')
+ALLOWED_HOSTS = ['statesng.com.ng', 'www.statesng.com.ng']
 
 DATABASES = {
     'default': {
