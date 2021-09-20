@@ -17,12 +17,13 @@ RUN pacman -Syu --noconfirm base-devel \
     python-{pip,setuptools,wheel,django} && \
     pip install --upgrade pip setuptools wheel uwsgi && \
     pacman -Scc --noconfirm
-RUN useradd --create-home ${statesng_user} && \
+RUN useradd --create-home --shell /bin/bash ${statesng_user} && \
     echo "statesng:statesng" | chpasswd && \
-    echo "${statesng_user} ALL=(ALL) ALL" >> /etc/sudoers
+    echo "${statesng_user} ALL=(ALL) ALL" >> /etc/sudoers && \
+    chown -R ${statesng_user} ${STATESNG_PATH}
 USER ${statesng_user}
 COPY --chown=${STATESNG_USER} . ${STATESNG_PATH}
-WORKDIR $STATESNG_PATH
+WORKDIR ${STATESNG_PATH}
 ENV STATESNG_ENVIRONMENT ${STATESNG_USER}.settings.${statesng_environment}
 RUN pip install -r requirements.txt --no-warn-script-location
 CMD ["uwsgi", "--emperor", "uwsgi.ini"]
