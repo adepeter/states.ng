@@ -142,4 +142,4 @@ SPECTACULAR_SETTINGS = {
 
 ROOT_HOSTCONF = 'statesng.hosts'
 
-DEFAULT_HOST = 'www'
+DEFAULT_HOST = 'statesng_root'
