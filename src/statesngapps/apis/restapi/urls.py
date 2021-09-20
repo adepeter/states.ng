@@ -5,7 +5,7 @@ from drf_spectacular.views import SpectacularAPIView, SpectacularRedocView, Spec
 app_name = 'restapi'
 
 urlpatterns = [
-    path('', include('statesngapps.restapi.states.urls', namespace='states')),
+    path('', include('statesngapps.api.restapi.states.urls', namespace='states')),
 ]
 
 urlpatterns += [

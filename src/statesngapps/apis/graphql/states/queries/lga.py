@@ -3,7 +3,7 @@ import graphene
 from django.utils.translation import gettext_lazy as _
 
 from ..types.lga import LGAType
-from ....states.models import LGA
+from src.statesngapps.states.models import LGA
 
 
 class LGAQuery:

@@ -1,7 +1,7 @@
 from rest_framework import serializers
 
 from .lga import LGASerializer
-from ....states.models import State
+from src.statesngapps.states.models import State
 
 
 class StateSerializer(serializers.ModelSerializer):

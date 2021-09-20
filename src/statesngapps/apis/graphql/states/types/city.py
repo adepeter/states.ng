@@ -2,7 +2,7 @@ from graphene_django import DjangoObjectType
 
 from django.utils.translation import gettext_lazy as _
 
-from ....states.models import City
+from src.statesngapps.states.models import City
 
 
 class CityType(DjangoObjectType):

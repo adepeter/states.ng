@@ -4,7 +4,7 @@ from graphene_django import DjangoObjectType
 from django.utils.translation import gettext_lazy as _
 
 from .lga import LGAType
-from ....states.models import State, LGA, Governor
+from src.statesngapps.states.models import State, LGA, Governor
 
 
 class StateType(DjangoObjectType):

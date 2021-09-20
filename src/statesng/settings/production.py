@@ -30,8 +30,3 @@ SECURE_SSL_REDIRECT = True
 USE_X_FORWARDED_HOST = True
 
 USE_X_FORWARDED_PORT = True
-
-
-ROOT_HOSTCONF = 'statesng.hosts'
-
-DEFAULT_HOST = 'statesng_root'

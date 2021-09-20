@@ -1,7 +1,7 @@
 from rest_framework.generics import ListAPIView
 from rest_framework.response import Response
 
-from ....states.models import LGA
+from src.statesngapps.states.models import LGA
 from ..serializers.lga import LGASerializer, LGASearchSerializer
 
 

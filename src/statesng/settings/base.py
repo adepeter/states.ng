@@ -44,10 +44,6 @@ INSTALLED_APPS = [
     'graphene_django',
     'rest_framework',
 
-    # API apps
-    'statesngapps.graphql.apps.GraphQLConfig',
-    'statesngapps.restapi.apps.RestAPIConfig',
-
     # statesng apps
     'statesngapps.states.apps.StatesConfig'
 ]
@@ -143,3 +139,7 @@ SPECTACULAR_SETTINGS = {
     'DESCRIPTION': 'API for states in Nigeria',
     'VERSION': '1.0.0',
 }
+
+ROOT_HOSTCONF = 'statesng.hosts'
+
+DEFAULT_HOST = 'statesng_root'
