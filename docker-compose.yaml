@@ -102,8 +102,6 @@ services:
     depends_on:
       - postgres
     restart: always
-    expose:
-      - "5050"
     ports:
       - "5050:5050"
 
