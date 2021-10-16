@@ -46,6 +46,11 @@ class State(NameMixin):
         blank=True,
         help_text=_('Postal Code to find state')
     )
+    creation_date = models.DateField(
+        verbose_name=_('Creation date'),
+        default=timezone.now,
+        help_text=_('Date state was created'),
+    )
 
     class Meta(NameMixin.Meta):
         constraints = [
@@ -63,6 +68,20 @@ class State(NameMixin):
 
 
 class Governor(NameMixin):
+    GOVERNMENT_MILITARY = 'military'
+    GOVERNMENT_DEMOCRACY = 'democracy'
+
+    __GOVERNMENT_CHOICES = (
+        (GOVERNMENT_MILITARY, _('Military')),
+        (GOVERNMENT_DEMOCRACY, _('Democracy')),
+    )
+    government = models.CharField(
+        verbose_name=_('government type'),
+        max_length=10,
+        choices=__GOVERNMENT_CHOICES,
+        null=True,
+        help_text=_('System of government')
+    )
     state = models.ForeignKey(
         verbose_name=_('State'),
         to=State,

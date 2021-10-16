@@ -1,0 +1,51 @@
+{
+    "_meta": {
+        "hash": {
+            "sha256": "649c296e656c095b209c7d66d920eec2b08014553a2b31382bd23394df5c516d"
+        },
+        "pipfile-spec": 6,
+        "requires": {
+            "python_version": "3.9"
+        },
+        "sources": [
+            {
+                "name": "pypi",
+                "url": "https://pypi.org/simple",
+                "verify_ssl": true
+            }
+        ]
+    },
+    "default": {
+        "abstract": {
+            "hashes": [
+                "sha256:203e532299a9395b28858975ed4ad9e386eb72af4eb63146ab6478f7ef3f5444",
+                "sha256:371b8d271f186fb3199b90a522de844874f57699c9316ea90982159d8a8da3f1"
+            ],
+            "index": "pypi",
+            "version": "==2021.8.20.1"
+        },
+        "base32hex": {
+            "hashes": [
+                "sha256:b7f5088239ab71202451c2f8472836e08766aca7ab7a304063c8a6d54f591bf1"
+            ],
+            "version": "==1.0.2"
+        },
+        "colouration": {
+            "hashes": [
+                "sha256:13420ac5cc7a6be3b1be9a3730614678a23a3fe2a8abdc7f5bf7fea614d6f224",
+                "sha256:824e4883c6b3596759ec5f8c4e2b74c6530373507c074901a62ee8c495bd80f4"
+            ],
+            "markers": "python_version ~= '3.6'",
+            "version": "==2020.7.26"
+        },
+        "graphviz": {
+            "hashes": [
+                "sha256:5dadec94046d82adaae6019311a30e0487536d9d5a60d85451f0ba32f9fc6559",
+                "sha256:ef6e2c5deb9cdcc0c7eece1d89625fd07b0f2208ea2bcb483520907ddf8b4e12"
+            ],
+            "markers": "python_version >= '3.6'",
+            "version": "==0.17"
+        }
+    },
+    "develop": {}
+}
