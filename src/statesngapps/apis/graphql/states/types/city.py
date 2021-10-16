@@ -8,5 +8,7 @@ from .....states.models import City
 class CityType(DjangoObjectType):
     class Meta:
         model = City
-        fields = '__all__'
+        exclude = [
+            'id'
+        ]
         description = _('City object in Nigeria')

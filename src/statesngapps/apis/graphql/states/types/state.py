@@ -18,7 +18,9 @@ class StateType(DjangoObjectType):
 
     class Meta:
         model = State
-        fields = '__all__'
+        exclude = [
+            'id'
+        ]
         description = _('State Object in Nigeria')
 
 

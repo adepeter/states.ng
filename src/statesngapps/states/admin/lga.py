@@ -16,7 +16,9 @@ class LGAAdmin(admin.ModelAdmin):
         'short_code',
         'zip_code'
     ]
-
+    list_filter = [
+        'state'
+    ]
 
 __all__ = [
     'LGAAdmin',

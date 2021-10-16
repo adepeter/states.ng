@@ -2,6 +2,7 @@ from django.db import models
 from django.utils import timezone
 from django.utils.text import slugify
 from django.utils.translation import gettext_lazy as _
+from tests.hosts import blank
 
 from ..behaviours.name import NameMixin
 
@@ -32,6 +33,27 @@ class State(NameMixin):
         null=True,
         help_text=_('Official website of state')
     )
+    map = models.ImageField(
+        verbose_name=_('State map'),
+        upload_to='states',
+        blank=True,
+        help_text=_('Map of the state')
+    )
+    postal_code = models.CharField(
+        verbose_name=_('Postal code'),
+        max_length=6,
+        default='000001',
+        blank=True,
+        help_text=_('Postal Code to find state')
+    )
+
+    class Meta(NameMixin.Meta):
+        constraints = [
+            models.UniqueConstraint(
+                fields=['name', 'postal_code'],
+                name='unique_name_on_postal_code'
+            )
+        ]
 
     def save(self, *args, **kwargs):
         if not self.website:
@@ -43,7 +65,7 @@ class State(NameMixin):
 class Governor(NameMixin):
     state = models.ForeignKey(
         verbose_name=_('State'),
-        to='states.State',
+        to=State,
         on_delete=models.PROTECT,
         related_name='governors',
         help_text=_('State governing')

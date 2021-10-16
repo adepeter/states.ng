@@ -14,7 +14,6 @@ class LocalGovernmentArea(NameMixin):
     short_code = models.CharField(
         verbose_name=_('Short code'),
         max_length=3,
-        unique=True,
         db_index=True,
         help_text=_('Three characters unique identifier of lga')
     )
@@ -30,7 +29,11 @@ class LocalGovernmentArea(NameMixin):
         verbose_name = _('Local Government Area')
         verbose_name_plural = _('Local Government Areas')
         constraints = [
-            models.UniqueConstraint(fields=['state', 'name'], name='unique_lga_name_and_state')
+            models.UniqueConstraint(fields=['state', 'name'], name='unique_lga_name_and_state'),
+            models.UniqueConstraint(fields=['state', 'short_code'], name='unique_lga_shrt_code_and_state')
+        ]
+        ordering = [
+            'name'
         ]
 
 

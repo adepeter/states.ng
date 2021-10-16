@@ -9,5 +9,7 @@ class LGAType(DjangoObjectType):
 
     class Meta:
         model = LGA
-        fields = '__all__'
+        exclude = [
+            'id'
+        ]
         description = _('LGA Object in Nigeria')

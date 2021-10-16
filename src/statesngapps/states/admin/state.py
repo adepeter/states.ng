@@ -1,5 +1,6 @@
 from django.contrib import admin
 from django.db.models import Count
+from django.utils.safestring import mark_safe
 from django.utils.translation import gettext_lazy as _
 
 from .lga import LGAInline
@@ -17,15 +18,42 @@ class StateAdmin(admin.ModelAdmin):
         'short_code',
         'capital',
         'slogan',
+        'postal_code',
         'get_current_governor',
         'website',
         'get_lgas_count',
         'get_governors_count',
         'get_cities_count',
     ]
+
+    fieldsets = [
+        (_('Basic'), {
+            'description': _('Basic info of state'),
+            'fields': ['name', 'short_code', 'capital', 'postal_code']
+        }),
+        (_('Map'), {
+            'fields': ['map_preview', 'map']
+        })
+    ]
+
+    readonly_fields = [
+        'map_preview'
+    ]
+    save_on_top = True
+
+    @admin.display(description=_('Preview of state map'), empty_value=_('No map yet'))
+    def map_preview(self, obj):
+        return mark_safe('<img src="{url}" width="{width}" height="{height}" alt="{alt}" />'.format(
+            url=obj.map.url,
+            width=128,
+            height=128,
+            alt=obj.name
+        )
+        )
+
     # inlines = [
     #     # GovernorInline,
-    #     # LGAInline
+    #     LGAInline
     # ]
 
     @admin.display(description=_('Current governor'))
