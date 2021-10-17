@@ -5785,6 +5785,955 @@
     }
 },
 {
+    "model": "admin.logentry",
+    "pk": 446,
+    "fields": {
+        "action_time": "2021-10-17T09:57:29.797Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "320",
+        "object_repr": "Abi",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 447,
+    "fields": {
+        "action_time": "2021-10-17T09:57:55.214Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "321",
+        "object_repr": "Akamkpa",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 448,
+    "fields": {
+        "action_time": "2021-10-17T09:58:03.016Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "322",
+        "object_repr": "Akpabuyo",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 449,
+    "fields": {
+        "action_time": "2021-10-17T09:58:20.195Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "323",
+        "object_repr": "Bakassi",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 450,
+    "fields": {
+        "action_time": "2021-10-17T09:58:39.483Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "324",
+        "object_repr": "Biase",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 451,
+    "fields": {
+        "action_time": "2021-10-17T09:58:45.065Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "325",
+        "object_repr": "Bekwarra",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 452,
+    "fields": {
+        "action_time": "2021-10-17T09:58:51.439Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "326",
+        "object_repr": "Boki",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 453,
+    "fields": {
+        "action_time": "2021-10-17T09:59:22.062Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "327",
+        "object_repr": "Calabar Municipal",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 454,
+    "fields": {
+        "action_time": "2021-10-17T09:59:32.773Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "328",
+        "object_repr": "Calabar South",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 455,
+    "fields": {
+        "action_time": "2021-10-17T09:59:41.895Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "329",
+        "object_repr": "Ikom",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 456,
+    "fields": {
+        "action_time": "2021-10-17T10:00:02.801Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "330",
+        "object_repr": "Etung",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 457,
+    "fields": {
+        "action_time": "2021-10-17T10:00:24.022Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "331",
+        "object_repr": "Obanliku",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 458,
+    "fields": {
+        "action_time": "2021-10-17T10:00:36.598Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "332",
+        "object_repr": "Obubra",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 459,
+    "fields": {
+        "action_time": "2021-10-17T10:01:02.236Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "333",
+        "object_repr": "Obudu",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 460,
+    "fields": {
+        "action_time": "2021-10-17T10:01:07.935Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "334",
+        "object_repr": "Odukpani",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 461,
+    "fields": {
+        "action_time": "2021-10-17T10:01:17.845Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "335",
+        "object_repr": "Ogoja",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 462,
+    "fields": {
+        "action_time": "2021-10-17T10:01:38.052Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "336",
+        "object_repr": "Yakurr",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 463,
+    "fields": {
+        "action_time": "2021-10-17T10:01:45.024Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "337",
+        "object_repr": "Yala",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 464,
+    "fields": {
+        "action_time": "2021-10-17T10:05:35.529Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "13",
+        "object_repr": "Rivers",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Short Code\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 465,
+    "fields": {
+        "action_time": "2021-10-17T10:05:57.923Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "36",
+        "object_repr": "Fct",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Short Code\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 466,
+    "fields": {
+        "action_time": "2021-10-17T10:11:27.320Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "338",
+        "object_repr": "Ikorodu West",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 467,
+    "fields": {
+        "action_time": "2021-10-17T10:11:38.844Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "339",
+        "object_repr": "Ikorodu North",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 468,
+    "fields": {
+        "action_time": "2021-10-17T10:12:02.285Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "340",
+        "object_repr": "Ikorodu",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 469,
+    "fields": {
+        "action_time": "2021-10-17T10:12:16.999Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "341",
+        "object_repr": "Ikeja",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 470,
+    "fields": {
+        "action_time": "2021-10-17T10:12:47.789Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "342",
+        "object_repr": "Igando Ikotun",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 471,
+    "fields": {
+        "action_time": "2021-10-17T10:13:16.436Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "343",
+        "object_repr": "Ifako-Ijaye",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 472,
+    "fields": {
+        "action_time": "2021-10-17T10:19:06.887Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "344",
+        "object_repr": "Iba",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 473,
+    "fields": {
+        "action_time": "2021-10-17T10:19:35.973Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "345",
+        "object_repr": "Eti Osa",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 474,
+    "fields": {
+        "action_time": "2021-10-17T10:20:09.352Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "346",
+        "object_repr": "Eti-Osa East",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 475,
+    "fields": {
+        "action_time": "2021-10-17T10:20:32.299Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "347",
+        "object_repr": "Ejigbo",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 476,
+    "fields": {
+        "action_time": "2021-10-17T10:20:38.049Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "348",
+        "object_repr": "Epe",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 477,
+    "fields": {
+        "action_time": "2021-10-17T10:20:59.211Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "349",
+        "object_repr": "Coker Aguda",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 478,
+    "fields": {
+        "action_time": "2021-10-17T10:21:04.690Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "350",
+        "object_repr": "Egbe Idimu",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 479,
+    "fields": {
+        "action_time": "2021-10-17T10:21:19.491Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "351",
+        "object_repr": "Bariga",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 480,
+    "fields": {
+        "action_time": "2021-10-17T10:21:28.549Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "352",
+        "object_repr": "Badagry",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 481,
+    "fields": {
+        "action_time": "2021-10-17T10:21:44.704Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "353",
+        "object_repr": "Badagry West",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 482,
+    "fields": {
+        "action_time": "2021-10-17T10:22:26.468Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "354",
+        "object_repr": "Ayobo Ipaja",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 483,
+    "fields": {
+        "action_time": "2021-10-17T10:22:42.963Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "355",
+        "object_repr": "Apapa Iganmu",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 484,
+    "fields": {
+        "action_time": "2021-10-17T10:22:49.407Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "356",
+        "object_repr": "Apapa",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 485,
+    "fields": {
+        "action_time": "2021-10-17T10:22:57.059Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "357",
+        "object_repr": "Alimosho",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 486,
+    "fields": {
+        "action_time": "2021-10-17T10:23:28.014Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "358",
+        "object_repr": "Ajeromi-Ifelodun",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 487,
+    "fields": {
+        "action_time": "2021-10-17T10:23:38.601Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "359",
+        "object_repr": "Agboyi Ketu",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 488,
+    "fields": {
+        "action_time": "2021-10-17T10:24:05.021Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "360",
+        "object_repr": "Agbado Oke-Odo",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 489,
+    "fields": {
+        "action_time": "2021-10-17T10:24:14.418Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "361",
+        "object_repr": "Orile Agege",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 490,
+    "fields": {
+        "action_time": "2021-10-17T10:24:38.108Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "362",
+        "object_repr": "Kosofe",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 491,
+    "fields": {
+        "action_time": "2021-10-17T10:24:45.984Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "363",
+        "object_repr": "Ojodu",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 492,
+    "fields": {
+        "action_time": "2021-10-17T10:25:10.126Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "364",
+        "object_repr": "Iru Victoria Island",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 493,
+    "fields": {
+        "action_time": "2021-10-17T10:25:46.739Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "365",
+        "object_repr": "Ikoyi Obalende",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 494,
+    "fields": {
+        "action_time": "2021-10-17T10:26:13.604Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "366",
+        "object_repr": "Ijede",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 495,
+    "fields": {
+        "action_time": "2021-10-17T10:26:20.761Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "367",
+        "object_repr": "Igbogbo Baiyeku",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 496,
+    "fields": {
+        "action_time": "2021-10-17T10:26:29.123Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "368",
+        "object_repr": "Ibeju Lekki",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 497,
+    "fields": {
+        "action_time": "2021-10-17T10:26:57.409Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "369",
+        "object_repr": "Eredo",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 498,
+    "fields": {
+        "action_time": "2021-10-17T10:27:05.294Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "370",
+        "object_repr": "Agege",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 499,
+    "fields": {
+        "action_time": "2021-10-17T10:27:12.386Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "371",
+        "object_repr": "Amuwo-Odofin",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 500,
+    "fields": {
+        "action_time": "2021-10-17T10:27:44.996Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "372",
+        "object_repr": "Ifeloodun",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 501,
+    "fields": {
+        "action_time": "2021-10-17T10:28:08.330Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "372",
+        "object_repr": "Ifelodun Lagos",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Name\", \"Short code\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 502,
+    "fields": {
+        "action_time": "2021-10-17T10:32:29.714Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "373",
+        "object_repr": "Asa",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 503,
+    "fields": {
+        "action_time": "2021-10-17T10:33:06.708Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "374",
+        "object_repr": "Baruten",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 504,
+    "fields": {
+        "action_time": "2021-10-17T10:33:35.861Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "375",
+        "object_repr": "Edu",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 505,
+    "fields": {
+        "action_time": "2021-10-17T10:34:02.138Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "376",
+        "object_repr": "Ekiti",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 506,
+    "fields": {
+        "action_time": "2021-10-17T10:34:41.621Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "377",
+        "object_repr": "Ifelodun Kwara",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 507,
+    "fields": {
+        "action_time": "2021-10-17T10:35:16.290Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "377",
+        "object_repr": "Ifelodun Kwara",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 508,
+    "fields": {
+        "action_time": "2021-10-17T10:35:53.761Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "378",
+        "object_repr": "Ilorin East",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 509,
+    "fields": {
+        "action_time": "2021-10-17T10:36:34.718Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "379",
+        "object_repr": "Ilorin West",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 510,
+    "fields": {
+        "action_time": "2021-10-17T10:37:13.491Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "380",
+        "object_repr": "Ilorin South",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 511,
+    "fields": {
+        "action_time": "2021-10-17T10:37:52.916Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "381",
+        "object_repr": "Irepodun",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 512,
+    "fields": {
+        "action_time": "2021-10-17T10:38:18.946Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "382",
+        "object_repr": "Isin",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 513,
+    "fields": {
+        "action_time": "2021-10-17T10:38:41.355Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "383",
+        "object_repr": "Moro",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 514,
+    "fields": {
+        "action_time": "2021-10-17T10:39:09.822Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "384",
+        "object_repr": "Kaiama",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 515,
+    "fields": {
+        "action_time": "2021-10-17T10:39:40.622Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "385",
+        "object_repr": "Offa",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 516,
+    "fields": {
+        "action_time": "2021-10-17T10:40:07.403Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "386",
+        "object_repr": "Oke-Ero",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 517,
+    "fields": {
+        "action_time": "2021-10-17T10:40:50.367Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "387",
+        "object_repr": "Oyun",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 518,
+    "fields": {
+        "action_time": "2021-10-17T10:41:14.739Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "388",
+        "object_repr": "Pategi",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
     "model": "auth.user",
     "pk": 1,
     "fields": {
@@ -5865,7 +6814,8 @@
         "name": "Isa",
         "state": 1,
         "short_code": "ISA",
-        "zip_code": ""
+        "zip_code": "",
+        "secretariat": ""
     }
 },
 {
@@ -5875,7 +6825,8 @@
         "name": "Dange Shuni",
         "state": 1,
         "short_code": "DAN",
-        "zip_code": ""
+        "zip_code": "",
+        "secretariat": ""
     }
 },
 {
@@ -5885,7 +6836,8 @@
         "name": "Wammako",
         "state": 1,
         "short_code": "WMK",
-        "zip_code": ""
+        "zip_code": "",
+        "secretariat": ""
     }
 },
 {
@@ -5895,7 +6847,8 @@
         "name": "Bodinga",
         "state": 1,
         "short_code": "BDG",
-        "zip_code": ""
+        "zip_code": "",
+        "secretariat": ""
     }
 },
 {
@@ -5905,7 +6858,8 @@
         "name": "Sokoto South",
         "state": 1,
         "short_code": "SOK",
-        "zip_code": ""
+        "zip_code": "",
+        "secretariat": ""
     }
 },
 {
@@ -5915,7 +6869,8 @@
         "name": "Sokoto North",
         "state": 1,
         "short_code": "SSN",
-        "zip_code": ""
+        "zip_code": "",
+        "secretariat": ""
     }
 },
 {
@@ -5925,7 +6880,8 @@
         "name": "Illela",
         "state": 1,
         "short_code": "ILL",
-        "zip_code": ""
+        "zip_code": "",
+        "secretariat": ""
     }
 },
 {
@@ -5935,7 +6891,8 @@
         "name": "Abua-Odua",
         "state": 13,
         "short_code": "AUU",
-        "zip_code": ""
+        "zip_code": "",
+        "secretariat": ""
     }
 },
 {
@@ -5945,7 +6902,8 @@
         "name": "Ahoada East",
         "state": 13,
         "short_code": "AOS",
-        "zip_code": ""
+        "zip_code": "",
+        "secretariat": ""
     }
 },
 {
@@ -5955,7 +6913,8 @@
         "name": "Ahoada West",
         "state": 13,
         "short_code": "AOW",
-        "zip_code": ""
+        "zip_code": "",
+        "secretariat": ""
     }
 },
 {
@@ -5965,7 +6924,8 @@
         "name": "Akuku Toru",
         "state": 13,
         "short_code": "AUR",
-        "zip_code": ""
+        "zip_code": "",
+        "secretariat": ""
     }
 },
 {
@@ -5975,7 +6935,8 @@
         "name": "Andoni",
         "state": 13,
         "short_code": "ADN",
-        "zip_code": ""
+        "zip_code": "",
+        "secretariat": ""
     }
 },
 {
@@ -5985,7 +6946,8 @@
         "name": "Asari-Toru",
         "state": 13,
         "short_code": "AAR",
-        "zip_code": ""
+        "zip_code": "",
+        "secretariat": ""
     }
 },
 {
@@ -5995,7 +6957,8 @@
         "name": "Bonny",
         "state": 13,
         "short_code": "BNN",
-        "zip_code": ""
+        "zip_code": "",
+        "secretariat": ""
     }
 },
 {
@@ -6005,7 +6968,8 @@
         "name": "Eleme",
         "state": 13,
         "short_code": "EEM",
-        "zip_code": ""
+        "zip_code": "",
+        "secretariat": ""
     }
 },
 {
@@ -6015,7 +6979,8 @@
         "name": "Degema",
         "state": 13,
         "short_code": "DGM",
-        "zip_code": ""
+        "zip_code": "",
+        "secretariat": ""
     }
 },
 {
@@ -6025,7 +6990,8 @@
         "name": "Emohua",
         "state": 13,
         "short_code": "EOH",
-        "zip_code": ""
+        "zip_code": "",
+        "secretariat": ""
     }
 },
 {
@@ -6035,7 +7001,8 @@
         "name": "Etche",
         "state": 13,
         "short_code": "ECH",
-        "zip_code": ""
+        "zip_code": "",
+        "secretariat": ""
     }
 },
 {
@@ -6045,7 +7012,8 @@
         "name": "Gokana",
         "state": 13,
         "short_code": "GKN",
-        "zip_code": ""
+        "zip_code": "",
+        "secretariat": ""
     }
 },
 {
@@ -6055,7 +7023,8 @@
         "name": "Ikwerre",
         "state": 13,
         "short_code": "IWR",
-        "zip_code": ""
+        "zip_code": "",
+        "secretariat": ""
     }
 },
 {
@@ -6065,7 +7034,8 @@
         "name": "Khana",
         "state": 13,
         "short_code": "KAN",
-        "zip_code": ""
+        "zip_code": "",
+        "secretariat": ""
     }
 },
 {
@@ -6075,7 +7045,8 @@
         "name": "Obio Akpor",
         "state": 13,
         "short_code": "OIO",
-        "zip_code": ""
+        "zip_code": "",
+        "secretariat": ""
     }
 },
 {
@@ -6085,7 +7056,8 @@
         "name": "Ogba/Egbema/Ndoni",
         "state": 13,
         "short_code": "OEN",
-        "zip_code": ""
+        "zip_code": "",
+        "secretariat": ""
     }
 },
 {
@@ -6095,7 +7067,8 @@
         "name": "Okrika",
         "state": 13,
         "short_code": "ORK",
-        "zip_code": ""
+        "zip_code": "",
+        "secretariat": ""
     }
 },
 {
@@ -6105,7 +7078,8 @@
         "name": "Ogu/Bolo",
         "state": 13,
         "short_code": "OGL",
-        "zip_code": ""
+        "zip_code": "",
+        "secretariat": ""
     }
 },
 {
@@ -6115,7 +7089,8 @@
         "name": "Omuma",
         "state": 13,
         "short_code": "OUM",
-        "zip_code": ""
+        "zip_code": "",
+        "secretariat": ""
     }
 },
 {
@@ -6125,7 +7100,8 @@
         "name": "Opobo-Nkoro",
         "state": 13,
         "short_code": "OOR",
-        "zip_code": ""
+        "zip_code": "",
+        "secretariat": ""
     }
 },
 {
@@ -6135,7 +7111,8 @@
         "name": "Oyigbo",
         "state": 13,
         "short_code": "OIB",
-        "zip_code": ""
+        "zip_code": "",
+        "secretariat": ""
     }
 },
 {
@@ -6145,7 +7122,8 @@
         "name": "Tai",
         "state": 13,
         "short_code": "TAI",
-        "zip_code": ""
+        "zip_code": "",
+        "secretariat": ""
     }
 },
 {
@@ -6155,7 +7133,8 @@
         "name": "Port-Harcourt",
         "state": 13,
         "short_code": "PRR",
-        "zip_code": ""
+        "zip_code": "",
+        "secretariat": ""
     }
 },
 {
@@ -6165,7 +7144,8 @@
         "name": "Potiskum",
         "state": 2,
         "short_code": "PKM",
-        "zip_code": ""
+        "zip_code": "",
+        "secretariat": ""
     }
 },
 {
@@ -6175,7 +7155,8 @@
         "name": "Nangere",
         "state": 2,
         "short_code": "NNR",
-        "zip_code": ""
+        "zip_code": "",
+        "secretariat": ""
     }
 },
 {
@@ -6185,7 +7166,8 @@
         "name": "Damaturu",
         "state": 2,
         "short_code": "DTR",
-        "zip_code": ""
+        "zip_code": "",
+        "secretariat": ""
     }
 },
 {
@@ -6195,7 +7177,8 @@
         "name": "Nguru",
         "state": 2,
         "short_code": "NUR",
-        "zip_code": ""
+        "zip_code": "",
+        "secretariat": ""
     }
 },
 {
@@ -6205,7 +7188,8 @@
         "name": "Gashua",
         "state": 2,
         "short_code": "GSU",
-        "zip_code": ""
+        "zip_code": "",
+        "secretariat": ""
     }
 },
 {
@@ -6215,7 +7199,8 @@
         "name": "Machina",
         "state": 2,
         "short_code": "MCN",
-        "zip_code": ""
+        "zip_code": "",
+        "secretariat": ""
     }
 },
 {
@@ -6225,7 +7210,8 @@
         "name": "Fika",
         "state": 2,
         "short_code": "FKA",
-        "zip_code": ""
+        "zip_code": "",
+        "secretariat": ""
     }
 },
 {
@@ -6235,7 +7221,8 @@
         "name": "Damagum",
         "state": 2,
         "short_code": "DMU",
-        "zip_code": ""
+        "zip_code": "",
+        "secretariat": ""
     }
 },
 {
@@ -6245,7 +7232,8 @@
         "name": "Fune",
         "state": 2,
         "short_code": "FUN",
-        "zip_code": ""
+        "zip_code": "",
+        "secretariat": ""
     }
 },
 {
@@ -6255,7 +7243,8 @@
         "name": "Geidam",
         "state": 2,
         "short_code": "GIA",
-        "zip_code": ""
+        "zip_code": "",
+        "secretariat": ""
     }
 },
 {
@@ -6265,7 +7254,8 @@
         "name": "Bade",
         "state": 2,
         "short_code": "BAD",
-        "zip_code": ""
+        "zip_code": "",
+        "secretariat": ""
     }
 },
 {
@@ -6275,7 +7265,8 @@
         "name": "Bursari",
         "state": 2,
         "short_code": "BRR",
-        "zip_code": ""
+        "zip_code": "",
+        "secretariat": ""
     }
 },
 {
@@ -6285,7 +7276,8 @@
         "name": "Gujba",
         "state": 2,
         "short_code": "GJB",
-        "zip_code": ""
+        "zip_code": "",
+        "secretariat": ""
     }
 },
 {
@@ -6295,7 +7287,8 @@
         "name": "Gulani",
         "state": 2,
         "short_code": "GLN",
-        "zip_code": ""
+        "zip_code": "",
+        "secretariat": ""
     }
 },
 {
@@ -6305,7 +7298,8 @@
         "name": "Jakusko",
         "state": 2,
         "short_code": "JKK",
-        "zip_code": ""
+        "zip_code": "",
+        "secretariat": ""
     }
 },
 {
@@ -6315,7 +7309,8 @@
         "name": "Karasuwa",
         "state": 2,
         "short_code": "KRW",
-        "zip_code": ""
+        "zip_code": "",
+        "secretariat": ""
     }
 },
 {
@@ -6325,7 +7320,8 @@
         "name": "Tamurwa",
         "state": 2,
         "short_code": "TMW",
-        "zip_code": ""
+        "zip_code": "",
+        "secretariat": ""
     }
 },
 {
@@ -6335,7 +7331,8 @@
         "name": "Yunusari",
         "state": 2,
         "short_code": "YNR",
-        "zip_code": ""
+        "zip_code": "",
+        "secretariat": ""
     }
 },
 {
@@ -6345,7 +7342,8 @@
         "name": "Yusufari",
         "state": 2,
         "short_code": "YSR",
-        "zip_code": ""
+        "zip_code": "",
+        "secretariat": ""
     }
 },
 {
@@ -6355,7 +7353,8 @@
         "name": "Zuru",
         "state": 25,
         "short_code": "ZUR",
-        "zip_code": ""
+        "zip_code": "",
+        "secretariat": ""
     }
 },
 {
@@ -6365,7 +7364,8 @@
         "name": "Jega",
         "state": 25,
         "short_code": "JEG",
-        "zip_code": ""
+        "zip_code": "",
+        "secretariat": ""
     }
 },
 {
@@ -6375,7 +7375,8 @@
         "name": "Abak",
         "state": 3,
         "short_code": "ABK",
-        "zip_code": ""
+        "zip_code": "",
+        "secretariat": ""
     }
 },
 {
@@ -6385,7 +7386,8 @@
         "name": "Eastern Obolo",
         "state": 3,
         "short_code": "KRT",
-        "zip_code": ""
+        "zip_code": "",
+        "secretariat": ""
     }
 },
 {
@@ -6395,7 +7397,8 @@
         "name": "Eket",
         "state": 3,
         "short_code": "KET",
-        "zip_code": ""
+        "zip_code": "",
+        "secretariat": ""
     }
 },
 {
@@ -6405,7 +7408,8 @@
         "name": "Essien Udim",
         "state": 3,
         "short_code": "AFH",
-        "zip_code": ""
+        "zip_code": "",
+        "secretariat": ""
     }
 },
 {
@@ -6415,7 +7419,8 @@
         "name": "Etim Ekpo",
         "state": 3,
         "short_code": "AEE",
-        "zip_code": ""
+        "zip_code": "",
+        "secretariat": ""
     }
 },
 {
@@ -6425,7 +7430,8 @@
         "name": "Etinan",
         "state": 3,
         "short_code": "ETN",
-        "zip_code": ""
+        "zip_code": "",
+        "secretariat": ""
     }
 },
 {
@@ -6435,7 +7441,8 @@
         "name": "Esit eket",
         "state": 3,
         "short_code": "AUQ",
-        "zip_code": ""
+        "zip_code": "",
+        "secretariat": ""
     }
 },
 {
@@ -6445,7 +7452,8 @@
         "name": "Ibeno",
         "state": 3,
         "short_code": "PNG",
-        "zip_code": ""
+        "zip_code": "",
+        "secretariat": ""
     }
 },
 {
@@ -6455,7 +7463,8 @@
         "name": "Ibesikpo Asutan",
         "state": 3,
         "short_code": "NGD",
-        "zip_code": ""
+        "zip_code": "",
+        "secretariat": ""
     }
 },
 {
@@ -6465,7 +7474,8 @@
         "name": "Ibiono Ibom",
         "state": 3,
         "short_code": "BMT",
-        "zip_code": ""
+        "zip_code": "",
+        "secretariat": ""
     }
 },
 {
@@ -6475,7 +7485,8 @@
         "name": "Ika",
         "state": 3,
         "short_code": "NYA",
-        "zip_code": ""
+        "zip_code": "",
+        "secretariat": ""
     }
 },
 {
@@ -6485,7 +7496,8 @@
         "name": "Ikono",
         "state": 3,
         "short_code": "KKN",
-        "zip_code": ""
+        "zip_code": "",
+        "secretariat": ""
     }
 },
 {
@@ -6495,7 +7507,8 @@
         "name": "Ikot Abasi",
         "state": 3,
         "short_code": "KTS",
-        "zip_code": ""
+        "zip_code": "",
+        "secretariat": ""
     }
 },
 {
@@ -6505,7 +7518,8 @@
         "name": "Ikot Ekpene",
         "state": 3,
         "short_code": "KTE",
-        "zip_code": ""
+        "zip_code": "",
+        "secretariat": ""
     }
 },
 {
@@ -6515,7 +7529,8 @@
         "name": "Ini",
         "state": 3,
         "short_code": "DRK",
-        "zip_code": ""
+        "zip_code": "",
+        "secretariat": ""
     }
 },
 {
@@ -6525,7 +7540,8 @@
         "name": "Itu",
         "state": 3,
         "short_code": "TTU",
-        "zip_code": ""
+        "zip_code": "",
+        "secretariat": ""
     }
 },
 {
@@ -6535,7 +7551,8 @@
         "name": "Udung uko",
         "state": 3,
         "short_code": "EYF",
-        "zip_code": ""
+        "zip_code": "",
+        "secretariat": ""
     }
 },
 {
@@ -6545,7 +7562,8 @@
         "name": "Ukanafun",
         "state": 3,
         "short_code": "KPK",
-        "zip_code": ""
+        "zip_code": "",
+        "secretariat": ""
     }
 },
 {
@@ -6555,7 +7573,8 @@
         "name": "Uruan",
         "state": 3,
         "short_code": "DUU",
-        "zip_code": ""
+        "zip_code": "",
+        "secretariat": ""
     }
 },
 {
@@ -6565,7 +7584,8 @@
         "name": "Urue offong/oruko",
         "state": 3,
         "short_code": "UFG",
-        "zip_code": ""
+        "zip_code": "",
+        "secretariat": ""
     }
 },
 {
@@ -6575,7 +7595,8 @@
         "name": "Uyo",
         "state": 3,
         "short_code": "UYY",
-        "zip_code": ""
+        "zip_code": "",
+        "secretariat": ""
     }
 },
 {
@@ -6585,7 +7606,8 @@
         "name": "Oruk anam",
         "state": 3,
         "short_code": "KTM",
-        "zip_code": ""
+        "zip_code": "",
+        "secretariat": ""
     }
 },
 {
@@ -6595,7 +7617,8 @@
         "name": "Oron",
         "state": 3,
         "short_code": "RNN",
-        "zip_code": ""
+        "zip_code": "",
+        "secretariat": ""
     }
 },
 {
@@ -6605,7 +7628,8 @@
         "name": "Onna",
         "state": 3,
         "short_code": "ABT",
-        "zip_code": ""
+        "zip_code": "",
+        "secretariat": ""
     }
 },
 {
@@ -6615,7 +7639,8 @@
         "name": "Okobo",
         "state": 3,
         "short_code": "KPD",
-        "zip_code": ""
+        "zip_code": "",
+        "secretariat": ""
     }
 },
 {
@@ -6625,7 +7650,8 @@
         "name": "Obot akara",
         "state": 3,
         "short_code": "NTE",
-        "zip_code": ""
+        "zip_code": "",
+        "secretariat": ""
     }
 },
 {
@@ -6635,7 +7661,8 @@
         "name": "Nsit ubium",
         "state": 3,
         "short_code": "KTD",
-        "zip_code": ""
+        "zip_code": "",
+        "secretariat": ""
     }
 },
 {
@@ -6645,7 +7672,8 @@
         "name": "Nsit Ibom",
         "state": 3,
         "short_code": "AFG",
-        "zip_code": ""
+        "zip_code": "",
+        "secretariat": ""
     }
 },
 {
@@ -6655,7 +7683,8 @@
         "name": "Nsit atai",
         "state": 3,
         "short_code": "AED",
-        "zip_code": ""
+        "zip_code": "",
+        "secretariat": ""
     }
 },
 {
@@ -6665,7 +7694,8 @@
         "name": "Mkpat enin",
         "state": 3,
         "short_code": "MKP",
-        "zip_code": ""
+        "zip_code": "",
+        "secretariat": ""
     }
 },
 {
@@ -6675,7 +7705,8 @@
         "name": "Mbo",
         "state": 3,
         "short_code": "ENW",
-        "zip_code": ""
+        "zip_code": "",
+        "secretariat": ""
     }
 },
 {
@@ -6685,7 +7716,8 @@
         "name": "Wurno",
         "state": 1,
         "short_code": "WUR",
-        "zip_code": ""
+        "zip_code": "",
+        "secretariat": ""
     }
 },
 {
@@ -6695,7 +7727,8 @@
         "name": "Yabo",
         "state": 1,
         "short_code": "YAB",
-        "zip_code": ""
+        "zip_code": "",
+        "secretariat": ""
     }
 },
 {
@@ -6705,7 +7738,8 @@
         "name": "Goronyo",
         "state": 1,
         "short_code": "GRY",
-        "zip_code": ""
+        "zip_code": "",
+        "secretariat": ""
     }
 },
 {
@@ -6715,7 +7749,8 @@
         "name": "Tureta",
         "state": 1,
         "short_code": "TRT",
-        "zip_code": ""
+        "zip_code": "",
+        "secretariat": ""
     }
 },
 {
@@ -6725,7 +7760,8 @@
         "name": "Tangaza",
         "state": 1,
         "short_code": "TNZ",
-        "zip_code": ""
+        "zip_code": "",
+        "secretariat": ""
     }
 },
 {
@@ -6735,7 +7771,8 @@
         "name": "Silame",
         "state": 1,
         "short_code": "SLM",
-        "zip_code": ""
+        "zip_code": "",
+        "secretariat": ""
     }
 },
 {
@@ -6745,7 +7782,8 @@
         "name": "Shagari",
         "state": 1,
         "short_code": "SHA",
-        "zip_code": ""
+        "zip_code": "",
+        "secretariat": ""
     }
 },
 {
@@ -6755,7 +7793,8 @@
         "name": "Sabon Birni",
         "state": 1,
         "short_code": "SBN",
-        "zip_code": ""
+        "zip_code": "",
+        "secretariat": ""
     }
 },
 {
@@ -6765,7 +7804,8 @@
         "name": "Rabah",
         "state": 1,
         "short_code": "RBA",
-        "zip_code": ""
+        "zip_code": "",
+        "secretariat": ""
     }
 },
 {
@@ -6775,7 +7815,8 @@
         "name": "Kware",
         "state": 1,
         "short_code": "KWR",
-        "zip_code": ""
+        "zip_code": "",
+        "secretariat": ""
     }
 },
 {
@@ -6785,7 +7826,8 @@
         "name": "Kebbe",
         "state": 1,
         "short_code": "KEB",
-        "zip_code": ""
+        "zip_code": "",
+        "secretariat": ""
     }
 },
 {
@@ -6795,7 +7837,8 @@
         "name": "Gwadabawa",
         "state": 1,
         "short_code": "GWA",
-        "zip_code": ""
+        "zip_code": "",
+        "secretariat": ""
     }
 },
 {
@@ -6805,7 +7848,8 @@
         "name": "Gudu",
         "state": 1,
         "short_code": "GUD",
-        "zip_code": ""
+        "zip_code": "",
+        "secretariat": ""
     }
 },
 {
@@ -6815,7 +7859,8 @@
         "name": "Gada",
         "state": 1,
         "short_code": "GAD",
-        "zip_code": ""
+        "zip_code": "",
+        "secretariat": ""
     }
 },
 {
@@ -6825,7 +7870,8 @@
         "name": "Binji",
         "state": 1,
         "short_code": "BNJ",
-        "zip_code": ""
+        "zip_code": "",
+        "secretariat": ""
     }
 },
 {
@@ -6835,7 +7881,8 @@
         "name": "Tambuwal",
         "state": 1,
         "short_code": "TMW",
-        "zip_code": ""
+        "zip_code": "",
+        "secretariat": ""
     }
 },
 {
@@ -6845,7 +7892,8 @@
         "name": "Aliero",
         "state": 25,
         "short_code": "ALR",
-        "zip_code": ""
+        "zip_code": "",
+        "secretariat": ""
     }
 },
 {
@@ -6855,7 +7903,8 @@
         "name": "Argungun",
         "state": 25,
         "short_code": "ARG",
-        "zip_code": ""
+        "zip_code": "",
+        "secretariat": ""
     }
 },
 {
@@ -6865,7 +7914,8 @@
         "name": "Arewa Dandi",
         "state": 25,
         "short_code": "ARD",
-        "zip_code": ""
+        "zip_code": "",
+        "secretariat": ""
     }
 },
 {
@@ -6875,7 +7925,8 @@
         "name": "Augie",
         "state": 25,
         "short_code": "AUG",
-        "zip_code": ""
+        "zip_code": "",
+        "secretariat": ""
     }
 },
 {
@@ -6885,7 +7936,8 @@
         "name": "Bagudo",
         "state": 25,
         "short_code": "BGD",
-        "zip_code": ""
+        "zip_code": "",
+        "secretariat": ""
     }
 },
 {
@@ -6895,7 +7947,8 @@
         "name": "Birnin Kebbi",
         "state": 25,
         "short_code": "BIR",
-        "zip_code": ""
+        "zip_code": "",
+        "secretariat": ""
     }
 },
 {
@@ -6905,7 +7958,8 @@
         "name": "Bunza",
         "state": 25,
         "short_code": "BUN",
-        "zip_code": ""
+        "zip_code": "",
+        "secretariat": ""
     }
 },
 {
@@ -6915,7 +7969,8 @@
         "name": "Dandi",
         "state": 25,
         "short_code": "DND",
-        "zip_code": ""
+        "zip_code": "",
+        "secretariat": ""
     }
 },
 {
@@ -6925,7 +7980,8 @@
         "name": "Danko Wasagu",
         "state": 25,
         "short_code": "DWG",
-        "zip_code": ""
+        "zip_code": "",
+        "secretariat": ""
     }
 },
 {
@@ -6935,7 +7991,8 @@
         "name": "Kalgo",
         "state": 25,
         "short_code": "KAL",
-        "zip_code": ""
+        "zip_code": "",
+        "secretariat": ""
     }
 },
 {
@@ -6945,7 +8002,8 @@
         "name": "Fakai",
         "state": 25,
         "short_code": "FKA",
-        "zip_code": ""
+        "zip_code": "",
+        "secretariat": ""
     }
 },
 {
@@ -6955,7 +8013,8 @@
         "name": "Gwandu",
         "state": 25,
         "short_code": "GWD",
-        "zip_code": ""
+        "zip_code": "",
+        "secretariat": ""
     }
 },
 {
@@ -6965,7 +8024,8 @@
         "name": "Koko Besse",
         "state": 25,
         "short_code": "KKO",
-        "zip_code": ""
+        "zip_code": "",
+        "secretariat": ""
     }
 },
 {
@@ -6975,7 +8035,8 @@
         "name": "Ngaski",
         "state": 25,
         "short_code": "NGK",
-        "zip_code": ""
+        "zip_code": "",
+        "secretariat": ""
     }
 },
 {
@@ -6985,7 +8046,8 @@
         "name": "Maiyama",
         "state": 25,
         "short_code": "MYM",
-        "zip_code": ""
+        "zip_code": "",
+        "secretariat": ""
     }
 },
 {
@@ -6995,7 +8057,8 @@
         "name": "Suru",
         "state": 25,
         "short_code": "SUR",
-        "zip_code": ""
+        "zip_code": "",
+        "secretariat": ""
     }
 },
 {
@@ -7005,7 +8068,8 @@
         "name": "Yauri",
         "state": 25,
         "short_code": "YAU",
-        "zip_code": ""
+        "zip_code": "",
+        "secretariat": ""
     }
 },
 {
@@ -7015,7 +8079,8 @@
         "name": "Shanga",
         "state": 25,
         "short_code": "SHG",
-        "zip_code": ""
+        "zip_code": "",
+        "secretariat": ""
     }
 },
 {
@@ -7025,7 +8090,8 @@
         "name": "Sakaba",
         "state": 25,
         "short_code": "SKB",
-        "zip_code": ""
+        "zip_code": "",
+        "secretariat": ""
     }
 },
 {
@@ -7035,7 +8101,8 @@
         "name": "Ado Ekiti",
         "state": 29,
         "short_code": "ADO",
-        "zip_code": ""
+        "zip_code": "",
+        "secretariat": ""
     }
 },
 {
@@ -7045,7 +8112,8 @@
         "name": "Ikere",
         "state": 29,
         "short_code": "IKR",
-        "zip_code": ""
+        "zip_code": "",
+        "secretariat": ""
     }
 },
 {
@@ -7055,7 +8123,8 @@
         "name": "Oye",
         "state": 29,
         "short_code": "OYE",
-        "zip_code": ""
+        "zip_code": "",
+        "secretariat": ""
     }
 },
 {
@@ -7065,7 +8134,8 @@
         "name": "Aiyekire",
         "state": 29,
         "short_code": "AYR",
-        "zip_code": ""
+        "zip_code": "",
+        "secretariat": ""
     }
 },
 {
@@ -7075,7 +8145,8 @@
         "name": "Efon",
         "state": 29,
         "short_code": "EFO",
-        "zip_code": ""
+        "zip_code": "",
+        "secretariat": ""
     }
 },
 {
@@ -7085,7 +8156,8 @@
         "name": "Ekiti East",
         "state": 29,
         "short_code": "EKE",
-        "zip_code": ""
+        "zip_code": "",
+        "secretariat": ""
     }
 },
 {
@@ -7095,7 +8167,8 @@
         "name": "Ekiti South West",
         "state": 29,
         "short_code": "ESW",
-        "zip_code": ""
+        "zip_code": "",
+        "secretariat": ""
     }
 },
 {
@@ -7105,7 +8178,8 @@
         "name": "Ekiti West",
         "state": 29,
         "short_code": "EKW",
-        "zip_code": ""
+        "zip_code": "",
+        "secretariat": ""
     }
 },
 {
@@ -7115,7 +8189,8 @@
         "name": "Emure",
         "state": 29,
         "short_code": "EMR",
-        "zip_code": ""
+        "zip_code": "",
+        "secretariat": ""
     }
 },
 {
@@ -7125,7 +8200,8 @@
         "name": "Ido-Osi",
         "state": 29,
         "short_code": "IDO",
-        "zip_code": ""
+        "zip_code": "",
+        "secretariat": ""
     }
 },
 {
@@ -7135,7 +8211,8 @@
         "name": "Ijero",
         "state": 29,
         "short_code": "IJR",
-        "zip_code": ""
+        "zip_code": "",
+        "secretariat": ""
     }
 },
 {
@@ -7145,7 +8222,8 @@
         "name": "Ikole",
         "state": 29,
         "short_code": "IKL",
-        "zip_code": ""
+        "zip_code": "",
+        "secretariat": ""
     }
 },
 {
@@ -7155,7 +8233,8 @@
         "name": "Ilejemeje",
         "state": 29,
         "short_code": "IJJ",
-        "zip_code": ""
+        "zip_code": "",
+        "secretariat": ""
     }
 },
 {
@@ -7165,7 +8244,8 @@
         "name": "Ifelodun",
         "state": 29,
         "short_code": "IFD",
-        "zip_code": ""
+        "zip_code": "",
+        "secretariat": ""
     }
 },
 {
@@ -7175,7 +8255,8 @@
         "name": "Ise",
         "state": 29,
         "short_code": "ISE",
-        "zip_code": ""
+        "zip_code": "",
+        "secretariat": ""
     }
 },
 {
@@ -7185,7 +8266,8 @@
         "name": "Moba",
         "state": 29,
         "short_code": "MOB",
-        "zip_code": ""
+        "zip_code": "",
+        "secretariat": ""
     }
 },
 {
@@ -7195,7 +8277,8 @@
         "name": "Yola South",
         "state": 4,
         "short_code": "YSO",
-        "zip_code": ""
+        "zip_code": "",
+        "secretariat": ""
     }
 },
 {
@@ -7205,7 +8288,8 @@
         "name": "Yola North",
         "state": 4,
         "short_code": "YNO",
-        "zip_code": ""
+        "zip_code": "",
+        "secretariat": ""
     }
 },
 {
@@ -7215,7 +8299,8 @@
         "name": "Toungo",
         "state": 4,
         "short_code": "TUG",
-        "zip_code": ""
+        "zip_code": "",
+        "secretariat": ""
     }
 },
 {
@@ -7225,7 +8310,8 @@
         "name": "Song",
         "state": 4,
         "short_code": "SON",
-        "zip_code": ""
+        "zip_code": "",
+        "secretariat": ""
     }
 },
 {
@@ -7235,7 +8321,8 @@
         "name": "Shelleng",
         "state": 4,
         "short_code": "SEN",
-        "zip_code": ""
+        "zip_code": "",
+        "secretariat": ""
     }
 },
 {
@@ -7245,7 +8332,8 @@
         "name": "Numan",
         "state": 4,
         "short_code": "NUM",
-        "zip_code": ""
+        "zip_code": "",
+        "secretariat": ""
     }
 },
 {
@@ -7255,7 +8343,8 @@
         "name": "Mubi South",
         "state": 4,
         "short_code": "MBS",
-        "zip_code": ""
+        "zip_code": "",
+        "secretariat": ""
     }
 },
 {
@@ -7265,7 +8354,8 @@
         "name": "Mubi North",
         "state": 4,
         "short_code": "MBN",
-        "zip_code": ""
+        "zip_code": "",
+        "secretariat": ""
     }
 },
 {
@@ -7275,7 +8365,8 @@
         "name": "Michika",
         "state": 4,
         "short_code": "MCK",
-        "zip_code": ""
+        "zip_code": "",
+        "secretariat": ""
     }
 },
 {
@@ -7285,7 +8376,8 @@
         "name": "Mayo Belwa",
         "state": 4,
         "short_code": "MBW",
-        "zip_code": ""
+        "zip_code": "",
+        "secretariat": ""
     }
 },
 {
@@ -7295,7 +8387,8 @@
         "name": "Maiha",
         "state": 4,
         "short_code": "MIH",
-        "zip_code": ""
+        "zip_code": "",
+        "secretariat": ""
     }
 },
 {
@@ -7305,7 +8398,8 @@
         "name": "Madagali",
         "state": 4,
         "short_code": "MDL",
-        "zip_code": ""
+        "zip_code": "",
+        "secretariat": ""
     }
 },
 {
@@ -7315,7 +8409,8 @@
         "name": "Yong",
         "state": 4,
         "short_code": "YNG",
-        "zip_code": ""
+        "zip_code": "",
+        "secretariat": ""
     }
 },
 {
@@ -7325,7 +8420,8 @@
         "name": "Lamurde",
         "state": 4,
         "short_code": "LMD",
-        "zip_code": ""
+        "zip_code": "",
+        "secretariat": ""
     }
 },
 {
@@ -7335,7 +8431,8 @@
         "name": "Jada",
         "state": 4,
         "short_code": "JAD",
-        "zip_code": ""
+        "zip_code": "",
+        "secretariat": ""
     }
 },
 {
@@ -7345,7 +8442,8 @@
         "name": "Guyik",
         "state": 4,
         "short_code": "GYK",
-        "zip_code": ""
+        "zip_code": "",
+        "secretariat": ""
     }
 },
 {
@@ -7355,7 +8453,8 @@
         "name": "Gombi",
         "state": 4,
         "short_code": "GMB",
-        "zip_code": ""
+        "zip_code": "",
+        "secretariat": ""
     }
 },
 {
@@ -7365,7 +8464,8 @@
         "name": "Girei",
         "state": 4,
         "short_code": "GRE",
-        "zip_code": ""
+        "zip_code": "",
+        "secretariat": ""
     }
 },
 {
@@ -7375,7 +8475,8 @@
         "name": "Ganye",
         "state": 4,
         "short_code": "GNY",
-        "zip_code": ""
+        "zip_code": "",
+        "secretariat": ""
     }
 },
 {
@@ -7385,7 +8486,8 @@
         "name": "Fufore",
         "state": 4,
         "short_code": "FFR",
-        "zip_code": ""
+        "zip_code": "",
+        "secretariat": ""
     }
 },
 {
@@ -7395,7 +8497,8 @@
         "name": "Demsa",
         "state": 4,
         "short_code": "DMS",
-        "zip_code": ""
+        "zip_code": "",
+        "secretariat": ""
     }
 },
 {
@@ -7405,7 +8508,8 @@
         "name": "Gwagwalada",
         "state": 36,
         "short_code": "GWA",
-        "zip_code": ""
+        "zip_code": "",
+        "secretariat": ""
     }
 },
 {
@@ -7415,7 +8519,8 @@
         "name": "Kwali",
         "state": 36,
         "short_code": "KWA",
-        "zip_code": ""
+        "zip_code": "",
+        "secretariat": ""
     }
 },
 {
@@ -7425,7 +8530,8 @@
         "name": "Bwari",
         "state": 36,
         "short_code": "BWA",
-        "zip_code": ""
+        "zip_code": "",
+        "secretariat": ""
     }
 },
 {
@@ -7435,7 +8541,8 @@
         "name": "Abuja Municipal",
         "state": 36,
         "short_code": "ABJ",
-        "zip_code": ""
+        "zip_code": "",
+        "secretariat": ""
     }
 },
 {
@@ -7445,7 +8552,8 @@
         "name": "Abaji",
         "state": 36,
         "short_code": "ABA",
-        "zip_code": ""
+        "zip_code": "",
+        "secretariat": ""
     }
 },
 {
@@ -7455,7 +8563,8 @@
         "name": "Kuje",
         "state": 36,
         "short_code": "KUJ",
-        "zip_code": ""
+        "zip_code": "",
+        "secretariat": ""
     }
 },
 {
@@ -7465,7 +8574,8 @@
         "name": "Aba North",
         "state": 5,
         "short_code": "ABN",
-        "zip_code": ""
+        "zip_code": "",
+        "secretariat": ""
     }
 },
 {
@@ -7475,7 +8585,8 @@
         "name": "Aba South",
         "state": 5,
         "short_code": "ABS",
-        "zip_code": ""
+        "zip_code": "",
+        "secretariat": ""
     }
 },
 {
@@ -7485,7 +8596,8 @@
         "name": "Arochukwu",
         "state": 5,
         "short_code": "AOW",
-        "zip_code": ""
+        "zip_code": "",
+        "secretariat": ""
     }
 },
 {
@@ -7495,7 +8607,8 @@
         "name": "Bende",
         "state": 5,
         "short_code": "BND",
-        "zip_code": ""
+        "zip_code": "",
+        "secretariat": ""
     }
 },
 {
@@ -7505,7 +8618,8 @@
         "name": "Ikwuano",
         "state": 5,
         "short_code": "IWN",
-        "zip_code": ""
+        "zip_code": "",
+        "secretariat": ""
     }
 },
 {
@@ -7515,7 +8629,8 @@
         "name": "Isiala Ngwa North",
         "state": 5,
         "short_code": "INN",
-        "zip_code": ""
+        "zip_code": "",
+        "secretariat": ""
     }
 },
 {
@@ -7525,7 +8640,8 @@
         "name": "Isiala Ngwa South",
         "state": 5,
         "short_code": "INS",
-        "zip_code": ""
+        "zip_code": "",
+        "secretariat": ""
     }
 },
 {
@@ -7535,7 +8651,8 @@
         "name": "Isuikwuato",
         "state": 5,
         "short_code": "IUT",
-        "zip_code": ""
+        "zip_code": "",
+        "secretariat": ""
     }
 },
 {
@@ -7545,7 +8662,8 @@
         "name": "Umuahia North",
         "state": 5,
         "short_code": "UMN",
-        "zip_code": ""
+        "zip_code": "",
+        "secretariat": ""
     }
 },
 {
@@ -7555,7 +8673,8 @@
         "name": "Umuahia South",
         "state": 5,
         "short_code": "UMS",
-        "zip_code": ""
+        "zip_code": "",
+        "secretariat": ""
     }
 },
 {
@@ -7565,7 +8684,8 @@
         "name": "Umu-Nneochi",
         "state": 5,
         "short_code": "UUH",
-        "zip_code": ""
+        "zip_code": "",
+        "secretariat": ""
     }
 },
 {
@@ -7575,7 +8695,8 @@
         "name": "Ukwa East",
         "state": 5,
         "short_code": "UKE",
-        "zip_code": ""
+        "zip_code": "",
+        "secretariat": ""
     }
 },
 {
@@ -7585,7 +8706,8 @@
         "name": "Ukwa West",
         "state": 5,
         "short_code": "UKW",
-        "zip_code": ""
+        "zip_code": "",
+        "secretariat": ""
     }
 },
 {
@@ -7595,7 +8717,8 @@
         "name": "Osisioma Ngwa",
         "state": 5,
         "short_code": "OIW",
-        "zip_code": ""
+        "zip_code": "",
+        "secretariat": ""
     }
 },
 {
@@ -7605,7 +8728,8 @@
         "name": "Ugwunagbo",
         "state": 5,
         "short_code": "UWB",
-        "zip_code": ""
+        "zip_code": "",
+        "secretariat": ""
     }
 },
 {
@@ -7615,7 +8739,8 @@
         "name": "Obi Ngwa",
         "state": 5,
         "short_code": "OBN",
-        "zip_code": ""
+        "zip_code": "",
+        "secretariat": ""
     }
 },
 {
@@ -7625,7 +8750,8 @@
         "name": "Ohafia",
         "state": 5,
         "short_code": "OAF",
-        "zip_code": ""
+        "zip_code": "",
+        "secretariat": ""
     }
 },
 {
@@ -7635,7 +8761,8 @@
         "name": "Abadam",
         "state": 11,
         "short_code": "AAA",
-        "zip_code": ""
+        "zip_code": "",
+        "secretariat": ""
     }
 },
 {
@@ -7645,7 +8772,8 @@
         "name": "Bama",
         "state": 11,
         "short_code": "BAM",
-        "zip_code": ""
+        "zip_code": "",
+        "secretariat": ""
     }
 },
 {
@@ -7655,7 +8783,8 @@
         "name": "Askira/Uba",
         "state": 11,
         "short_code": "AUB",
-        "zip_code": ""
+        "zip_code": "",
+        "secretariat": ""
     }
 },
 {
@@ -7665,7 +8794,8 @@
         "name": "Bayo",
         "state": 11,
         "short_code": "BAY",
-        "zip_code": ""
+        "zip_code": "",
+        "secretariat": ""
     }
 },
 {
@@ -7675,7 +8805,8 @@
         "name": "Biu",
         "state": 11,
         "short_code": "BIU",
-        "zip_code": ""
+        "zip_code": "",
+        "secretariat": ""
     }
 },
 {
@@ -7685,7 +8816,8 @@
         "name": "Chibok",
         "state": 11,
         "short_code": "CIO",
-        "zip_code": ""
+        "zip_code": "",
+        "secretariat": ""
     }
 },
 {
@@ -7695,7 +8827,8 @@
         "name": "Damboa",
         "state": 11,
         "short_code": "DMO",
-        "zip_code": ""
+        "zip_code": "",
+        "secretariat": ""
     }
 },
 {
@@ -7705,7 +8838,8 @@
         "name": "Dikwa",
         "state": 11,
         "short_code": "DKW",
-        "zip_code": ""
+        "zip_code": "",
+        "secretariat": ""
     }
 },
 {
@@ -7715,7 +8849,8 @@
         "name": "Gubio",
         "state": 11,
         "short_code": "GBI",
-        "zip_code": ""
+        "zip_code": "",
+        "secretariat": ""
     }
 },
 {
@@ -7725,7 +8860,8 @@
         "name": "Gwazo",
         "state": 11,
         "short_code": "GAZ",
-        "zip_code": ""
+        "zip_code": "",
+        "secretariat": ""
     }
 },
 {
@@ -7735,7 +8871,8 @@
         "name": "Guzamala",
         "state": 11,
         "short_code": "GZL",
-        "zip_code": ""
+        "zip_code": "",
+        "secretariat": ""
     }
 },
 {
@@ -7745,7 +8882,8 @@
         "name": "Hawul",
         "state": 11,
         "short_code": "HWU",
-        "zip_code": ""
+        "zip_code": "",
+        "secretariat": ""
     }
 },
 {
@@ -7755,7 +8893,8 @@
         "name": "Jere",
         "state": 11,
         "short_code": "JER",
-        "zip_code": ""
+        "zip_code": "",
+        "secretariat": ""
     }
 },
 {
@@ -7765,7 +8904,8 @@
         "name": "Kaga",
         "state": 11,
         "short_code": "KAG",
-        "zip_code": ""
+        "zip_code": "",
+        "secretariat": ""
     }
 },
 {
@@ -7775,7 +8915,8 @@
         "name": "Kala",
         "state": 11,
         "short_code": "KAL",
-        "zip_code": ""
+        "zip_code": "",
+        "secretariat": ""
     }
 },
 {
@@ -7785,7 +8926,8 @@
         "name": "Konduga",
         "state": 11,
         "short_code": "KNG",
-        "zip_code": ""
+        "zip_code": "",
+        "secretariat": ""
     }
 },
 {
@@ -7795,7 +8937,8 @@
         "name": "Kukawa",
         "state": 11,
         "short_code": "KKW",
-        "zip_code": ""
+        "zip_code": "",
+        "secretariat": ""
     }
 },
 {
@@ -7805,7 +8948,8 @@
         "name": "Kwaya",
         "state": 11,
         "short_code": "KAY",
-        "zip_code": ""
+        "zip_code": "",
+        "secretariat": ""
     }
 },
 {
@@ -7815,7 +8959,8 @@
         "name": "Mafa",
         "state": 11,
         "short_code": "MAF",
-        "zip_code": ""
+        "zip_code": "",
+        "secretariat": ""
     }
 },
 {
@@ -7825,7 +8970,8 @@
         "name": "Marte",
         "state": 11,
         "short_code": "MRT",
-        "zip_code": ""
+        "zip_code": "",
+        "secretariat": ""
     }
 },
 {
@@ -7835,7 +8981,8 @@
         "name": "Maiduguri",
         "state": 11,
         "short_code": "MIR",
-        "zip_code": ""
+        "zip_code": "",
+        "secretariat": ""
     }
 },
 {
@@ -7845,7 +8992,8 @@
         "name": "Magumeri",
         "state": 11,
         "short_code": "MGR",
-        "zip_code": ""
+        "zip_code": "",
+        "secretariat": ""
     }
 },
 {
@@ -7855,7 +9003,8 @@
         "name": "Mobbar",
         "state": 11,
         "short_code": "MBA",
-        "zip_code": ""
+        "zip_code": "",
+        "secretariat": ""
     }
 },
 {
@@ -7865,7 +9014,8 @@
         "name": "Monguno",
         "state": 11,
         "short_code": "MNN",
-        "zip_code": ""
+        "zip_code": "",
+        "secretariat": ""
     }
 },
 {
@@ -7875,7 +9025,8 @@
         "name": "Ngala",
         "state": 11,
         "short_code": "NAL",
-        "zip_code": ""
+        "zip_code": "",
+        "secretariat": ""
     }
 },
 {
@@ -7885,7 +9036,8 @@
         "name": "Nganzai",
         "state": 11,
         "short_code": "NAA",
-        "zip_code": ""
+        "zip_code": "",
+        "secretariat": ""
     }
 },
 {
@@ -7895,7 +9047,8 @@
         "name": "Shani",
         "state": 11,
         "short_code": "SAN",
-        "zip_code": ""
+        "zip_code": "",
+        "secretariat": ""
     }
 },
 {
@@ -7905,7 +9058,8 @@
         "name": "Ado",
         "state": 10,
         "short_code": "ADO",
-        "zip_code": ""
+        "zip_code": "",
+        "secretariat": ""
     }
 },
 {
@@ -7915,7 +9069,8 @@
         "name": "Agatu",
         "state": 10,
         "short_code": "AAT",
-        "zip_code": ""
+        "zip_code": "",
+        "secretariat": ""
     }
 },
 {
@@ -7925,7 +9080,8 @@
         "name": "Apa",
         "state": 10,
         "short_code": "APA",
-        "zip_code": ""
+        "zip_code": "",
+        "secretariat": ""
     }
 },
 {
@@ -7935,7 +9091,8 @@
         "name": "Buruku",
         "state": 10,
         "short_code": "BRK",
-        "zip_code": ""
+        "zip_code": "",
+        "secretariat": ""
     }
 },
 {
@@ -7945,7 +9102,8 @@
         "name": "Gboko",
         "state": 10,
         "short_code": "GOK",
-        "zip_code": ""
+        "zip_code": "",
+        "secretariat": ""
     }
 },
 {
@@ -7955,7 +9113,8 @@
         "name": "Guma",
         "state": 10,
         "short_code": "GUM",
-        "zip_code": ""
+        "zip_code": "",
+        "secretariat": ""
     }
 },
 {
@@ -7965,7 +9124,8 @@
         "name": "Gwer East",
         "state": 10,
         "short_code": "GWE",
-        "zip_code": ""
+        "zip_code": "",
+        "secretariat": ""
     }
 },
 {
@@ -7975,7 +9135,8 @@
         "name": "Gwer West",
         "state": 10,
         "short_code": "GWW",
-        "zip_code": ""
+        "zip_code": "",
+        "secretariat": ""
     }
 },
 {
@@ -7985,7 +9146,8 @@
         "name": "Katsina-Ala",
         "state": 10,
         "short_code": "KTA",
-        "zip_code": ""
+        "zip_code": "",
+        "secretariat": ""
     }
 },
 {
@@ -7995,7 +9157,8 @@
         "name": "Makurdi",
         "state": 10,
         "short_code": "MKD",
-        "zip_code": ""
+        "zip_code": "",
+        "secretariat": ""
     }
 },
 {
@@ -8005,7 +9168,8 @@
         "name": "Konshisha",
         "state": 10,
         "short_code": "KNH",
-        "zip_code": ""
+        "zip_code": "",
+        "secretariat": ""
     }
 },
 {
@@ -8015,7 +9179,8 @@
         "name": "Kwande",
         "state": 10,
         "short_code": "KAD",
-        "zip_code": ""
+        "zip_code": "",
+        "secretariat": ""
     }
 },
 {
@@ -8025,7 +9190,8 @@
         "name": "Logo",
         "state": 10,
         "short_code": "LOG",
-        "zip_code": ""
+        "zip_code": "",
+        "secretariat": ""
     }
 },
 {
@@ -8035,7 +9201,8 @@
         "name": "Obi",
         "state": 10,
         "short_code": "OBI",
-        "zip_code": ""
+        "zip_code": "",
+        "secretariat": ""
     }
 },
 {
@@ -8045,7 +9212,8 @@
         "name": "Ogbadibo",
         "state": 10,
         "short_code": "OBB",
-        "zip_code": ""
+        "zip_code": "",
+        "secretariat": ""
     }
 },
 {
@@ -8055,7 +9223,8 @@
         "name": "Ohimini",
         "state": 10,
         "short_code": "OIN",
-        "zip_code": ""
+        "zip_code": "",
+        "secretariat": ""
     }
 },
 {
@@ -8065,7 +9234,8 @@
         "name": "Okpokwu",
         "state": 10,
         "short_code": "OPW",
-        "zip_code": ""
+        "zip_code": "",
+        "secretariat": ""
     }
 },
 {
@@ -8075,7 +9245,8 @@
         "name": "Oju",
         "state": 10,
         "short_code": "OJU",
-        "zip_code": ""
+        "zip_code": "",
+        "secretariat": ""
     }
 },
 {
@@ -8085,7 +9256,8 @@
         "name": "Otupko",
         "state": 10,
         "short_code": "OUK",
-        "zip_code": ""
+        "zip_code": "",
+        "secretariat": ""
     }
 },
 {
@@ -8095,7 +9267,8 @@
         "name": "Tarka",
         "state": 10,
         "short_code": "TRK",
-        "zip_code": ""
+        "zip_code": "",
+        "secretariat": ""
     }
 },
 {
@@ -8105,7 +9278,8 @@
         "name": "Ukum",
         "state": 10,
         "short_code": "UKU",
-        "zip_code": ""
+        "zip_code": "",
+        "secretariat": ""
     }
 },
 {
@@ -8115,7 +9289,8 @@
         "name": "Vandeikya",
         "state": 10,
         "short_code": "VNY",
-        "zip_code": ""
+        "zip_code": "",
+        "secretariat": ""
     }
 },
 {
@@ -8125,7 +9300,8 @@
         "name": "Ushongo",
         "state": 10,
         "short_code": "UHG",
-        "zip_code": ""
+        "zip_code": "",
+        "secretariat": ""
     }
 },
 {
@@ -8135,7 +9311,8 @@
         "name": "Brass",
         "state": 9,
         "short_code": "BAS",
-        "zip_code": ""
+        "zip_code": "",
+        "secretariat": ""
     }
 },
 {
@@ -8145,7 +9322,8 @@
         "name": "Yenagoa",
         "state": 9,
         "short_code": "YNO",
-        "zip_code": ""
+        "zip_code": "",
+        "secretariat": ""
     }
 },
 {
@@ -8155,7 +9333,8 @@
         "name": "Southern Ijaw",
         "state": 9,
         "short_code": "SUI",
-        "zip_code": ""
+        "zip_code": "",
+        "secretariat": ""
     }
 },
 {
@@ -8165,7 +9344,8 @@
         "name": "Sagbama",
         "state": 9,
         "short_code": "SGM",
-        "zip_code": ""
+        "zip_code": "",
+        "secretariat": ""
     }
 },
 {
@@ -8175,7 +9355,8 @@
         "name": "Ogbia",
         "state": 9,
         "short_code": "OBI",
-        "zip_code": ""
+        "zip_code": "",
+        "secretariat": ""
     }
 },
 {
@@ -8185,7 +9366,8 @@
         "name": "Nembe",
         "state": 9,
         "short_code": "NMB",
-        "zip_code": ""
+        "zip_code": "",
+        "secretariat": ""
     }
 },
 {
@@ -8195,7 +9377,8 @@
         "name": "Kolokuma Opokuma",
         "state": 9,
         "short_code": "KOM",
-        "zip_code": ""
+        "zip_code": "",
+        "secretariat": ""
     }
 },
 {
@@ -8205,7 +9388,8 @@
         "name": "Ekeremor",
         "state": 9,
         "short_code": "EEO",
-        "zip_code": ""
+        "zip_code": "",
+        "secretariat": ""
     }
 },
 {
@@ -8215,7 +9399,8 @@
         "name": "Alkaleri",
         "state": 8,
         "short_code": "AKR",
-        "zip_code": "740001"
+        "zip_code": "740001",
+        "secretariat": ""
     }
 },
 {
@@ -8225,7 +9410,8 @@
         "name": "Bauchi",
         "state": 8,
         "short_code": "BAU",
-        "zip_code": "740001"
+        "zip_code": "740001",
+        "secretariat": ""
     }
 },
 {
@@ -8235,7 +9421,8 @@
         "name": "Bogoro",
         "state": 8,
         "short_code": "BGR",
-        "zip_code": "740001"
+        "zip_code": "740001",
+        "secretariat": ""
     }
 },
 {
@@ -8245,7 +9432,8 @@
         "name": "Dambam",
         "state": 8,
         "short_code": "DMA",
-        "zip_code": "740001"
+        "zip_code": "740001",
+        "secretariat": ""
     }
 },
 {
@@ -8255,7 +9443,8 @@
         "name": "Darazo",
         "state": 8,
         "short_code": "DRZ",
-        "zip_code": "740001"
+        "zip_code": "740001",
+        "secretariat": ""
     }
 },
 {
@@ -8265,7 +9454,8 @@
         "name": "Dass",
         "state": 8,
         "short_code": "DAS",
-        "zip_code": "740001"
+        "zip_code": "740001",
+        "secretariat": ""
     }
 },
 {
@@ -8275,7 +9465,8 @@
         "name": "Gamawa",
         "state": 8,
         "short_code": "GMW",
-        "zip_code": "740001"
+        "zip_code": "740001",
+        "secretariat": ""
     }
 },
 {
@@ -8285,7 +9476,8 @@
         "name": "Itas Gadasu",
         "state": 8,
         "short_code": "IAS",
-        "zip_code": "740001"
+        "zip_code": "740001",
+        "secretariat": ""
     }
 },
 {
@@ -8295,7 +9487,8 @@
         "name": "Ganjuwa",
         "state": 8,
         "short_code": "GNW",
-        "zip_code": "740001"
+        "zip_code": "740001",
+        "secretariat": ""
     }
 },
 {
@@ -8305,7 +9498,8 @@
         "name": "Giade",
         "state": 8,
         "short_code": "GAD",
-        "zip_code": "740001"
+        "zip_code": "740001",
+        "secretariat": ""
     }
 },
 {
@@ -8315,7 +9509,8 @@
         "name": "Jama'Are",
         "state": 8,
         "short_code": "JMR",
-        "zip_code": "740001"
+        "zip_code": "740001",
+        "secretariat": ""
     }
 },
 {
@@ -8325,7 +9520,8 @@
         "name": "Katagun",
         "state": 8,
         "short_code": "KTU",
-        "zip_code": "740001"
+        "zip_code": "740001",
+        "secretariat": ""
     }
 },
 {
@@ -8335,7 +9531,8 @@
         "name": "Kirfi",
         "state": 8,
         "short_code": "KRF",
-        "zip_code": "740001"
+        "zip_code": "740001",
+        "secretariat": ""
     }
 },
 {
@@ -8345,7 +9542,8 @@
         "name": "Misau",
         "state": 8,
         "short_code": "MSA",
-        "zip_code": "740001"
+        "zip_code": "740001",
+        "secretariat": ""
     }
 },
 {
@@ -8355,7 +9553,8 @@
         "name": "Ningi",
         "state": 8,
         "short_code": "NNG",
-        "zip_code": "740001"
+        "zip_code": "740001",
+        "secretariat": ""
     }
 },
 {
@@ -8365,7 +9564,8 @@
         "name": "Toro",
         "state": 8,
         "short_code": "TOR",
-        "zip_code": "740001"
+        "zip_code": "740001",
+        "secretariat": ""
     }
 },
 {
@@ -8375,7 +9575,8 @@
         "name": "Tafawa Balewa",
         "state": 8,
         "short_code": "TFW",
-        "zip_code": "740001"
+        "zip_code": "740001",
+        "secretariat": ""
     }
 },
 {
@@ -8385,7 +9586,8 @@
         "name": "Shira",
         "state": 8,
         "short_code": "SIR",
-        "zip_code": "740001"
+        "zip_code": "740001",
+        "secretariat": ""
     }
 },
 {
@@ -8395,7 +9597,8 @@
         "name": "Warji",
         "state": 8,
         "short_code": "WRJ",
-        "zip_code": "740001"
+        "zip_code": "740001",
+        "secretariat": ""
     }
 },
 {
@@ -8405,7 +9608,8 @@
         "name": "Zaki",
         "state": 8,
         "short_code": "ZAK",
-        "zip_code": "740001"
+        "zip_code": "740001",
+        "secretariat": ""
     }
 },
 {
@@ -8415,7 +9619,8 @@
         "name": "Adavi",
         "state": 26,
         "short_code": "AAV",
-        "zip_code": "260001"
+        "zip_code": "260001",
+        "secretariat": ""
     }
 },
 {
@@ -8425,7 +9630,8 @@
         "name": "Ajaokuta",
         "state": 26,
         "short_code": "AAT",
-        "zip_code": "260001"
+        "zip_code": "260001",
+        "secretariat": ""
     }
 },
 {
@@ -8435,7 +9641,8 @@
         "name": "Ankpa",
         "state": 26,
         "short_code": "AKP",
-        "zip_code": "260001"
+        "zip_code": "260001",
+        "secretariat": ""
     }
 },
 {
@@ -8445,7 +9652,8 @@
         "name": "Bassa",
         "state": 26,
         "short_code": "BSS",
-        "zip_code": "260001"
+        "zip_code": "260001",
+        "secretariat": ""
     }
 },
 {
@@ -8455,7 +9663,8 @@
         "name": "Dekina",
         "state": 26,
         "short_code": "DKN",
-        "zip_code": "260001"
+        "zip_code": "260001",
+        "secretariat": ""
     }
 },
 {
@@ -8465,7 +9674,8 @@
         "name": "Ibaji",
         "state": 26,
         "short_code": "IAJ",
-        "zip_code": "260001"
+        "zip_code": "260001",
+        "secretariat": ""
     }
 },
 {
@@ -8475,7 +9685,8 @@
         "name": "Idah",
         "state": 26,
         "short_code": "IDA",
-        "zip_code": "260001"
+        "zip_code": "260001",
+        "secretariat": ""
     }
 },
 {
@@ -8485,7 +9696,8 @@
         "name": "Igbalamela Odolu",
         "state": 26,
         "short_code": "IBL",
-        "zip_code": "260001"
+        "zip_code": "260001",
+        "secretariat": ""
     }
 },
 {
@@ -8495,7 +9707,8 @@
         "name": "Ijumu",
         "state": 26,
         "short_code": "IUM",
-        "zip_code": "260001"
+        "zip_code": "260001",
+        "secretariat": ""
     }
 },
 {
@@ -8505,7 +9718,8 @@
         "name": "Kogi",
         "state": 26,
         "short_code": "KOG",
-        "zip_code": "260001"
+        "zip_code": "260001",
+        "secretariat": ""
     }
 },
 {
@@ -8515,7 +9729,8 @@
         "name": "Kabba Bunu",
         "state": 26,
         "short_code": "KAB",
-        "zip_code": "260001"
+        "zip_code": "260001",
+        "secretariat": ""
     }
 },
 {
@@ -8525,7 +9740,8 @@
         "name": "Lokoja",
         "state": 26,
         "short_code": "LKJ",
-        "zip_code": "260001"
+        "zip_code": "260001",
+        "secretariat": ""
     }
 },
 {
@@ -8535,7 +9751,8 @@
         "name": "Mopa-Muro",
         "state": 26,
         "short_code": "MPR",
-        "zip_code": "260001"
+        "zip_code": "260001",
+        "secretariat": ""
     }
 },
 {
@@ -8545,7 +9762,8 @@
         "name": "Ofu",
         "state": 26,
         "short_code": "OFU",
-        "zip_code": "260001"
+        "zip_code": "260001",
+        "secretariat": ""
     }
 },
 {
@@ -8555,7 +9773,8 @@
         "name": "Ogori-Magongo",
         "state": 26,
         "short_code": "OOG",
-        "zip_code": "260001"
+        "zip_code": "260001",
+        "secretariat": ""
     }
 },
 {
@@ -8565,7 +9784,8 @@
         "name": "Okehi",
         "state": 26,
         "short_code": "OEH",
-        "zip_code": "260001"
+        "zip_code": "260001",
+        "secretariat": ""
     }
 },
 {
@@ -8575,7 +9795,8 @@
         "name": "Okene",
         "state": 26,
         "short_code": "OKN",
-        "zip_code": "260001"
+        "zip_code": "260001",
+        "secretariat": ""
     }
 },
 {
@@ -8585,7 +9806,8 @@
         "name": "Olamaboro",
         "state": 26,
         "short_code": "OAR",
-        "zip_code": "260001"
+        "zip_code": "260001",
+        "secretariat": ""
     }
 },
 {
@@ -8595,7 +9817,8 @@
         "name": "Omala",
         "state": 26,
         "short_code": "OAL",
-        "zip_code": "260001"
+        "zip_code": "260001",
+        "secretariat": ""
     }
 },
 {
@@ -8605,7 +9828,8 @@
         "name": "Yagba East",
         "state": 26,
         "short_code": "YGE",
-        "zip_code": "260001"
+        "zip_code": "260001",
+        "secretariat": ""
     }
 },
 {
@@ -8615,7 +9839,8 @@
         "name": "Yagba West",
         "state": 26,
         "short_code": "YGW",
-        "zip_code": "260001"
+        "zip_code": "260001",
+        "secretariat": ""
     }
 },
 {
@@ -8625,7 +9850,8 @@
         "name": "Zaria",
         "state": 23,
         "short_code": "ZRI",
-        "zip_code": "800014"
+        "zip_code": "800014",
+        "secretariat": ""
     }
 },
 {
@@ -8635,7 +9861,8 @@
         "name": "Birnin Gwari",
         "state": 23,
         "short_code": "BRR",
-        "zip_code": "800014"
+        "zip_code": "800014",
+        "secretariat": ""
     }
 },
 {
@@ -8645,7 +9872,8 @@
         "name": "Chikun",
         "state": 23,
         "short_code": "CIU",
-        "zip_code": "800014"
+        "zip_code": "800014",
+        "secretariat": ""
     }
 },
 {
@@ -8655,7 +9883,8 @@
         "name": "Giwa",
         "state": 23,
         "short_code": "GIW",
-        "zip_code": "800014"
+        "zip_code": "800014",
+        "secretariat": ""
     }
 },
 {
@@ -8665,7 +9894,8 @@
         "name": "Igaba",
         "state": 23,
         "short_code": "IAB",
-        "zip_code": "800014"
+        "zip_code": "800014",
+        "secretariat": ""
     }
 },
 {
@@ -8675,7 +9905,8 @@
         "name": "Ikara",
         "state": 23,
         "short_code": "IKR",
-        "zip_code": "800014"
+        "zip_code": "800014",
+        "secretariat": ""
     }
 },
 {
@@ -8685,7 +9916,8 @@
         "name": "Jema'A",
         "state": 23,
         "short_code": "JM'",
-        "zip_code": "800014"
+        "zip_code": "800014",
+        "secretariat": ""
     }
 },
 {
@@ -8695,7 +9927,8 @@
         "name": "Jaba",
         "state": 23,
         "short_code": "JAB",
-        "zip_code": "800014"
+        "zip_code": "800014",
+        "secretariat": ""
     }
 },
 {
@@ -8705,7 +9938,8 @@
         "name": "Kaduna North",
         "state": 23,
         "short_code": "KDT",
-        "zip_code": "800014"
+        "zip_code": "800014",
+        "secretariat": ""
     }
 },
 {
@@ -8715,7 +9949,8 @@
         "name": "Kachia",
         "state": 23,
         "short_code": "KCI",
-        "zip_code": "800014"
+        "zip_code": "800014",
+        "secretariat": ""
     }
 },
 {
@@ -8725,7 +9960,8 @@
         "name": "Kaduna South",
         "state": 23,
         "short_code": "KDS",
-        "zip_code": "800014"
+        "zip_code": "800014",
+        "secretariat": ""
     }
 },
 {
@@ -8735,7 +9971,8 @@
         "name": "Kagarko",
         "state": 23,
         "short_code": "KGK",
-        "zip_code": "800014"
+        "zip_code": "800014",
+        "secretariat": ""
     }
 },
 {
@@ -8745,7 +9982,8 @@
         "name": "Kajuru",
         "state": 23,
         "short_code": "KJR",
-        "zip_code": "800014"
+        "zip_code": "800014",
+        "secretariat": ""
     }
 },
 {
@@ -8755,7 +9993,8 @@
         "name": "Kaura",
         "state": 23,
         "short_code": "KUR",
-        "zip_code": "800014"
+        "zip_code": "800014",
+        "secretariat": ""
     }
 },
 {
@@ -8765,7 +10004,8 @@
         "name": "Kauru",
         "state": 23,
         "short_code": "KAU",
-        "zip_code": "800014"
+        "zip_code": "800014",
+        "secretariat": ""
     }
 },
 {
@@ -8775,7 +10015,8 @@
         "name": "Kubau",
         "state": 23,
         "short_code": "KBA",
-        "zip_code": "800014"
+        "zip_code": "800014",
+        "secretariat": ""
     }
 },
 {
@@ -8785,7 +10026,8 @@
         "name": "Kudan",
         "state": 23,
         "short_code": "KDA",
-        "zip_code": "800014"
+        "zip_code": "800014",
+        "secretariat": ""
     }
 },
 {
@@ -8795,7 +10037,8 @@
         "name": "Lere",
         "state": 23,
         "short_code": "LER",
-        "zip_code": "800014"
+        "zip_code": "800014",
+        "secretariat": ""
     }
 },
 {
@@ -8805,7 +10048,8 @@
         "name": "Makarfi",
         "state": 23,
         "short_code": "MKF",
-        "zip_code": "800014"
+        "zip_code": "800014",
+        "secretariat": ""
     }
 },
 {
@@ -8815,7 +10059,8 @@
         "name": "Sabon Gari",
         "state": 23,
         "short_code": "SBR",
-        "zip_code": "800014"
+        "zip_code": "800014",
+        "secretariat": ""
     }
 },
 {
@@ -8825,7 +10070,8 @@
         "name": "Sanga",
         "state": 23,
         "short_code": "SNG",
-        "zip_code": "800014"
+        "zip_code": "800014",
+        "secretariat": ""
     }
 },
 {
@@ -8835,7 +10081,8 @@
         "name": "Soba",
         "state": 23,
         "short_code": "SOB",
-        "zip_code": "800014"
+        "zip_code": "800014",
+        "secretariat": ""
     }
 },
 {
@@ -8845,7 +10092,8 @@
         "name": "Zangon-Kataf",
         "state": 23,
         "short_code": "ZNA",
-        "zip_code": "800014"
+        "zip_code": "800014",
+        "secretariat": ""
     }
 },
 {
@@ -8855,7 +10103,8 @@
         "name": "Nnewi North",
         "state": 7,
         "short_code": "NET",
-        "zip_code": "420001"
+        "zip_code": "420001",
+        "secretariat": ""
     }
 },
 {
@@ -8865,7 +10114,8 @@
         "name": "Nnewi South",
         "state": 7,
         "short_code": "NNS",
-        "zip_code": "420001"
+        "zip_code": "420001",
+        "secretariat": ""
     }
 },
 {
@@ -8875,7 +10125,8 @@
         "name": "Orumba South",
         "state": 7,
         "short_code": "OUT",
-        "zip_code": "420001"
+        "zip_code": "420001",
+        "secretariat": ""
     }
 },
 {
@@ -8885,7 +10136,8 @@
         "name": "Orumba North",
         "state": 7,
         "short_code": "ORN",
-        "zip_code": "420001"
+        "zip_code": "420001",
+        "secretariat": ""
     }
 },
 {
@@ -8895,7 +10147,8 @@
         "name": "Ihiala",
         "state": 7,
         "short_code": "IIL",
-        "zip_code": "420001"
+        "zip_code": "420001",
+        "secretariat": ""
     }
 },
 {
@@ -8905,7 +10158,8 @@
         "name": "Ekwusigo",
         "state": 7,
         "short_code": "EWG",
-        "zip_code": "420001"
+        "zip_code": "420001",
+        "secretariat": ""
     }
 },
 {
@@ -8915,7 +10169,8 @@
         "name": "Oyi",
         "state": 7,
         "short_code": "OYI",
-        "zip_code": "420001"
+        "zip_code": "420001",
+        "secretariat": ""
     }
 },
 {
@@ -8925,7 +10180,8 @@
         "name": "Aguata",
         "state": 7,
         "short_code": "AUT",
-        "zip_code": "420001"
+        "zip_code": "420001",
+        "secretariat": ""
     }
 },
 {
@@ -8935,7 +10191,8 @@
         "name": "Onitsha North/South",
         "state": 7,
         "short_code": "OIT",
-        "zip_code": "420001"
+        "zip_code": "420001",
+        "secretariat": ""
     }
 },
 {
@@ -8945,7 +10202,8 @@
         "name": "Anyamelum",
         "state": 7,
         "short_code": "AYU",
-        "zip_code": "420001"
+        "zip_code": "420001",
+        "secretariat": ""
     }
 },
 {
@@ -8955,7 +10213,8 @@
         "name": "Ogbaru",
         "state": 7,
         "short_code": "OBR",
-        "zip_code": "420001"
+        "zip_code": "420001",
+        "secretariat": ""
     }
 },
 {
@@ -8965,7 +10224,8 @@
         "name": "Anambra East",
         "state": 7,
         "short_code": "AAS",
-        "zip_code": "420001"
+        "zip_code": "420001",
+        "secretariat": ""
     }
 },
 {
@@ -8975,7 +10235,8 @@
         "name": "Anambra West",
         "state": 7,
         "short_code": "ANW",
-        "zip_code": "420001"
+        "zip_code": "420001",
+        "secretariat": ""
     }
 },
 {
@@ -8985,7 +10246,8 @@
         "name": "Njikoka",
         "state": 7,
         "short_code": "NIK",
-        "zip_code": "420001"
+        "zip_code": "420001",
+        "secretariat": ""
     }
 },
 {
@@ -8995,7 +10257,8 @@
         "name": "Idemili South",
         "state": 7,
         "short_code": "IET",
-        "zip_code": "420001"
+        "zip_code": "420001",
+        "secretariat": ""
     }
 },
 {
@@ -9005,7 +10268,8 @@
         "name": "Idemili North",
         "state": 7,
         "short_code": "IEN",
-        "zip_code": "420001"
+        "zip_code": "420001",
+        "secretariat": ""
     }
 },
 {
@@ -9015,7 +10279,8 @@
         "name": "Dunukofia",
         "state": 7,
         "short_code": "DNI",
-        "zip_code": "420001"
+        "zip_code": "420001",
+        "secretariat": ""
     }
 },
 {
@@ -9025,7 +10290,8 @@
         "name": "Awka North",
         "state": 7,
         "short_code": "AWN",
-        "zip_code": "420001"
+        "zip_code": "420001",
+        "secretariat": ""
     }
 },
 {
@@ -9035,7 +10301,8 @@
         "name": "Awka South",
         "state": 7,
         "short_code": "AWS",
-        "zip_code": "420001"
+        "zip_code": "420001",
+        "secretariat": ""
     }
 },
 {
@@ -9045,7 +10312,767 @@
         "name": "Anaocha",
         "state": 7,
         "short_code": "AAH",
-        "zip_code": "420001"
+        "zip_code": "420001",
+        "secretariat": ""
+    }
+},
+{
+    "model": "states.localgovernmentarea",
+    "pk": 320,
+    "fields": {
+        "name": "Abi",
+        "state": 37,
+        "short_code": "ABI",
+        "zip_code": "540001",
+        "secretariat": ""
+    }
+},
+{
+    "model": "states.localgovernmentarea",
+    "pk": 321,
+    "fields": {
+        "name": "Akamkpa",
+        "state": 37,
+        "short_code": "AAP",
+        "zip_code": "540001",
+        "secretariat": ""
+    }
+},
+{
+    "model": "states.localgovernmentarea",
+    "pk": 322,
+    "fields": {
+        "name": "Akpabuyo",
+        "state": 37,
+        "short_code": "APY",
+        "zip_code": "540001",
+        "secretariat": ""
+    }
+},
+{
+    "model": "states.localgovernmentarea",
+    "pk": 323,
+    "fields": {
+        "name": "Bakassi",
+        "state": 37,
+        "short_code": "BKS",
+        "zip_code": "540001",
+        "secretariat": ""
+    }
+},
+{
+    "model": "states.localgovernmentarea",
+    "pk": 324,
+    "fields": {
+        "name": "Biase",
+        "state": 37,
+        "short_code": "BAS",
+        "zip_code": "540001",
+        "secretariat": ""
+    }
+},
+{
+    "model": "states.localgovernmentarea",
+    "pk": 325,
+    "fields": {
+        "name": "Bekwarra",
+        "state": 37,
+        "short_code": "BKR",
+        "zip_code": "540001",
+        "secretariat": ""
+    }
+},
+{
+    "model": "states.localgovernmentarea",
+    "pk": 326,
+    "fields": {
+        "name": "Boki",
+        "state": 37,
+        "short_code": "BOK",
+        "zip_code": "540001",
+        "secretariat": ""
+    }
+},
+{
+    "model": "states.localgovernmentarea",
+    "pk": 327,
+    "fields": {
+        "name": "Calabar Municipal",
+        "state": 37,
+        "short_code": "CLA",
+        "zip_code": "540001",
+        "secretariat": ""
+    }
+},
+{
+    "model": "states.localgovernmentarea",
+    "pk": 328,
+    "fields": {
+        "name": "Calabar South",
+        "state": 37,
+        "short_code": "CLT",
+        "zip_code": "540001",
+        "secretariat": ""
+    }
+},
+{
+    "model": "states.localgovernmentarea",
+    "pk": 329,
+    "fields": {
+        "name": "Ikom",
+        "state": 37,
+        "short_code": "IKO",
+        "zip_code": "540001",
+        "secretariat": ""
+    }
+},
+{
+    "model": "states.localgovernmentarea",
+    "pk": 330,
+    "fields": {
+        "name": "Etung",
+        "state": 37,
+        "short_code": "EUN",
+        "zip_code": "540001",
+        "secretariat": ""
+    }
+},
+{
+    "model": "states.localgovernmentarea",
+    "pk": 331,
+    "fields": {
+        "name": "Obanliku",
+        "state": 37,
+        "short_code": "OAK",
+        "zip_code": "540001",
+        "secretariat": ""
+    }
+},
+{
+    "model": "states.localgovernmentarea",
+    "pk": 332,
+    "fields": {
+        "name": "Obubra",
+        "state": 37,
+        "short_code": "OUR",
+        "zip_code": "540001",
+        "secretariat": ""
+    }
+},
+{
+    "model": "states.localgovernmentarea",
+    "pk": 333,
+    "fields": {
+        "name": "Obudu",
+        "state": 37,
+        "short_code": "OUD",
+        "zip_code": "540001",
+        "secretariat": ""
+    }
+},
+{
+    "model": "states.localgovernmentarea",
+    "pk": 334,
+    "fields": {
+        "name": "Odukpani",
+        "state": 37,
+        "short_code": "OUN",
+        "zip_code": "540001",
+        "secretariat": ""
+    }
+},
+{
+    "model": "states.localgovernmentarea",
+    "pk": 335,
+    "fields": {
+        "name": "Ogoja",
+        "state": 37,
+        "short_code": "OOJ",
+        "zip_code": "540001",
+        "secretariat": ""
+    }
+},
+{
+    "model": "states.localgovernmentarea",
+    "pk": 336,
+    "fields": {
+        "name": "Yakurr",
+        "state": 37,
+        "short_code": "YKR",
+        "zip_code": "540001",
+        "secretariat": ""
+    }
+},
+{
+    "model": "states.localgovernmentarea",
+    "pk": 337,
+    "fields": {
+        "name": "Yala",
+        "state": 37,
+        "short_code": "YAL",
+        "zip_code": "540001",
+        "secretariat": ""
+    }
+},
+{
+    "model": "states.localgovernmentarea",
+    "pk": 338,
+    "fields": {
+        "name": "Ikorodu West",
+        "state": 28,
+        "short_code": "IOS",
+        "zip_code": "100001",
+        "secretariat": ""
+    }
+},
+{
+    "model": "states.localgovernmentarea",
+    "pk": 339,
+    "fields": {
+        "name": "Ikorodu North",
+        "state": 28,
+        "short_code": "IKW",
+        "zip_code": "100001",
+        "secretariat": ""
+    }
+},
+{
+    "model": "states.localgovernmentarea",
+    "pk": 340,
+    "fields": {
+        "name": "Ikorodu",
+        "state": 28,
+        "short_code": "IOD",
+        "zip_code": "100001",
+        "secretariat": ""
+    }
+},
+{
+    "model": "states.localgovernmentarea",
+    "pk": 341,
+    "fields": {
+        "name": "Ikeja",
+        "state": 28,
+        "short_code": "IKJ",
+        "zip_code": "100001",
+        "secretariat": ""
+    }
+},
+{
+    "model": "states.localgovernmentarea",
+    "pk": 342,
+    "fields": {
+        "name": "Igando Ikotun",
+        "state": 28,
+        "short_code": "IGU",
+        "zip_code": "100001",
+        "secretariat": ""
+    }
+},
+{
+    "model": "states.localgovernmentarea",
+    "pk": 343,
+    "fields": {
+        "name": "Ifako-Ijaye",
+        "state": 28,
+        "short_code": "IAY",
+        "zip_code": "100001",
+        "secretariat": ""
+    }
+},
+{
+    "model": "states.localgovernmentarea",
+    "pk": 344,
+    "fields": {
+        "name": "Iba",
+        "state": 28,
+        "short_code": "IBA",
+        "zip_code": "100001",
+        "secretariat": ""
+    }
+},
+{
+    "model": "states.localgovernmentarea",
+    "pk": 345,
+    "fields": {
+        "name": "Eti Osa",
+        "state": 28,
+        "short_code": "EIS",
+        "zip_code": "100001",
+        "secretariat": ""
+    }
+},
+{
+    "model": "states.localgovernmentarea",
+    "pk": 346,
+    "fields": {
+        "name": "Eti-Osa East",
+        "state": 28,
+        "short_code": "EOS",
+        "zip_code": "100001",
+        "secretariat": ""
+    }
+},
+{
+    "model": "states.localgovernmentarea",
+    "pk": 347,
+    "fields": {
+        "name": "Ejigbo",
+        "state": 28,
+        "short_code": "EIB",
+        "zip_code": "100001",
+        "secretariat": ""
+    }
+},
+{
+    "model": "states.localgovernmentarea",
+    "pk": 348,
+    "fields": {
+        "name": "Epe",
+        "state": 28,
+        "short_code": "EPE",
+        "zip_code": "100001",
+        "secretariat": ""
+    }
+},
+{
+    "model": "states.localgovernmentarea",
+    "pk": 349,
+    "fields": {
+        "name": "Coker Aguda",
+        "state": 28,
+        "short_code": "CKD",
+        "zip_code": "100001",
+        "secretariat": ""
+    }
+},
+{
+    "model": "states.localgovernmentarea",
+    "pk": 350,
+    "fields": {
+        "name": "Egbe Idimu",
+        "state": 28,
+        "short_code": "EBM",
+        "zip_code": "100001",
+        "secretariat": ""
+    }
+},
+{
+    "model": "states.localgovernmentarea",
+    "pk": 351,
+    "fields": {
+        "name": "Bariga",
+        "state": 28,
+        "short_code": "BRG",
+        "zip_code": "100001",
+        "secretariat": ""
+    }
+},
+{
+    "model": "states.localgovernmentarea",
+    "pk": 352,
+    "fields": {
+        "name": "Badagry",
+        "state": 28,
+        "short_code": "BDR",
+        "zip_code": "100001",
+        "secretariat": ""
+    }
+},
+{
+    "model": "states.localgovernmentarea",
+    "pk": 353,
+    "fields": {
+        "name": "Badagry West",
+        "state": 28,
+        "short_code": "BDS",
+        "zip_code": "100001",
+        "secretariat": ""
+    }
+},
+{
+    "model": "states.localgovernmentarea",
+    "pk": 354,
+    "fields": {
+        "name": "Ayobo Ipaja",
+        "state": 28,
+        "short_code": "AOJ",
+        "zip_code": "100001",
+        "secretariat": ""
+    }
+},
+{
+    "model": "states.localgovernmentarea",
+    "pk": 355,
+    "fields": {
+        "name": "Apapa Iganmu",
+        "state": 28,
+        "short_code": "AAM",
+        "zip_code": "100001",
+        "secretariat": ""
+    }
+},
+{
+    "model": "states.localgovernmentarea",
+    "pk": 356,
+    "fields": {
+        "name": "Apapa",
+        "state": 28,
+        "short_code": "AAP",
+        "zip_code": "100001",
+        "secretariat": ""
+    }
+},
+{
+    "model": "states.localgovernmentarea",
+    "pk": 357,
+    "fields": {
+        "name": "Alimosho",
+        "state": 28,
+        "short_code": "AIH",
+        "zip_code": "100001",
+        "secretariat": ""
+    }
+},
+{
+    "model": "states.localgovernmentarea",
+    "pk": 358,
+    "fields": {
+        "name": "Ajeromi-Ifelodun",
+        "state": 28,
+        "short_code": "AEU",
+        "zip_code": "100001",
+        "secretariat": ""
+    }
+},
+{
+    "model": "states.localgovernmentarea",
+    "pk": 359,
+    "fields": {
+        "name": "Agboyi Ketu",
+        "state": 28,
+        "short_code": "ABT",
+        "zip_code": "100001",
+        "secretariat": ""
+    }
+},
+{
+    "model": "states.localgovernmentarea",
+    "pk": 360,
+    "fields": {
+        "name": "Agbado Oke-Odo",
+        "state": 28,
+        "short_code": "ABD",
+        "zip_code": "100001",
+        "secretariat": ""
+    }
+},
+{
+    "model": "states.localgovernmentarea",
+    "pk": 361,
+    "fields": {
+        "name": "Orile Agege",
+        "state": 28,
+        "short_code": "OIG",
+        "zip_code": "100001",
+        "secretariat": ""
+    }
+},
+{
+    "model": "states.localgovernmentarea",
+    "pk": 362,
+    "fields": {
+        "name": "Kosofe",
+        "state": 28,
+        "short_code": "KSF",
+        "zip_code": "100001",
+        "secretariat": ""
+    }
+},
+{
+    "model": "states.localgovernmentarea",
+    "pk": 363,
+    "fields": {
+        "name": "Ojodu",
+        "state": 28,
+        "short_code": "OOD",
+        "zip_code": "100001",
+        "secretariat": ""
+    }
+},
+{
+    "model": "states.localgovernmentarea",
+    "pk": 364,
+    "fields": {
+        "name": "Iru Victoria Island",
+        "state": 28,
+        "short_code": "IUN",
+        "zip_code": "100001",
+        "secretariat": ""
+    }
+},
+{
+    "model": "states.localgovernmentarea",
+    "pk": 365,
+    "fields": {
+        "name": "Ikoyi Obalende",
+        "state": 28,
+        "short_code": "IYD",
+        "zip_code": "100001",
+        "secretariat": ""
+    }
+},
+{
+    "model": "states.localgovernmentarea",
+    "pk": 366,
+    "fields": {
+        "name": "Ijede",
+        "state": 28,
+        "short_code": "IED",
+        "zip_code": "100001",
+        "secretariat": ""
+    }
+},
+{
+    "model": "states.localgovernmentarea",
+    "pk": 367,
+    "fields": {
+        "name": "Igbogbo Baiyeku",
+        "state": 28,
+        "short_code": "IBK",
+        "zip_code": "100001",
+        "secretariat": ""
+    }
+},
+{
+    "model": "states.localgovernmentarea",
+    "pk": 368,
+    "fields": {
+        "name": "Ibeju Lekki",
+        "state": 28,
+        "short_code": "IEK",
+        "zip_code": "100001",
+        "secretariat": ""
+    }
+},
+{
+    "model": "states.localgovernmentarea",
+    "pk": 369,
+    "fields": {
+        "name": "Eredo",
+        "state": 28,
+        "short_code": "EED",
+        "zip_code": "100001",
+        "secretariat": ""
+    }
+},
+{
+    "model": "states.localgovernmentarea",
+    "pk": 370,
+    "fields": {
+        "name": "Agege",
+        "state": 28,
+        "short_code": "AEG",
+        "zip_code": "100001",
+        "secretariat": ""
+    }
+},
+{
+    "model": "states.localgovernmentarea",
+    "pk": 371,
+    "fields": {
+        "name": "Amuwo-Odofin",
+        "state": 28,
+        "short_code": "AUI",
+        "zip_code": "100001",
+        "secretariat": ""
+    }
+},
+{
+    "model": "states.localgovernmentarea",
+    "pk": 372,
+    "fields": {
+        "name": "Ifelodun Lagos",
+        "state": 28,
+        "short_code": "IFD",
+        "zip_code": "100001",
+        "secretariat": ""
+    }
+},
+{
+    "model": "states.localgovernmentarea",
+    "pk": 373,
+    "fields": {
+        "name": "Asa",
+        "state": 27,
+        "short_code": "ASA",
+        "zip_code": "240001",
+        "secretariat": "Asa Local Government Secretariat, Afon, Kwara State Nigeria"
+    }
+},
+{
+    "model": "states.localgovernmentarea",
+    "pk": 374,
+    "fields": {
+        "name": "Baruten",
+        "state": 27,
+        "short_code": "BRE",
+        "zip_code": "240001",
+        "secretariat": "Baruten Local Government Area Secretariat, Kosubosu, Kwara State Nigeria"
+    }
+},
+{
+    "model": "states.localgovernmentarea",
+    "pk": 375,
+    "fields": {
+        "name": "Edu",
+        "state": 27,
+        "short_code": "EDU",
+        "zip_code": "240001",
+        "secretariat": "Edu Local Government Area Secretariat, Lafiagi, Kwara State Nigeria"
+    }
+},
+{
+    "model": "states.localgovernmentarea",
+    "pk": 376,
+    "fields": {
+        "name": "Ekiti",
+        "state": 27,
+        "short_code": "EIT",
+        "zip_code": "240001",
+        "secretariat": "Ekiti Local Government Area Secretariat, Araromi Opin, Kwara State Nigeria"
+    }
+},
+{
+    "model": "states.localgovernmentarea",
+    "pk": 377,
+    "fields": {
+        "name": "Ifelodun Kwara",
+        "state": 27,
+        "short_code": "IER",
+        "zip_code": "240001",
+        "secretariat": "Ifelodun Local Government Area Secretariat, Share Town, Kwara State Nigeria"
+    }
+},
+{
+    "model": "states.localgovernmentarea",
+    "pk": 378,
+    "fields": {
+        "name": "Ilorin East",
+        "state": 27,
+        "short_code": "IOS",
+        "zip_code": "240001",
+        "secretariat": "Ilorin East Local Government Area Secretariat, Oke-Oyi, Kwara State Nigeria"
+    }
+},
+{
+    "model": "states.localgovernmentarea",
+    "pk": 379,
+    "fields": {
+        "name": "Ilorin West",
+        "state": 27,
+        "short_code": "ILW",
+        "zip_code": "240001",
+        "secretariat": "Ilorin West Local Government Area Secretariat, Ilorin, Kwara State Nigeria"
+    }
+},
+{
+    "model": "states.localgovernmentarea",
+    "pk": 380,
+    "fields": {
+        "name": "Ilorin South",
+        "state": 27,
+        "short_code": "IRS",
+        "zip_code": "240001",
+        "secretariat": "Ilorin South Local Government Area Secretariat, Ilorin, Kwara State Nigeria"
+    }
+},
+{
+    "model": "states.localgovernmentarea",
+    "pk": 381,
+    "fields": {
+        "name": "Irepodun",
+        "state": 27,
+        "short_code": "IEU",
+        "zip_code": "240001",
+        "secretariat": "Irepodun Local Government Area Secretariat, Omo-Aran, Kwara State Nigeria"
+    }
+},
+{
+    "model": "states.localgovernmentarea",
+    "pk": 382,
+    "fields": {
+        "name": "Isin",
+        "state": 27,
+        "short_code": "ISI",
+        "zip_code": "240001",
+        "secretariat": "Isin Local Government Area Secretariat, Owu-Isin, Kwara State Nigeria"
+    }
+},
+{
+    "model": "states.localgovernmentarea",
+    "pk": 383,
+    "fields": {
+        "name": "Moro",
+        "state": 27,
+        "short_code": "MOR",
+        "zip_code": "240001",
+        "secretariat": "Moro Local Government Area Secretariat, Moro, Kwara State Nigeria"
+    }
+},
+{
+    "model": "states.localgovernmentarea",
+    "pk": 384,
+    "fields": {
+        "name": "Kaiama",
+        "state": 27,
+        "short_code": "KIM",
+        "zip_code": "240001",
+        "secretariat": "Kaiama Local Government Area Secretariat, Kaiama, Kwara State Nigeria"
+    }
+},
+{
+    "model": "states.localgovernmentarea",
+    "pk": 385,
+    "fields": {
+        "name": "Offa",
+        "state": 27,
+        "short_code": "OFF",
+        "zip_code": "240001",
+        "secretariat": "Offa Local Government Secretariat Igbona Road, Offa, Kwara State Nigeria"
+    }
+},
+{
+    "model": "states.localgovernmentarea",
+    "pk": 386,
+    "fields": {
+        "name": "Oke-Ero",
+        "state": 27,
+        "short_code": "OER",
+        "zip_code": "240001",
+        "secretariat": "Oke-Ero Local Government Area Secretariat, Iloffa, Kwara State Nigeria"
+    }
+},
+{
+    "model": "states.localgovernmentarea",
+    "pk": 387,
+    "fields": {
+        "name": "Oyun",
+        "state": 27,
+        "short_code": "OYU",
+        "zip_code": "240001",
+        "secretariat": "Oyun Local Government Area Secretariat, Ilemona, Kwara State Nigeria"
+    }
+},
+{
+    "model": "states.localgovernmentarea",
+    "pk": 388,
+    "fields": {
+        "name": "Pategi",
+        "state": 27,
+        "short_code": "PTG",
+        "zip_code": "240001",
+        "secretariat": "Pategi Local Government Area Secretariat, Pategi, Kwara State Nigeria"
     }
 },
 {
@@ -9223,7 +11250,7 @@
         "name": "Rivers",
         "capital": "Port Harcourt",
         "slogan": "Treasure Base of the Nation",
-        "short_code": "RI",
+        "short_code": "RV",
         "website": "https://riversstate.gov.ng",
         "map": "",
         "postal_code": "500001",
@@ -9542,10 +11569,10 @@
     "model": "states.state",
     "pk": 36,
     "fields": {
-        "name": "FCT",
+        "name": "Fct",
         "capital": "Abuja",
         "slogan": "Centre of Unity",
-        "short_code": "ABJ",
+        "short_code": "AJ",
         "website": "https://fctstate.gov.ng",
         "map": "states/FCT-Abuja-Postcode-Map.jpg",
         "postal_code": "900001",

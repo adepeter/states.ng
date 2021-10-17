@@ -26,6 +26,10 @@ class LocalGovernmentAreaMixin(NameMixin):
         blank=True,
         help_text=_('Zipcode for LGA')
     )
+    secretariat = models.TextField(
+        blank=True,
+        help_text=_('Secretariat address of LGA')
+    )
 
     def save(self, *args, **kwargs):
         if not self.zip_code:
