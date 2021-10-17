@@ -9,10 +9,6 @@ from ..types.state import StateType, StateCountType, GovernorType
 
 
 class StateQuery:
-    count_states = graphene.Field(
-        StateCountType,
-        description=_('Total number of states')
-    )
     all_states = graphene.List(
         StateType,
         description=_('List of all states in Nigeria'),
@@ -21,7 +17,7 @@ class StateQuery:
     search_state = graphene.Field(
         StateType,
         description=_('Get a specific state info'),
-        state_name=graphene.String(),
+        state_name=graphene.String(required=True),
         short_code=graphene.String(),
         required=True
     )
@@ -31,9 +27,6 @@ class StateQuery:
         for kwarg in kwargs:
             fields.update({kwarg + '__iexact': kwargs[kwarg]})
         return get_object_or_404(State, **fields)
-
-    def resolve_count_states(self, info):
-        return {'total': State.objects.count()}
 
     def resolve_all_states(self, info):
         return State.objects.all()
