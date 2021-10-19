@@ -37,6 +37,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'django.contrib.sites',
+    'django.contrib.redirects',
 
     # 3rd party packages
     'PIL',
@@ -46,6 +48,7 @@ INSTALLED_APPS = [
 
     # statesng apps
     'statesngapps.admin.apps.AdminConfig',
+    'statesngapps.home.apps.HomepageConfig',
     'statesngapps.states.apps.StatesConfig',
 ]
 
@@ -58,6 +61,7 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    'django.contrib.redirects.middleware.RedirectFallbackMiddleware',
     'django_hosts.middleware.HostsResponseMiddleware'
 ]
 
@@ -147,3 +151,5 @@ SPECTACULAR_SETTINGS = {
 ROOT_HOSTCONF = 'statesng.hosts'
 
 DEFAULT_HOST = 'statesng_root'
+
+SITE_ID = 1

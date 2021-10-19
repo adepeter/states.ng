@@ -1,0 +1,100 @@
+{% extends 'base.html' %}
+
+{% load static %}
+
+{% block title %}Home | {{ block.super }}{% endblock %}
+
+{% block bigbox %}
+
+    <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true"
+                    aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="{% static 'img/statesng/nigerians.jpg' %}" class="img-responsive" alt="GraphQL"
+                     width="100%" height="100%"/>
+
+                <div class="container">
+                    <div class="carousel-caption text-start">
+                        <h1>Example headline.</h1>
+                        <p>Some representative placeholder content for the first slide of the carousel.</p>
+                        <p><a class="btn btn-lg btn-primary" href="#">Sign up today</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="{% static 'img/statesng/nigeria_lagos.jpg' %}" class="img-responsive" alt="GraphQL"
+                     width="100%" height="100%"/>
+                <div class="container">
+                    <div class="carousel-caption">
+                        <h1>Another example headline.</h1>
+                        <p>Some representative placeholder content for the second slide of the carousel.</p>
+                        <p><a class="btn btn-lg btn-primary" href="#">Learn more</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="{% static 'img/statesng/nigeria_2.jpg' %}" class="img-responsive" alt="GraphQL"
+                     width="100%" height="100%"/>
+
+                <div class="container">
+                    <div class="carousel-caption text-end">
+                        <h1>One more for good measure.</h1>
+                        <p>Some representative placeholder content for the third slide of this carousel.</p>
+                        <p><a class="btn btn-lg btn-primary" href="#">Browse gallery</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+{% endblock %}
+
+{% block content %}
+
+    <!-- Marketing messaging and featurettes
+    ================================================== -->
+    <!-- Wrap the rest of the page in another container to center all the content. -->
+
+    <div class="container marketing">
+
+        <!-- Three columns of text below the carousel -->
+        <div class="row">
+            <div class="col-lg-4">
+                <img src="{% static 'img/svg/graphql-icon.svg' %}" class="img-responsive rounded-circle" alt="GraphQL"
+                     width="140" height="140"/>
+                <h2>GraphQL</h2>
+                <p>Access the graphQL Documentation of this API by accessing the playground interface</p>
+                <p><a class="btn btn-secondary" href="#">Playground</a></p>
+            </div><!-- /.col-lg-4 -->
+            <div class="col-lg-4">
+                <img src="{% static 'img/svg/web.svg' %}" class="img-responsive rounded-circle" alt="WEB"
+                     width="140" height="140"/>
+                <h2>WEB</h2>
+                <p>See the page details of each states and information they hold</p>
+                <p><a class="btn btn-secondary" href="#">Access</a></p>
+            </div><!-- /.col-lg-4 -->
+            <div class="col-lg-4">
+                <img src="{% static 'img/svg/rest-api.svg' %}" class="img-responsive rounded-circle" alt="RestAPI"
+                     width="140" height="140"/>
+                <h2>RestFul API</h2>
+                <p>Using the swagger UI, access the respectful endpoints exposed by the restful api of this project</p>
+                <p><a class="btn btn-secondary" href="#">Explore</a></p>
+            </div><!-- /.col-lg-4 -->
+        </div><!-- /.row -->
+
+    </div><!-- /.container -->
+
+{% endblock %}
