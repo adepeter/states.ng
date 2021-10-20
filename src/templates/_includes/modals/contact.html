@@ -1,0 +1,52 @@
+<!-- Modal -->
+<div class="modal fade" id="staticBackdrop" role="dialog" data-bs-backdrop="static" data-bs-keyboard="false"
+     tabindex="-1"
+     aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content rounded-5 shadow">
+            <div class="modal-header p-5 pb-4 border-bottom-0">
+                <h2 class="fw-bold mb-0" id="staticBackdropLabel">Contact me</h2>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body p-5 pt-0">
+                <form method="POST" class="">
+                    <div class="row g-2">
+                        <div class="col-md">
+                            <div class="form-floating mb-3">
+                                <input type="email" class="form-control rounded-4" id="floatingInput"
+                                       placeholder="First name">
+                                <label for="floatingInput">First name</label>
+                            </div>
+                        </div>
+                        <div class="col-md">
+                            <div class="form-floating mb-3">
+                                <input type="email" class="form-control rounded-4" id="floatingInput"
+                                       placeholder="Last name">
+                                <label for="floatingInput">Last name</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-floating mb-3">
+                        <input type="email" class="form-control rounded-4" id="floatingInput"
+                               placeholder="your_email@example.com">
+                        <label for="floatingInput">Email address</label>
+                    </div>
+                    <div class="form-floating mb-3">
+                        <input type="text" class="form-control rounded-4" id="floatingInput"
+                               placeholder="Subject">
+                        <label for="floatingPassword">Subject</label>
+                    </div>
+                    <div class="form-floating mb-3">
+                        <textarea class="form-control" placeholder="Leave a message here" id="floatingTextarea2"
+                                  style="height: 100px"></textarea>
+                        <label for="floatingTextarea2">Message</label>
+                    </div>
+                </form>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="submit" class="btn btn-primary">Message</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

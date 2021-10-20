@@ -48,6 +48,7 @@ INSTALLED_APPS = [
 
     # statesng apps
     'statesngapps.admin.apps.AdminConfig',
+    'statesngapps.pages.apps.PagesConfig',
     'statesngapps.home.apps.HomepageConfig',
     'statesngapps.states.apps.StatesConfig',
 ]
