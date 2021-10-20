@@ -3,7 +3,7 @@ import os
 from .base import *
 
 SECRET_KEY = os.environ.get('STATESNG_SECRET_KEY')
-ALLOWED_HOST = os.environ.get('ROOT_DOMAIN_NAME')
+ALLOWED_HOST = os.environ.get('ROOT_DOMAIN_NAME', 'statesng.com.ng')
 
 
 DEBUG = False
