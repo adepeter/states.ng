@@ -3,8 +3,9 @@ import os
 from .base import *
 
 SECRET_KEY = os.environ.get('STATESNG_SECRET_KEY')
+ALLOWED_HOST = os.environ.get('ROOT_DOMAIN_NAME')
 DEBUG = False
-ALLOWED_HOSTS = ['adepeter.com.ng', 'www.adepeter.com.ng', 'api.adepeter.com.ng']
+ALLOWED_HOSTS = ['%s', 'www.%s', 'api.%s'.format(ALLOWED_HOST)]
 
 INSTALLED_APPS += [
     'django_hosts'
