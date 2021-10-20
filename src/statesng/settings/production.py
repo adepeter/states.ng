@@ -7,8 +7,13 @@ ALLOWED_HOST = os.environ.get('ROOT_DOMAIN_NAME')
 
 
 DEBUG = False
-# ALLOWED_HOSTS = ['{domain}', 'www.{domain}', 'api.{domain}'.format(domain=ALLOWED_HOST)]
-ALLOWED_HOSTS = ['adepeter.com.ng', 'www.adepeter.com.ng', 'api.adepeter.com.ng']
+ALLOWED_HOSTS = [
+    '{domain}',
+    'www.{domain}',
+    'cpanel.{domain}',
+    'pages.{domain}',
+    'api.{domain}'.format(domain=ALLOWED_HOST)
+]
 
 INSTALLED_APPS += [
     'django_hosts'
