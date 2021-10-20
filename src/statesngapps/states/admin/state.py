@@ -18,6 +18,7 @@ class StateAdmin(admin.ModelAdmin):
         'short_code',
         'capital',
         'slogan',
+        'geo_zone',
         'creation_date',
         'postal_code',
         'get_current_governor',

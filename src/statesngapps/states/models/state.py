@@ -47,7 +47,6 @@ class State(NameMixin):
         verbose_name=_('Geo political zone'),
         max_length=2,
         choices=__GEO_ZONE_CHOICES,
-        blank=True,
         help_text=_('Geo political zone of state'),
     )
     website = models.URLField(

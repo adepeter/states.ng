@@ -7592,6 +7592,19 @@
     }
 },
 {
+    "model": "admin.logentry",
+    "pk": 585,
+    "fields": {
+        "action_time": "2021-10-20T18:36:10.893Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "17",
+        "object_repr": "Ondo",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Geo political zone\"]}}]"
+    }
+},
+{
     "model": "auth.user",
     "pk": 1,
     "fields": {
@@ -12601,7 +12614,7 @@
         "capital": "Akure",
         "slogan": "Sunshine State",
         "short_code": "ON",
-        "geo_zone": "",
+        "geo_zone": "sw",
         "website": "https://ondostate.gov.ng",
         "map": "",
         "postal_code": "340001",
