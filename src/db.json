@@ -7046,6 +7046,45 @@
     }
 },
 {
+    "model": "admin.logentry",
+    "pk": 543,
+    "fields": {
+        "action_time": "2021-10-18T21:55:43.040Z",
+        "user": 1,
+        "content_type": 14,
+        "object_id": "1",
+        "object_repr": "/ ---> /home/",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 544,
+    "fields": {
+        "action_time": "2021-10-20T08:53:02.833Z",
+        "user": 1,
+        "content_type": 14,
+        "object_id": "2",
+        "object_repr": "/gqlplayground/ ---> /graphql/entry",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 545,
+    "fields": {
+        "action_time": "2021-10-20T08:53:12.779Z",
+        "user": 1,
+        "content_type": 14,
+        "object_id": "2",
+        "object_repr": "/gqlplayground/ ---> /graphql/entry/",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Redirect to\"]}}]"
+    }
+},
+{
     "model": "auth.user",
     "pk": 1,
     "fields": {
@@ -7091,8 +7130,8 @@
     "model": "sessions.session",
     "pk": "mw5crphqxcvramgd7m7zzrrjp3wi7ndy",
     "fields": {
-        "session_data": ".eJxVjDsOwjAQBe_iGlls1rHXlPQ5g7X-4QCypTipEHeHSCmgfTPzXsLxtha39bS4OYqLAHH63TyHR6o7iHeutyZDq-sye7kr8qBdTi2m5_Vw_w4K9_KtCX2kqFFTNkBoM2rw58yMAylDI4BVHIwdyQQwmiEgaEZvFMMAKor3B76LNrc:1mblmc:1H3nOtRIkIgowKBLMB6A1zpVVIhqQr1bn_4d5QVZo_4",
-        "expire_date": "2021-10-30T15:39:38.051Z"
+        "session_data": ".eJxVjkkKwzAQBP-isxEZj6zFx9zzBjHaYmeRQLJPIX-PDSYk1-ruol_M0rpMdm2x2jmwkQHrfpkjf495D8KN8rVwX_JSZ8f3Cj_Sxi8lxMf56P4JJmrTttbogg4SpU4KNJqEEtwpEWGvhdIDgBHklRm08qAkgUeQhE4Jgh7ELk1zbYutlEN5stFgx1rc3oQvQvP-AJTEQ0c:1mcx2s:UglpJU1VVe5BP4TiDCg9aaEaOSUu1VK9VALrm7WsjiA",
+        "expire_date": "2021-11-02T21:53:18.692Z"
     }
 },
 {
@@ -7117,6 +7156,32 @@
     "fields": {
         "session_data": ".eJxVjDsOwjAQBe_iGlls1rHXlPQ5g7X-4QCypTipEHeHSCmgfTPzXsLxtha39bS4OYqLAHH63TyHR6o7iHeutyZDq-sye7kr8qBdTi2m5_Vw_w4K9_KtCX2kqFFTNkBoM2rw58yMAylDI4BVHIwdyQQwmiEgaEZvFMMAKor3B76LNrc:1mNsgF:r2R_5gqKPbX1xuPiveGJTu3RQf3EB6x0Dj6fnwJNj4g",
         "expire_date": "2021-09-22T08:11:39.706Z"
+    }
+},
+{
+    "model": "sites.site",
+    "pk": 1,
+    "fields": {
+        "domain": "example.com",
+        "name": "example.com"
+    }
+},
+{
+    "model": "redirects.redirect",
+    "pk": 1,
+    "fields": {
+        "site": 1,
+        "old_path": "/",
+        "new_path": "/home/"
+    }
+},
+{
+    "model": "redirects.redirect",
+    "pk": 2,
+    "fields": {
+        "site": 1,
+        "old_path": "/gqlplayground/",
+        "new_path": "/graphql/entry/"
     }
 },
 {
