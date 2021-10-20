@@ -4,7 +4,7 @@ from .base import *
 
 SECRET_KEY = os.environ.get('STATESNG_SECRET_KEY')
 DEBUG = False
-ALLOWED_HOSTS = ['statesng.com.ng', 'www.statesng.com.ng', 'api.statesng.com.ng']
+ALLOWED_HOSTS = ['adepeter.com.ng', 'www.adepeter.com.ng', 'api.adepeter.com.ng']
 
 INSTALLED_APPS += [
     'django_hosts'
