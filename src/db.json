@@ -7085,11 +7085,518 @@
     }
 },
 {
+    "model": "admin.logentry",
+    "pk": 546,
+    "fields": {
+        "action_time": "2021-10-20T18:05:00.240Z",
+        "user": 1,
+        "content_type": 14,
+        "object_id": "2",
+        "object_repr": "/gqlplayground/ ---> /graphql/entry/",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 547,
+    "fields": {
+        "action_time": "2021-10-20T18:21:20.555Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "5",
+        "object_repr": "Abia",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Geo political zone\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 548,
+    "fields": {
+        "action_time": "2021-10-20T18:21:35.920Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "4",
+        "object_repr": "Adamawa",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Geo political zone\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 549,
+    "fields": {
+        "action_time": "2021-10-20T18:21:47.259Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "3",
+        "object_repr": "Akwa Ibom",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Geo political zone\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 550,
+    "fields": {
+        "action_time": "2021-10-20T18:22:04.427Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "7",
+        "object_repr": "Anambra",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Geo political zone\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 551,
+    "fields": {
+        "action_time": "2021-10-20T18:22:29.898Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "6",
+        "object_repr": "Zamfara",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Geo political zone\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 552,
+    "fields": {
+        "action_time": "2021-10-20T18:22:45.750Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "8",
+        "object_repr": "Bauchi",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Geo political zone\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 553,
+    "fields": {
+        "action_time": "2021-10-20T18:22:55.566Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "9",
+        "object_repr": "Bayelsa",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Geo political zone\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 554,
+    "fields": {
+        "action_time": "2021-10-20T18:23:05.393Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "10",
+        "object_repr": "Benue",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Geo political zone\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 555,
+    "fields": {
+        "action_time": "2021-10-20T18:23:15.878Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "37",
+        "object_repr": "Cross River",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Geo political zone\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 556,
+    "fields": {
+        "action_time": "2021-10-20T18:23:26.354Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "35",
+        "object_repr": "Delta",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Geo political zone\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 557,
+    "fields": {
+        "action_time": "2021-10-20T18:23:39.917Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "35",
+        "object_repr": "Delta",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Geo political zone\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 558,
+    "fields": {
+        "action_time": "2021-10-20T18:23:54.247Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "34",
+        "object_repr": "Ebonyi",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Geo political zone\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 559,
+    "fields": {
+        "action_time": "2021-10-20T18:24:08.953Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "33",
+        "object_repr": "Edo",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Geo political zone\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 560,
+    "fields": {
+        "action_time": "2021-10-20T18:24:21.715Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "11",
+        "object_repr": "Borno",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Geo political zone\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 561,
+    "fields": {
+        "action_time": "2021-10-20T18:24:35.736Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "28",
+        "object_repr": "Lagos",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Geo political zone\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 562,
+    "fields": {
+        "action_time": "2021-10-20T18:24:50.004Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "29",
+        "object_repr": "Ekiti",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Geo political zone\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 563,
+    "fields": {
+        "action_time": "2021-10-20T18:25:03.664Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "30",
+        "object_repr": "Enugu",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Geo political zone\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 564,
+    "fields": {
+        "action_time": "2021-10-20T18:25:25.173Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "36",
+        "object_repr": "Fct",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Name\", \"Geo political zone\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 565,
+    "fields": {
+        "action_time": "2021-10-20T18:25:39.607Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "31",
+        "object_repr": "Gombe",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Geo political zone\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 566,
+    "fields": {
+        "action_time": "2021-10-20T18:25:52.302Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "32",
+        "object_repr": "Imo",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Geo political zone\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 567,
+    "fields": {
+        "action_time": "2021-10-20T18:26:08.750Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "21",
+        "object_repr": "Jigawa",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Geo political zone\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 568,
+    "fields": {
+        "action_time": "2021-10-20T18:26:22.250Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "23",
+        "object_repr": "Kaduna",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Geo political zone\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 569,
+    "fields": {
+        "action_time": "2021-10-20T18:26:35.103Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "22",
+        "object_repr": "Kano",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Geo political zone\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 570,
+    "fields": {
+        "action_time": "2021-10-20T18:26:56.753Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "24",
+        "object_repr": "Katsina",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Geo political zone\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 571,
+    "fields": {
+        "action_time": "2021-10-20T18:27:11.351Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "25",
+        "object_repr": "Kebbi",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Geo political zone\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 572,
+    "fields": {
+        "action_time": "2021-10-20T18:27:29.640Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "26",
+        "object_repr": "Kogi",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Geo political zone\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 573,
+    "fields": {
+        "action_time": "2021-10-20T18:27:46.152Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "27",
+        "object_repr": "Kwara",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Geo political zone\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 574,
+    "fields": {
+        "action_time": "2021-10-20T18:28:03.992Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "20",
+        "object_repr": "Nassarawa",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Geo political zone\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 575,
+    "fields": {
+        "action_time": "2021-10-20T18:28:20.670Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "13",
+        "object_repr": "Rivers",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Geo political zone\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 576,
+    "fields": {
+        "action_time": "2021-10-20T18:28:40.963Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "2",
+        "object_repr": "Yobe",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Geo political zone\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 577,
+    "fields": {
+        "action_time": "2021-10-20T18:28:59.300Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "12",
+        "object_repr": "Taraba",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Geo political zone\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 578,
+    "fields": {
+        "action_time": "2021-10-20T18:29:14.464Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "1",
+        "object_repr": "Sokoto",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Geo political zone\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 579,
+    "fields": {
+        "action_time": "2021-10-20T18:29:30.049Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "14",
+        "object_repr": "Plateau",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Geo political zone\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 580,
+    "fields": {
+        "action_time": "2021-10-20T18:29:49.242Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "15",
+        "object_repr": "Oyo",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Geo political zone\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 581,
+    "fields": {
+        "action_time": "2021-10-20T18:30:03.903Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "19",
+        "object_repr": "Niger",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Geo political zone\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 582,
+    "fields": {
+        "action_time": "2021-10-20T18:30:22.438Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "18",
+        "object_repr": "Ogun",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Geo political zone\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 583,
+    "fields": {
+        "action_time": "2021-10-20T18:30:41.021Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "16",
+        "object_repr": "Osun",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Geo political zone\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 584,
+    "fields": {
+        "action_time": "2021-10-20T18:32:17.591Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "7",
+        "object_repr": "Anambra",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Geo political zone\"]}}]"
+    }
+},
+{
     "model": "auth.user",
     "pk": 1,
     "fields": {
         "password": "pbkdf2_sha256$260000$flZclFHTfUx1SY2tnvckFZ$t9YMecsbdHip9FbgvLwRFgto+AVVuScz6BMX4rxcKpI=",
-        "last_login": "2021-10-16T15:39:38.029Z",
+        "last_login": "2021-10-20T18:04:42.279Z",
         "is_superuser": true,
         "username": "adepeter",
         "first_name": "",
@@ -7136,6 +7643,14 @@
 },
 {
     "model": "sessions.session",
+    "pk": "p095pu7qiuigpw3lfoi6j7cjci2jr28o",
+    "fields": {
+        "session_data": ".eJxVjDsOwjAQBe_iGlls1rHXlPQ5g7X-4QCypTipEHeHSCmgfTPzXsLxtha39bS4OYqLAHH63TyHR6o7iHeutyZDq-sye7kr8qBdTi2m5_Vw_w4K9_KtCX2kqFFTNkBoM2rw58yMAylDI4BVHIwdyQQwmiEgaEZvFMMAKor3B76LNrc:1mdFxC:OmzukN6pmz1g7jg9qs07FLFvrpQrZWSBfOblKTkyKL4",
+        "expire_date": "2021-11-03T18:04:42.300Z"
+    }
+},
+{
+    "model": "sessions.session",
     "pk": "q7nfk25fi89v440p17hwqt18okna2dx3",
     "fields": {
         "session_data": ".eJxVjDsOwjAQBe_iGlls1rHXlPQ5g7X-4QCypTipEHeHSCmgfTPzXsLxtha39bS4OYqLAHH63TyHR6o7iHeutyZDq-sye7kr8qBdTi2m5_Vw_w4K9_KtCX2kqFFTNkBoM2rw58yMAylDI4BVHIwdyQQwmiEgaEZvFMMAKor3B76LNrc:1mQHJD:Ut9vVeQFtCqWITOFcZy1Emf2LqthBhoZDtD2te3IUGk",
@@ -7173,15 +7688,6 @@
         "site": 1,
         "old_path": "/",
         "new_path": "/home/"
-    }
-},
-{
-    "model": "redirects.redirect",
-    "pk": 2,
-    "fields": {
-        "site": 1,
-        "old_path": "/gqlplayground/",
-        "new_path": "/graphql/entry/"
     }
 },
 {
@@ -11855,6 +12361,7 @@
         "capital": "Sokoto",
         "slogan": "Seat of the caliphate",
         "short_code": "SO",
+        "geo_zone": "nw",
         "website": "https://sokotostate.gov.ng",
         "map": "",
         "postal_code": "840001",
@@ -11869,6 +12376,7 @@
         "capital": "Damaturu",
         "slogan": "Pride of the sahel",
         "short_code": "YB",
+        "geo_zone": "ne",
         "website": "https://yobestate.gov.ng",
         "map": "",
         "postal_code": "320001",
@@ -11883,6 +12391,7 @@
         "capital": "Uyo",
         "slogan": "God's Own State",
         "short_code": "AK",
+        "geo_zone": "ss",
         "website": "https://akwaibomstate.gov.ng",
         "map": "",
         "postal_code": "520001",
@@ -11897,6 +12406,7 @@
         "capital": "Yola",
         "slogan": "Land of Beauty",
         "short_code": "AD",
+        "geo_zone": "ne",
         "website": "https://adamawastate.gov.ng",
         "map": "",
         "postal_code": "640001",
@@ -11911,6 +12421,7 @@
         "capital": "Umuahia",
         "slogan": "Land of Promise",
         "short_code": "AB",
+        "geo_zone": "se",
         "website": "https://abiastate.gov.ng",
         "map": "",
         "postal_code": "440001",
@@ -11925,6 +12436,7 @@
         "capital": "Gusau",
         "slogan": "Farming is our pride",
         "short_code": "ZA",
+        "geo_zone": "nw",
         "website": "https://zamfarastate.gov.ng",
         "map": "",
         "postal_code": "000001",
@@ -11939,6 +12451,7 @@
         "capital": "Akwa",
         "slogan": "Light of the Nation (formerly home for all)",
         "short_code": "AN",
+        "geo_zone": "se",
         "website": "https://anambrastate.gov.ng",
         "map": "",
         "postal_code": "420001",
@@ -11953,6 +12466,7 @@
         "capital": "Bauchi",
         "slogan": "Pearl of Tourism",
         "short_code": "BA",
+        "geo_zone": "ne",
         "website": "https://bauchistate.gov.ng",
         "map": "states/Bauchi-map.jpg",
         "postal_code": "740001",
@@ -11967,6 +12481,7 @@
         "capital": "Yenegoa",
         "slogan": "Glory of all Lands",
         "short_code": "BY",
+        "geo_zone": "ss",
         "website": "https://bayelsastate.gov.ng",
         "map": "",
         "postal_code": "600001",
@@ -11981,6 +12496,7 @@
         "capital": "Markudi",
         "slogan": "Food Basket of the Nation",
         "short_code": "BN",
+        "geo_zone": "nc",
         "website": "https://benuestate.gov.ng",
         "map": "",
         "postal_code": "000001",
@@ -11995,6 +12511,7 @@
         "capital": "Maiduguri",
         "slogan": "Home of peace",
         "short_code": "BO",
+        "geo_zone": "ne",
         "website": "https://bornostate.gov.ng",
         "map": "",
         "postal_code": "600001",
@@ -12009,6 +12526,7 @@
         "capital": "Jalingo",
         "slogan": "Nature's Gift to the Nation",
         "short_code": "TA",
+        "geo_zone": "ne",
         "website": "https://tarabastate.gov.ng",
         "map": "",
         "postal_code": "660001",
@@ -12023,6 +12541,7 @@
         "capital": "Port Harcourt",
         "slogan": "Treasure Base of the Nation",
         "short_code": "RV",
+        "geo_zone": "ss",
         "website": "https://riversstate.gov.ng",
         "map": "",
         "postal_code": "500001",
@@ -12037,6 +12556,7 @@
         "capital": "Jos",
         "slogan": "Home of Peace and Tourism",
         "short_code": "PL",
+        "geo_zone": "nc",
         "website": "https://plateaustate.gov.ng",
         "map": "",
         "postal_code": "930001",
@@ -12051,6 +12571,7 @@
         "capital": "Ibadan",
         "slogan": "Pace Setter State",
         "short_code": "OY",
+        "geo_zone": "sw",
         "website": "https://oyostate.gov.ng",
         "map": "",
         "postal_code": "200001",
@@ -12065,6 +12586,7 @@
         "capital": "Osogbo",
         "slogan": "Land of Virtue (formerly State of the Living Spring)",
         "short_code": "OS",
+        "geo_zone": "sw",
         "website": "https://osunstate.gov.ng",
         "map": "",
         "postal_code": "230001",
@@ -12079,6 +12601,7 @@
         "capital": "Akure",
         "slogan": "Sunshine State",
         "short_code": "ON",
+        "geo_zone": "",
         "website": "https://ondostate.gov.ng",
         "map": "",
         "postal_code": "340001",
@@ -12093,6 +12616,7 @@
         "capital": "Abeokuta",
         "slogan": "Gateway State",
         "short_code": "OG",
+        "geo_zone": "sw",
         "website": "https://ogunstate.gov.ng",
         "map": "",
         "postal_code": "110001",
@@ -12107,6 +12631,7 @@
         "capital": "Minna",
         "slogan": "The Power State",
         "short_code": "NI",
+        "geo_zone": "nc",
         "website": "https://nigerstate.gov.ng",
         "map": "",
         "postal_code": "920001",
@@ -12121,6 +12646,7 @@
         "capital": "Lafiya",
         "slogan": "Home of Solid Minerals",
         "short_code": "NA",
+        "geo_zone": "nc",
         "website": "https://nassarawastate.gov.ng",
         "map": "",
         "postal_code": "000001",
@@ -12135,6 +12661,7 @@
         "capital": "Dutse",
         "slogan": "The New World",
         "short_code": "JI",
+        "geo_zone": "nw",
         "website": "https://jigawastate.gov.ng",
         "map": "",
         "postal_code": "720001",
@@ -12149,6 +12676,7 @@
         "capital": "Kano",
         "slogan": "Centre of commerce",
         "short_code": "KN",
+        "geo_zone": "nw",
         "website": "https://kanostate.gov.ng",
         "map": "",
         "postal_code": "700001",
@@ -12163,6 +12691,7 @@
         "capital": "Kaduna",
         "slogan": "Centre of Learning (formerly Liberal State)",
         "short_code": "KD",
+        "geo_zone": "nw",
         "website": "https://kadunastate.gov.ng",
         "map": "",
         "postal_code": "800014",
@@ -12177,6 +12706,7 @@
         "capital": "Katsina",
         "slogan": "Home of Hospitality",
         "short_code": "KT",
+        "geo_zone": "nw",
         "website": "https://katsinastate.gov.ng",
         "map": "",
         "postal_code": "820001",
@@ -12191,6 +12721,7 @@
         "capital": "Birnin Kebbi",
         "slogan": "Home of equity",
         "short_code": "KE",
+        "geo_zone": "nw",
         "website": "https://kebbistate.gov.ng",
         "map": "",
         "postal_code": "860001",
@@ -12205,6 +12736,7 @@
         "capital": "Lokoja",
         "slogan": "The Confluence State",
         "short_code": "KO",
+        "geo_zone": "nc",
         "website": "https://kogistate.gov.ng",
         "map": "",
         "postal_code": "260001",
@@ -12219,6 +12751,7 @@
         "capital": "Illorin",
         "slogan": "State of Harmony",
         "short_code": "KW",
+        "geo_zone": "nc",
         "website": "https://kwarastate.gov.ng",
         "map": "",
         "postal_code": "240001",
@@ -12233,6 +12766,7 @@
         "capital": "Ikeja",
         "slogan": "Centre of excellence",
         "short_code": "LA",
+        "geo_zone": "sw",
         "website": "https://lagosstate.gov.ng",
         "map": "",
         "postal_code": "100001",
@@ -12247,6 +12781,7 @@
         "capital": "Ado Ekiti",
         "slogan": "Land of Honour and Integrity",
         "short_code": "EK",
+        "geo_zone": "sw",
         "website": "https://ekitistate.gov.ng",
         "map": "",
         "postal_code": "000001",
@@ -12261,6 +12796,7 @@
         "capital": "Enugu",
         "slogan": "Coal city",
         "short_code": "EN",
+        "geo_zone": "se",
         "website": "https://enugustate.gov.ng",
         "map": "",
         "postal_code": "400001",
@@ -12275,6 +12811,7 @@
         "capital": "Gombe",
         "slogan": "Jewel of the Savannah",
         "short_code": "GO",
+        "geo_zone": "ne",
         "website": "https://gombestate.gov.ng",
         "map": "",
         "postal_code": "000001",
@@ -12289,6 +12826,7 @@
         "capital": "Owerri",
         "slogan": "Eastern Heartland (formerly Land of Hope)",
         "short_code": "IM",
+        "geo_zone": "se",
         "website": "https://imostate.gov.ng",
         "map": "",
         "postal_code": "460001",
@@ -12303,6 +12841,7 @@
         "capital": "Benin City",
         "slogan": "Heartbeat of The Nation",
         "short_code": "ED",
+        "geo_zone": "ss",
         "website": "https://edostate.gov.ng",
         "map": "",
         "postal_code": "300001",
@@ -12317,6 +12856,7 @@
         "capital": "Abakiliki",
         "slogan": "Salt of the Nation",
         "short_code": "EB",
+        "geo_zone": "se",
         "website": "https://ebonyistate.gov.ng",
         "map": "",
         "postal_code": "840001",
@@ -12331,6 +12871,7 @@
         "capital": "Asaba",
         "slogan": "The Big Heart",
         "short_code": "DE",
+        "geo_zone": "ss",
         "website": "https://deltastate.gov.ng",
         "map": "",
         "postal_code": "320001",
@@ -12345,6 +12886,7 @@
         "capital": "Abuja",
         "slogan": "Centre of Unity",
         "short_code": "AJ",
+        "geo_zone": "nc",
         "website": "https://fctstate.gov.ng",
         "map": "states/FCT-Abuja-Postcode-Map.jpg",
         "postal_code": "900001",
@@ -12355,10 +12897,11 @@
     "model": "states.state",
     "pk": 37,
     "fields": {
-        "name": "Cross RIver",
+        "name": "Cross River",
         "capital": "Calabar",
         "slogan": "The People's Paradise",
         "short_code": "CR",
+        "geo_zone": "ss",
         "website": "https://crossriverstate.gov.ng",
         "map": "",
         "postal_code": "540001",

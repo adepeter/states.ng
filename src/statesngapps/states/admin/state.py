@@ -27,6 +27,9 @@ class StateAdmin(admin.ModelAdmin):
         'get_governors_count',
         'get_cities_count',
     ]
+    list_filter = [
+        'geo_zone'
+    ]
 
     fieldsets = [
         (_('Basic'), {
@@ -34,7 +37,7 @@ class StateAdmin(admin.ModelAdmin):
             'fields': ['name', 'short_code', 'capital', 'slogan', 'postal_code', 'website']
         }),
         (_('Map'), {
-            'fields': ['map_preview', 'map']
+            'fields': ['map_preview', 'map', 'geo_zone']
         }),
         (_('Important dates'), {
             'fields': ['creation_date']

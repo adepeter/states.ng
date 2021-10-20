@@ -8,6 +8,22 @@ from ..behaviours.name import NameMixin
 
 
 class State(NameMixin):
+    ZONE_NORTH_WEST = 'nw'
+    ZONE_NORTH_EAST = 'ne'
+    ZONE_NORTH_CENTRAL = 'nc'
+    ZONE_SOUTH_WEST = 'sw'
+    ZONE_SOUTH_SOUTH = 'ss'
+    ZONE_SOUTH_EAST = 'se'
+
+    __GEO_ZONE_CHOICES = (
+        (ZONE_NORTH_CENTRAL, _('North central')),
+        (ZONE_NORTH_EAST, _('North east')),
+        (ZONE_NORTH_WEST, _('North west')),
+        (ZONE_SOUTH_EAST, _('South east')),
+        (ZONE_SOUTH_SOUTH, _('South south')),
+        (ZONE_SOUTH_WEST, _('South west')),
+    )
+
     capital = models.CharField(
         verbose_name=_('capital'),
         max_length=255,
@@ -26,6 +42,13 @@ class State(NameMixin):
         unique=True,
         db_index=True,
         help_text=_('Two SHORT CODE to identify a state')
+    )
+    geo_zone = models.CharField(
+        verbose_name=_('Geo political zone'),
+        max_length=2,
+        choices=__GEO_ZONE_CHOICES,
+        blank=True,
+        help_text=_('Geo political zone of state'),
     )
     website = models.URLField(
         verbose_name=_('Website'),
