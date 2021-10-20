@@ -1,11 +1,10 @@
 from django.urls import path
 from django.views.decorators.csrf import csrf_exempt
-from graphene_django.views import GraphQLView
 
-from .schema import schema
+from .views import GQLPlaygroundView as GraphQLPlaygroundView
 
 app_name = 'graphql'
 
 urlpatterns = [
-    path('', csrf_exempt(GraphQLView.as_view(graphiql=True, schema=schema)))
+    path('', csrf_exempt(GraphQLPlaygroundView.as_view()), name='playground'),
 ]
