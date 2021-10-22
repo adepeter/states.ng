@@ -1,4 +1,5 @@
 {% load static %}
+{% load flatpages %}
 
 <!DOCTYPE html>
 <html lang="en">
@@ -68,9 +69,20 @@
                     <li class="nav-item">
                         <a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Contact</a>
                     </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="flatPages" data-bs-toggle="dropdown"
+                           aria-expanded="false">Pages</a>
+                        {% get_flatpages as flatpages %}
+                        <ul class="dropdown-menu" aria-labelledby="flatPages">
+                            <li><a class="dropdown-item" href="#">Gallery</a></li>
+                            {% for page in flatpages %}
+                                <li><a class="dropdown-item" href="{{ page.url }}">{{ page.title }}</a></li>
+                            {% endfor %}
+                        </ul>
+                    </li>
                 </ul>
                 <form class="d-flex">
-                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <input class="form-control me-2" type="search" name="search" placeholder="Search" aria-label="Search">
                     <button class="btn btn-outline-success" type="submit">Search</button>
                 </form>
             </div>

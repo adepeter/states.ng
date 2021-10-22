@@ -7,6 +7,15 @@ from .lga import LGAType
 from .....states.models import State, LGA, Governor
 
 
+class StateGeoZoneEnum(graphene.Enum):
+    ZONE_NORTH_CENTRAL = State.ZONE_NORTH_CENTRAL
+    NORTH_EAST = State.ZONE_NORTH_EAST
+    NORTH_WEST = State.ZONE_NORTH_WEST
+    SOUTH_EAST = State.ZONE_SOUTH_EAST
+    SOUTH_SOUTH = State.ZONE_SOUTH_SOUTH
+    SOUTH_WEST = State.ZONE_SOUTH_WEST
+
+
 class StateType(DjangoObjectType):
     lgas = graphene.List(
         LGAType,

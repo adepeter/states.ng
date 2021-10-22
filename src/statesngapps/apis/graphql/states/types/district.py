@@ -1,15 +1,13 @@
 from graphene_django import DjangoObjectType
-
 from django.utils.translation import gettext_lazy as _
 
-from .....states.models import LocalGovernmentArea as LGA
+from .....states.models import District
 
 
-class LGAType(DjangoObjectType):
-
+class DistrictType(DjangoObjectType):
     class Meta:
-        model = LGA
+        model = District
         exclude = [
             'id'
         ]
-        description = _('LGA Object in Nigeria')
+        description = _('District object type for STATESNG')

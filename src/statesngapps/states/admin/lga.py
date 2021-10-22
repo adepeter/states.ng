@@ -35,6 +35,7 @@ class LGAAdmin(admin.ModelAdmin):
     readonly_fields = [
         'get_districts'
     ]
+    save_on_top = True
 
     @admin.display(description=_('List of districts'), empty_value=_('No districts yet'))
     def get_districts(self, obj):

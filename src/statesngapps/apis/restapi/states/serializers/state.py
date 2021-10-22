@@ -5,7 +5,7 @@ from .....states.models import State
 
 
 class StateSerializer(serializers.ModelSerializer):
-    lgas = LGASerializer(many=True)
+    localgovernmentareas = LGASerializer(many=True)
 
     class Meta:
         model = State
@@ -13,6 +13,8 @@ class StateSerializer(serializers.ModelSerializer):
             'name',
             'capital',
             'short_code',
-            'lgas',
-            'website'
+            'localgovernmentareas',
+            'website',
+            'map',
+            'geo_zone'
         ]

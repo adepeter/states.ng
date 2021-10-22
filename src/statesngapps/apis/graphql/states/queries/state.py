@@ -1,11 +1,12 @@
 import graphene
+from IPython.core.release import description
 from django.shortcuts import get_object_or_404
 
 from django.utils.translation import gettext_lazy as _
 
 from ..types.inputs.state import StateInputType
 from .....states.models import State, Governor
-from ..types.state import StateType, StateCountType, GovernorType
+from ..types.state import StateType, StateCountType, GovernorType, StateGeoZoneEnum
 
 
 class StateQuery:
@@ -14,6 +15,11 @@ class StateQuery:
         description=_('List of all states in Nigeria'),
         required=True,
     )
+    all_states_by_geopolitical_zone = graphene.List(
+        graphene.NonNull(StateType, description=_('State')),
+        geopolitical_zone=graphene.String(required=True, description=_('Geopolitical Zone')),
+        description=_('Lists of all States based on their geo political zones')
+    )
     search_state = graphene.Field(
         StateType,
         description=_('Get a specific state info'),
@@ -21,6 +27,9 @@ class StateQuery:
         short_code=graphene.String(),
         required=True
     )
+
+    def resolve_all_states_by_geopolitical_zone(self, info, geopolitical_zone):
+        return State.objects.filter(geo_zone__iexact=geopolitical_zone)
 
     def resolve_search_state(self, info, **kwargs):
         fields = {}
