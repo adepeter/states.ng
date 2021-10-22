@@ -1,0 +1,24 @@
+{% extends 'base.html' %}
+
+{% block title %}Search result for {{ request.GET.search }} | {{ block.super }}{% endblock %}
+
+{% block bigbox %}
+    <div class="p-5 mb-4 bg-light rounded-3">
+        <div class="container py-5">
+            {% with object_list.count as result_count %}
+            <h1 class="display-5 fw-bold">Search Result{{ result_count | pluralize }} </h1>
+            <p class="col-md-8 fs-4">{{ result_count }} state{{ result_count | pluralize }} {% if result_count == 1 %}was{% else %}were{% endif %} returned for search query "{{ request.GET.search }}"</p>
+            {% endwith %}
+        </div>
+    </div>
+{% endblock %}
+
+{% block content %}
+    <div class="container">
+        {% for state in page_obj %}
+            <a href="">{{ state.name }}</a>
+        {% empty %}
+            <p>No result found</p>
+        {% endfor %}
+    </div>
+{% endblock %}

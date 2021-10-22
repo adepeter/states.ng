@@ -2,6 +2,10 @@ from .base import *
 
 ALLOWED_HOSTS = ['*']
 
+INSTALLED_APPS += [
+    'django.contrib.postgres',
+]
+
 STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 
 DATABASES = {
@@ -14,3 +18,5 @@ DATABASES = {
         'PORT': 5432
     }
 }
+
+USING_POSTGRES = True

@@ -1,6 +1,4 @@
-import os
-
-from .base import *
+from .staging import *
 
 SECRET_KEY = os.environ.get('STATESNG_SECRET_KEY')
 ALLOWED_HOST = os.environ.get('ROOT_DOMAIN_NAME', 'statesng.com.ng')
@@ -15,10 +13,8 @@ DEBUG = False
 #     'api.{domain}'.format(domain=ALLOWED_HOST)
 # ]
 
-ALLOWED_HOSTS = ['*']
-
 INSTALLED_APPS += [
-    'django_hosts'
+    'django_hosts',
 ]
 
 DATABASES = {
@@ -31,8 +27,6 @@ DATABASES = {
         'PORT': os.environ.get('STATESNG_DB_PORT', '5432')
     }
 }
-
-STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 
 SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')
 

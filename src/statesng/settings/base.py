@@ -49,8 +49,9 @@ INSTALLED_APPS = [
 
     # statesng apps
     'statesngapps.admin.apps.AdminConfig',
-    'statesngapps.pages.apps.PagesConfig',
     'statesngapps.home.apps.HomepageConfig',
+    'statesngapps.pages.apps.PagesConfig',
+    'statesngapps.search.apps.SearchConfig',
     'statesngapps.states.apps.StatesConfig',
 ]
 
@@ -64,8 +65,9 @@ MIDDLEWARE = [
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
     'django.contrib.redirects.middleware.RedirectFallbackMiddleware',
+    'django_hosts.middleware.HostsResponseMiddleware',
+    'statesngapps.search.middlewares.SearchMiddleware',
     'django.contrib.flatpages.middleware.FlatpageFallbackMiddleware',
-    'django_hosts.middleware.HostsResponseMiddleware'
 ]
 
 ROOT_URLCONF = 'statesng.urls'
@@ -156,3 +158,5 @@ ROOT_HOSTCONF = 'statesng.hosts'
 DEFAULT_HOST = 'statesng_root'
 
 SITE_ID = 1
+
+USING_POSTGRES = False
