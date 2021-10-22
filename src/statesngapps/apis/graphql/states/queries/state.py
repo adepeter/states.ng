@@ -15,10 +15,10 @@ class StateQuery:
         description=_('List of all states in Nigeria'),
         required=True,
     )
-    all_states_by_geopolitical_zone = graphene.List(
+    all_states_by_geo_political_zone = graphene.List(
         graphene.NonNull(StateType, description=_('State')),
-        geopolitical_zone=graphene.String(required=True, description=_('Geopolitical Zone')),
-        description=_('Lists of all States based on their geo political zones')
+        geo_political_zone=graphene.String(required=True, description=_('Geopolitical Zone')),
+        description=_('Lists of all States based on their geo political zones'),
     )
     search_state = graphene.Field(
         StateType,
@@ -28,8 +28,8 @@ class StateQuery:
         required=True
     )
 
-    def resolve_all_states_by_geopolitical_zone(self, info, geopolitical_zone):
-        return State.objects.filter(geo_zone__iexact=geopolitical_zone)
+    def resolve_all_states_by_geo_political_zone(self, info, geo_political_zone):
+        return State.objects.filter(geo_zone__iexact=geo_political_zone)
 
     def resolve_search_state(self, info, **kwargs):
         fields = {}

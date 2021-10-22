@@ -1,0 +1,7 @@
+type LGAQuery {
+    lgaByName(lgaName: String!): LGANode!
+    lgaByShortCode(lgaShortCode: String!): LGANode!
+    lgasByStateName(stateName: String!): [LGANode!]
+    lgasByStateShortCodeName(stateShortCode: String!): [LGANode!]
+    searchLga(lgaName: String!): LGANode!
+}

@@ -1,0 +1,39 @@
+enum GovernmentEnum {
+    GOVERNMENT_MILITARY military
+    GOVERNMENT_DEMOCRACY democracy
+}
+
+enum StateGeoZoneEnum {
+    NORTH_CENTRAL NC
+    NORTH_EAST NE
+    NORTH_WEST NW
+    SOUTH_EAST SE
+    SOUTH_SOUTH SS
+    SOUTH_WEST SW
+}
+
+type StateNode implements NameInterface {
+    name: String!
+    capital: String!
+    short_code: String!
+    slogan: String!
+    website: String
+    postal_code(default: String = "000001"): String
+    geo_zone: StateGeoZoneEnum!
+    map: String
+    creation_date: Date!
+    governors: [GovernorNode!]!
+    lgas: [LGANode!]!
+}
+
+type GovernorNode implements NameInterface {
+    name: String!
+    state: StateNode!
+    government: GovernmentEnum
+    date_started: Date!
+    date_ended: Date!
+    is_current(default: Boolean = false): Boolean!
+}
+
+
+scalar Date

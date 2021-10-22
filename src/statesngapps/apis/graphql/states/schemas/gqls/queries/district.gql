@@ -1,0 +1,5 @@
+type DistrictQuery {
+    allDistrictsByLgaName(lgaName: String!): [DistrictNode!]
+    allDistrictsByLgaShortCode(lgaShortCode: String!): [DistrictNode!]
+    allDistrictsInAState(stateName: String, stateShortCode: String, statePostalCode: String): [DistrictNode!]
+}

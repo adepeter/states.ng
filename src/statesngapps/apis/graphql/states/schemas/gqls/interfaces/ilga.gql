@@ -1,0 +1,7 @@
+interface LGAInterface implements NameInterface{
+    name: String!
+    state: State!
+    short_code: String!
+    zip_code: String
+    secretariat: String
+}

@@ -7605,6 +7605,656 @@
     }
 },
 {
+    "model": "admin.logentry",
+    "pk": 586,
+    "fields": {
+        "action_time": "2021-10-20T19:10:44.542Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "406",
+        "object_repr": "Shanono",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"district\", \"object\": \"Shakogi\"}}, {\"added\": {\"name\": \"district\", \"object\": \"Kokiya\"}}, {\"added\": {\"name\": \"district\", \"object\": \"Leni\"}}, {\"added\": {\"name\": \"district\", \"object\": \"Tsaure\"}}, {\"added\": {\"name\": \"district\", \"object\": \"Kadamu\"}}, {\"added\": {\"name\": \"district\", \"object\": \"Goron-Dutshe\"}}, {\"added\": {\"name\": \"district\", \"object\": \"Faruruwa\"}}, {\"added\": {\"name\": \"district\", \"object\": \"Alajawa\"}}, {\"added\": {\"name\": \"district\", \"object\": \"Dutsen-Bakoshi\"}}, {\"added\": {\"name\": \"district\", \"object\": \"Shanono\"}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 587,
+    "fields": {
+        "action_time": "2021-10-20T19:11:41.406Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "407",
+        "object_repr": "Rogo",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 588,
+    "fields": {
+        "action_time": "2021-10-20T19:12:43.907Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "408",
+        "object_repr": "Rimin Gado",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 589,
+    "fields": {
+        "action_time": "2021-10-20T19:13:30.048Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "409",
+        "object_repr": "Rano",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 590,
+    "fields": {
+        "action_time": "2021-10-20T19:13:58.388Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "410",
+        "object_repr": "Nasarawa",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 591,
+    "fields": {
+        "action_time": "2021-10-20T19:14:23.500Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "411",
+        "object_repr": "Minjibir",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 592,
+    "fields": {
+        "action_time": "2021-10-20T19:14:45.269Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "412",
+        "object_repr": "Makoda",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 593,
+    "fields": {
+        "action_time": "2021-10-20T19:15:09.396Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "413",
+        "object_repr": "Madobi",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 594,
+    "fields": {
+        "action_time": "2021-10-20T19:15:27.012Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "414",
+        "object_repr": "Kura",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 595,
+    "fields": {
+        "action_time": "2021-10-20T19:16:22.860Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "415",
+        "object_repr": "Kunchi",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 596,
+    "fields": {
+        "action_time": "2021-10-20T19:16:37.759Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "416",
+        "object_repr": "Kumbotso",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 597,
+    "fields": {
+        "action_time": "2021-10-20T19:16:58.876Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "417",
+        "object_repr": "Kiru",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 598,
+    "fields": {
+        "action_time": "2021-10-20T19:17:37.009Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "418",
+        "object_repr": "Kibiya",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 599,
+    "fields": {
+        "action_time": "2021-10-20T19:17:59.202Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "419",
+        "object_repr": "Karaye",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 600,
+    "fields": {
+        "action_time": "2021-10-20T19:18:21.191Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "420",
+        "object_repr": "Kano Municipal",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 601,
+    "fields": {
+        "action_time": "2021-10-20T19:18:55.503Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "421",
+        "object_repr": "Kabo",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 602,
+    "fields": {
+        "action_time": "2021-10-20T19:19:22.895Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "422",
+        "object_repr": "Gwarzo",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 603,
+    "fields": {
+        "action_time": "2021-10-20T19:19:41.424Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "423",
+        "object_repr": "Gwale",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 604,
+    "fields": {
+        "action_time": "2021-10-20T19:20:30.073Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "424",
+        "object_repr": "Gezawa",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 605,
+    "fields": {
+        "action_time": "2021-10-20T19:20:49.673Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "425",
+        "object_repr": "Gaya",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 606,
+    "fields": {
+        "action_time": "2021-10-20T19:20:58.729Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "426",
+        "object_repr": "Garum Mallam Local Government Area Secretariat, Garum Mallam, Kano State Nigeria",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 607,
+    "fields": {
+        "action_time": "2021-10-20T19:21:42.415Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "427",
+        "object_repr": "Garko",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 608,
+    "fields": {
+        "action_time": "2021-10-20T19:21:53.982Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "428",
+        "object_repr": "Gabasawa",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 609,
+    "fields": {
+        "action_time": "2021-10-20T19:22:16.637Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "429",
+        "object_repr": "Fagge",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 610,
+    "fields": {
+        "action_time": "2021-10-20T19:22:40.503Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "430",
+        "object_repr": "Doguwa",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 611,
+    "fields": {
+        "action_time": "2021-10-20T19:23:02.354Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "431",
+        "object_repr": "Dawaki Tofa",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 612,
+    "fields": {
+        "action_time": "2021-10-20T19:23:34.430Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "432",
+        "object_repr": "Dawaki Kudu",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 613,
+    "fields": {
+        "action_time": "2021-10-20T19:23:53.861Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "433",
+        "object_repr": "Dambatta",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 614,
+    "fields": {
+        "action_time": "2021-10-20T19:24:12.401Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "434",
+        "object_repr": "Dala",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 615,
+    "fields": {
+        "action_time": "2021-10-20T19:24:28.026Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "435",
+        "object_repr": "Bunkure",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 616,
+    "fields": {
+        "action_time": "2021-10-20T19:24:44.359Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "436",
+        "object_repr": "Bichi",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 617,
+    "fields": {
+        "action_time": "2021-10-20T19:25:07.771Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "437",
+        "object_repr": "Bebeji",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 618,
+    "fields": {
+        "action_time": "2021-10-20T19:27:05.322Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "438",
+        "object_repr": "Wudil",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 619,
+    "fields": {
+        "action_time": "2021-10-20T19:27:22.652Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "439",
+        "object_repr": "Warawa",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 620,
+    "fields": {
+        "action_time": "2021-10-20T19:27:38.135Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "440",
+        "object_repr": "Ungogo",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 621,
+    "fields": {
+        "action_time": "2021-10-20T19:28:00.302Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "441",
+        "object_repr": "Tundun Wada",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 622,
+    "fields": {
+        "action_time": "2021-10-20T19:28:23.769Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "442",
+        "object_repr": "Tsanyawa",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 623,
+    "fields": {
+        "action_time": "2021-10-20T19:28:44.478Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "443",
+        "object_repr": "Tofa",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 624,
+    "fields": {
+        "action_time": "2021-10-20T19:29:06.019Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "444",
+        "object_repr": "Tarauni",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 625,
+    "fields": {
+        "action_time": "2021-10-20T19:29:23.408Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "445",
+        "object_repr": "Takai",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 626,
+    "fields": {
+        "action_time": "2021-10-20T19:29:44.013Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "446",
+        "object_repr": "Sumaila",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 627,
+    "fields": {
+        "action_time": "2021-10-20T19:31:50.228Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "446",
+        "object_repr": "Sumaila",
+        "action_flag": 2,
+        "change_message": "[{\"added\": {\"name\": \"district\", \"object\": \"Garfa\"}}, {\"added\": {\"name\": \"district\", \"object\": \"Sumaila\"}}, {\"added\": {\"name\": \"district\", \"object\": \"Sitti\"}}, {\"added\": {\"name\": \"district\", \"object\": \"Masu\"}}, {\"added\": {\"name\": \"district\", \"object\": \"Rumo\"}}, {\"added\": {\"name\": \"district\", \"object\": \"Sumata\"}}, {\"added\": {\"name\": \"district\", \"object\": \"Rimi\"}}, {\"added\": {\"name\": \"district\", \"object\": \"Gala\"}}, {\"added\": {\"name\": \"district\", \"object\": \"Gani\"}}, {\"added\": {\"name\": \"district\", \"object\": \"Kanawa\"}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 628,
+    "fields": {
+        "action_time": "2021-10-20T19:32:15.991Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "446",
+        "object_repr": "Sumaila",
+        "action_flag": 2,
+        "change_message": "[{\"added\": {\"name\": \"district\", \"object\": \"Gediya\"}}, {\"added\": {\"name\": \"district\", \"object\": \"Magama\"}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 629,
+    "fields": {
+        "action_time": "2021-10-20T19:32:38.912Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "446",
+        "object_repr": "Sumaila",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"name\": \"district\", \"object\": \"Magami\", \"fields\": [\"Name\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 630,
+    "fields": {
+        "action_time": "2021-10-20T19:35:21.863Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "438",
+        "object_repr": "Wudil",
+        "action_flag": 2,
+        "change_message": "[{\"added\": {\"name\": \"district\", \"object\": \"Wudil\"}}, {\"added\": {\"name\": \"district\", \"object\": \"Achika\"}}, {\"added\": {\"name\": \"district\", \"object\": \"Sabon Gari\"}}, {\"added\": {\"name\": \"district\", \"object\": \"Dagumawa\"}}, {\"added\": {\"name\": \"district\", \"object\": \"Utai\"}}, {\"added\": {\"name\": \"district\", \"object\": \"Dankaza\"}}, {\"added\": {\"name\": \"district\", \"object\": \"Lndabo\"}}, {\"added\": {\"name\": \"district\", \"object\": \"Kausani\"}}, {\"added\": {\"name\": \"district\", \"object\": \"Lajawa\"}}, {\"added\": {\"name\": \"district\", \"object\": \"Darki\"}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 631,
+    "fields": {
+        "action_time": "2021-10-20T19:36:38.098Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "388",
+        "object_repr": "Pategi",
+        "action_flag": 2,
+        "change_message": "[{\"added\": {\"name\": \"district\", \"object\": \"Pategi\"}}, {\"added\": {\"name\": \"district\", \"object\": \"Lade\"}}, {\"added\": {\"name\": \"district\", \"object\": \"Kpada\"}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 632,
+    "fields": {
+        "action_time": "2021-10-20T19:38:13.388Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "380",
+        "object_repr": "Ilorin South",
+        "action_flag": 2,
+        "change_message": "[{\"added\": {\"name\": \"district\", \"object\": \"Oke-Ogun\"}}, {\"added\": {\"name\": \"district\", \"object\": \"Akanbi\"}}, {\"added\": {\"name\": \"district\", \"object\": \"Okaka\"}}, {\"added\": {\"name\": \"district\", \"object\": \"Bologun-Fulani\"}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 633,
+    "fields": {
+        "action_time": "2021-10-20T19:38:55.463Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "375",
+        "object_repr": "Edu",
+        "action_flag": 2,
+        "change_message": "[{\"added\": {\"name\": \"district\", \"object\": \"Lafiagi\"}}, {\"added\": {\"name\": \"district\", \"object\": \"Tsaragi\"}}, {\"added\": {\"name\": \"district\", \"object\": \"Isonga\"}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 634,
+    "fields": {
+        "action_time": "2021-10-22T10:31:11.029Z",
+        "user": 1,
+        "content_type": 17,
+        "object_id": "1",
+        "object_repr": "/about-nigeria/ -- Brief of Nigeria",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 635,
+    "fields": {
+        "action_time": "2021-10-22T11:56:06.729Z",
+        "user": 1,
+        "content_type": 17,
+        "object_id": "1",
+        "object_repr": "/pages/about-nigeria/ -- Brief of Nigeria",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"URL\"]}}]"
+    }
+},
+{
     "model": "auth.user",
     "pk": 1,
     "fields": {
@@ -7701,6 +8351,21 @@
         "site": 1,
         "old_path": "/",
         "new_path": "/home/"
+    }
+},
+{
+    "model": "flatpages.flatpage",
+    "pk": 1,
+    "fields": {
+        "url": "/pages/about-nigeria/",
+        "title": "Brief of Nigeria",
+        "content": "",
+        "enable_comments": false,
+        "template_name": "pages/flatpages/about_nigeria.html",
+        "registration_required": false,
+        "sites": [
+            1
+        ]
     }
 },
 {
@@ -7909,6 +8574,342 @@
     "fields": {
         "name": "Chamarana",
         "lga": 404
+    }
+},
+{
+    "model": "states.district",
+    "pk": 29,
+    "fields": {
+        "name": "Shakogi",
+        "lga": 406
+    }
+},
+{
+    "model": "states.district",
+    "pk": 30,
+    "fields": {
+        "name": "Kokiya",
+        "lga": 406
+    }
+},
+{
+    "model": "states.district",
+    "pk": 31,
+    "fields": {
+        "name": "Leni",
+        "lga": 406
+    }
+},
+{
+    "model": "states.district",
+    "pk": 32,
+    "fields": {
+        "name": "Tsaure",
+        "lga": 406
+    }
+},
+{
+    "model": "states.district",
+    "pk": 33,
+    "fields": {
+        "name": "Kadamu",
+        "lga": 406
+    }
+},
+{
+    "model": "states.district",
+    "pk": 34,
+    "fields": {
+        "name": "Goron-Dutshe",
+        "lga": 406
+    }
+},
+{
+    "model": "states.district",
+    "pk": 35,
+    "fields": {
+        "name": "Faruruwa",
+        "lga": 406
+    }
+},
+{
+    "model": "states.district",
+    "pk": 36,
+    "fields": {
+        "name": "Alajawa",
+        "lga": 406
+    }
+},
+{
+    "model": "states.district",
+    "pk": 37,
+    "fields": {
+        "name": "Dutsen-Bakoshi",
+        "lga": 406
+    }
+},
+{
+    "model": "states.district",
+    "pk": 38,
+    "fields": {
+        "name": "Shanono",
+        "lga": 406
+    }
+},
+{
+    "model": "states.district",
+    "pk": 39,
+    "fields": {
+        "name": "Garfa",
+        "lga": 446
+    }
+},
+{
+    "model": "states.district",
+    "pk": 40,
+    "fields": {
+        "name": "Sumaila",
+        "lga": 446
+    }
+},
+{
+    "model": "states.district",
+    "pk": 41,
+    "fields": {
+        "name": "Sitti",
+        "lga": 446
+    }
+},
+{
+    "model": "states.district",
+    "pk": 42,
+    "fields": {
+        "name": "Masu",
+        "lga": 446
+    }
+},
+{
+    "model": "states.district",
+    "pk": 43,
+    "fields": {
+        "name": "Rumo",
+        "lga": 446
+    }
+},
+{
+    "model": "states.district",
+    "pk": 44,
+    "fields": {
+        "name": "Sumata",
+        "lga": 446
+    }
+},
+{
+    "model": "states.district",
+    "pk": 45,
+    "fields": {
+        "name": "Rimi",
+        "lga": 446
+    }
+},
+{
+    "model": "states.district",
+    "pk": 46,
+    "fields": {
+        "name": "Gala",
+        "lga": 446
+    }
+},
+{
+    "model": "states.district",
+    "pk": 47,
+    "fields": {
+        "name": "Gani",
+        "lga": 446
+    }
+},
+{
+    "model": "states.district",
+    "pk": 48,
+    "fields": {
+        "name": "Kanawa",
+        "lga": 446
+    }
+},
+{
+    "model": "states.district",
+    "pk": 49,
+    "fields": {
+        "name": "Gediya",
+        "lga": 446
+    }
+},
+{
+    "model": "states.district",
+    "pk": 50,
+    "fields": {
+        "name": "Magami",
+        "lga": 446
+    }
+},
+{
+    "model": "states.district",
+    "pk": 51,
+    "fields": {
+        "name": "Wudil",
+        "lga": 438
+    }
+},
+{
+    "model": "states.district",
+    "pk": 52,
+    "fields": {
+        "name": "Achika",
+        "lga": 438
+    }
+},
+{
+    "model": "states.district",
+    "pk": 53,
+    "fields": {
+        "name": "Sabon Gari",
+        "lga": 438
+    }
+},
+{
+    "model": "states.district",
+    "pk": 54,
+    "fields": {
+        "name": "Dagumawa",
+        "lga": 438
+    }
+},
+{
+    "model": "states.district",
+    "pk": 55,
+    "fields": {
+        "name": "Utai",
+        "lga": 438
+    }
+},
+{
+    "model": "states.district",
+    "pk": 56,
+    "fields": {
+        "name": "Dankaza",
+        "lga": 438
+    }
+},
+{
+    "model": "states.district",
+    "pk": 57,
+    "fields": {
+        "name": "Lndabo",
+        "lga": 438
+    }
+},
+{
+    "model": "states.district",
+    "pk": 58,
+    "fields": {
+        "name": "Kausani",
+        "lga": 438
+    }
+},
+{
+    "model": "states.district",
+    "pk": 59,
+    "fields": {
+        "name": "Lajawa",
+        "lga": 438
+    }
+},
+{
+    "model": "states.district",
+    "pk": 60,
+    "fields": {
+        "name": "Darki",
+        "lga": 438
+    }
+},
+{
+    "model": "states.district",
+    "pk": 61,
+    "fields": {
+        "name": "Pategi",
+        "lga": 388
+    }
+},
+{
+    "model": "states.district",
+    "pk": 62,
+    "fields": {
+        "name": "Lade",
+        "lga": 388
+    }
+},
+{
+    "model": "states.district",
+    "pk": 63,
+    "fields": {
+        "name": "Kpada",
+        "lga": 388
+    }
+},
+{
+    "model": "states.district",
+    "pk": 64,
+    "fields": {
+        "name": "Oke-Ogun",
+        "lga": 380
+    }
+},
+{
+    "model": "states.district",
+    "pk": 65,
+    "fields": {
+        "name": "Akanbi",
+        "lga": 380
+    }
+},
+{
+    "model": "states.district",
+    "pk": 66,
+    "fields": {
+        "name": "Okaka",
+        "lga": 380
+    }
+},
+{
+    "model": "states.district",
+    "pk": 67,
+    "fields": {
+        "name": "Bologun-Fulani",
+        "lga": 380
+    }
+},
+{
+    "model": "states.district",
+    "pk": 68,
+    "fields": {
+        "name": "Lafiagi",
+        "lga": 375
+    }
+},
+{
+    "model": "states.district",
+    "pk": 69,
+    "fields": {
+        "name": "Tsaragi",
+        "lga": 375
+    }
+},
+{
+    "model": "states.district",
+    "pk": 70,
+    "fields": {
+        "name": "Isonga",
+        "lga": 375
     }
 },
 {
@@ -12364,6 +13365,457 @@
         "short_code": "BGA",
         "zip_code": "700001",
         "secretariat": "Bagwai Local Government Area Secretariat, Bagwai, Kano State Nigeria"
+    }
+},
+{
+    "model": "states.localgovernmentarea",
+    "pk": 406,
+    "fields": {
+        "name": "Shanono",
+        "state": 22,
+        "short_code": "SAN",
+        "zip_code": "700001",
+        "secretariat": "Shanono Local government Area Building, Shanono, Kano State Nigeria"
+    }
+},
+{
+    "model": "states.localgovernmentarea",
+    "pk": 407,
+    "fields": {
+        "name": "Rogo",
+        "state": 22,
+        "short_code": "ROG",
+        "zip_code": "700001",
+        "secretariat": "Rogo Local Government Area Secretariat, Rogo, Kano State Nigeria"
+    }
+},
+{
+    "model": "states.localgovernmentarea",
+    "pk": 408,
+    "fields": {
+        "name": "Rimin Gado",
+        "state": 22,
+        "short_code": "RMD",
+        "zip_code": "700001",
+        "secretariat": "Rimin Gado Local Government Area Secretariat, Rimin Gado, Kano State Nigeria"
+    }
+},
+{
+    "model": "states.localgovernmentarea",
+    "pk": 409,
+    "fields": {
+        "name": "Rano",
+        "state": 22,
+        "short_code": "RAN",
+        "zip_code": "700001",
+        "secretariat": "Rano Local Government Area Secretariat, Rano, Kano State Nigeria"
+    }
+},
+{
+    "model": "states.localgovernmentarea",
+    "pk": 410,
+    "fields": {
+        "name": "Nasarawa",
+        "state": 22,
+        "short_code": "NSW",
+        "zip_code": "700001",
+        "secretariat": "Nasarawa Local Government Area Secretariat, Bompai, Kano State Nigeria"
+    }
+},
+{
+    "model": "states.localgovernmentarea",
+    "pk": 411,
+    "fields": {
+        "name": "Minjibir",
+        "state": 22,
+        "short_code": "MNI",
+        "zip_code": "700001",
+        "secretariat": "Minjibir Local Government Area Headquarters, Minjibir, Kano State Nigeria"
+    }
+},
+{
+    "model": "states.localgovernmentarea",
+    "pk": 412,
+    "fields": {
+        "name": "Makoda",
+        "state": 22,
+        "short_code": "MKD",
+        "zip_code": "700001",
+        "secretariat": "Makoda Local Government Area Building, Koguna, Kano State Nigeria"
+    }
+},
+{
+    "model": "states.localgovernmentarea",
+    "pk": 413,
+    "fields": {
+        "name": "Madobi",
+        "state": 22,
+        "short_code": "MDB",
+        "zip_code": "700001",
+        "secretariat": "Madobi Local Government Area Building, Madobi, Kano State Nigeria"
+    }
+},
+{
+    "model": "states.localgovernmentarea",
+    "pk": 414,
+    "fields": {
+        "name": "Kura",
+        "state": 22,
+        "short_code": "KUR",
+        "zip_code": "700001",
+        "secretariat": "Kura Local Government Area Building, Kura, Kano State Nigeria"
+    }
+},
+{
+    "model": "states.localgovernmentarea",
+    "pk": 415,
+    "fields": {
+        "name": "Kunchi",
+        "state": 22,
+        "short_code": "KNH",
+        "zip_code": "700001",
+        "secretariat": "Kunchi Local Government Area Secretariat, Kunchi, Kano State Nigeria"
+    }
+},
+{
+    "model": "states.localgovernmentarea",
+    "pk": 416,
+    "fields": {
+        "name": "Kumbotso",
+        "state": 22,
+        "short_code": "KMS",
+        "zip_code": "700001",
+        "secretariat": "Kumbotso Local Government Area Secretariat, Kumbotso, Kano State Nigeria"
+    }
+},
+{
+    "model": "states.localgovernmentarea",
+    "pk": 417,
+    "fields": {
+        "name": "Kiru",
+        "state": 22,
+        "short_code": "KIR",
+        "zip_code": "700001",
+        "secretariat": "Kiru Local Government Area Headquarters, Kiru, Kano State Nigeria"
+    }
+},
+{
+    "model": "states.localgovernmentarea",
+    "pk": 418,
+    "fields": {
+        "name": "Kibiya",
+        "state": 22,
+        "short_code": "KBY",
+        "zip_code": "700001",
+        "secretariat": "Kibiya Local Government Area Secretariat, Kibiya, Kano State Nigeria"
+    }
+},
+{
+    "model": "states.localgovernmentarea",
+    "pk": 419,
+    "fields": {
+        "name": "Karaye",
+        "state": 22,
+        "short_code": "KRY",
+        "zip_code": "700001",
+        "secretariat": "Karaye Local Government Area Secretariat, Karaye, Kano State Nigeria"
+    }
+},
+{
+    "model": "states.localgovernmentarea",
+    "pk": 420,
+    "fields": {
+        "name": "Kano Municipal",
+        "state": 22,
+        "short_code": "KNA",
+        "zip_code": "700001",
+        "secretariat": "Kano Municipal LGA Headquarters, Kofar Kudu, Kano State Nigeria"
+    }
+},
+{
+    "model": "states.localgovernmentarea",
+    "pk": 421,
+    "fields": {
+        "name": "Kabo",
+        "state": 22,
+        "short_code": "KAB",
+        "zip_code": "700001",
+        "secretariat": "Kabo Local Government Area, Kabo, Kano State Nigeria"
+    }
+},
+{
+    "model": "states.localgovernmentarea",
+    "pk": 422,
+    "fields": {
+        "name": "Gwarzo",
+        "state": 22,
+        "short_code": "GAZ",
+        "zip_code": "700001",
+        "secretariat": "Gwarzo Local Government Area, Gwarzo, Kano State Nigeria"
+    }
+},
+{
+    "model": "states.localgovernmentarea",
+    "pk": 423,
+    "fields": {
+        "name": "Gwale",
+        "state": 22,
+        "short_code": "GAL",
+        "zip_code": "700001",
+        "secretariat": "Gwale Local Government Area, Gwale, Kano State Nigeria"
+    }
+},
+{
+    "model": "states.localgovernmentarea",
+    "pk": 424,
+    "fields": {
+        "name": "Gezawa",
+        "state": 22,
+        "short_code": "GZW",
+        "zip_code": "700001",
+        "secretariat": "Gezawa Local Government Area Secretariat, Gezawa, Kano State Nigeria"
+    }
+},
+{
+    "model": "states.localgovernmentarea",
+    "pk": 425,
+    "fields": {
+        "name": "Gaya",
+        "state": 22,
+        "short_code": "GAY",
+        "zip_code": "700001",
+        "secretariat": "Gaya Local Government Area Secretariat, Gaya, Kano State Nigeria"
+    }
+},
+{
+    "model": "states.localgovernmentarea",
+    "pk": 426,
+    "fields": {
+        "name": "Garum Mallam Local Government Area Secretariat, Garum Mallam, Kano State Nigeria",
+        "state": 22,
+        "short_code": "GRI",
+        "zip_code": "700001",
+        "secretariat": "Garum Mallam Local Government Area Secretariat, Garum Mallam, Kano State Nigeria"
+    }
+},
+{
+    "model": "states.localgovernmentarea",
+    "pk": 427,
+    "fields": {
+        "name": "Garko",
+        "state": 22,
+        "short_code": "GRK",
+        "zip_code": "700001",
+        "secretariat": "Garko Local Government Area, Garko, Kano State Nigeria"
+    }
+},
+{
+    "model": "states.localgovernmentarea",
+    "pk": 428,
+    "fields": {
+        "name": "Gabasawa",
+        "state": 22,
+        "short_code": "GBW",
+        "zip_code": "700001",
+        "secretariat": "Gabasawa Local Government Area, Zakirai, Kano State Nigeria"
+    }
+},
+{
+    "model": "states.localgovernmentarea",
+    "pk": 429,
+    "fields": {
+        "name": "Fagge",
+        "state": 22,
+        "short_code": "FGG",
+        "zip_code": "700001",
+        "secretariat": "Fagge Local Government Area Secretariat, Waje Suburb Kano City, Kano State Nigeria"
+    }
+},
+{
+    "model": "states.localgovernmentarea",
+    "pk": 430,
+    "fields": {
+        "name": "Doguwa",
+        "state": 22,
+        "short_code": "DGW",
+        "zip_code": "700001",
+        "secretariat": "Doguwa Local Government Area Secretariat, Riruwai, Kano State Nigeria"
+    }
+},
+{
+    "model": "states.localgovernmentarea",
+    "pk": 431,
+    "fields": {
+        "name": "Dawaki Tofa",
+        "state": 22,
+        "short_code": "DWF",
+        "zip_code": "700001",
+        "secretariat": "Dawaki Tofa Local Government Area Secretariat, Dawaki Tofa, Kano State Nigeria"
+    }
+},
+{
+    "model": "states.localgovernmentarea",
+    "pk": 432,
+    "fields": {
+        "name": "Dawaki Kudu",
+        "state": 22,
+        "short_code": "DWD",
+        "zip_code": "700001",
+        "secretariat": "Dawaki Kudu Local Government Area Secretariat, Dawaki Kudu, Kano State Nigeria"
+    }
+},
+{
+    "model": "states.localgovernmentarea",
+    "pk": 433,
+    "fields": {
+        "name": "Dambatta",
+        "state": 22,
+        "short_code": "DMT",
+        "zip_code": "700001",
+        "secretariat": "Dambatta Local Government Area Secretariat, Dambatta, Kano State Nigeria"
+    }
+},
+{
+    "model": "states.localgovernmentarea",
+    "pk": 434,
+    "fields": {
+        "name": "Dala",
+        "state": 22,
+        "short_code": "DAL",
+        "zip_code": "700001",
+        "secretariat": "Dala Local Government Area, Gwammaja, Kano State Nigeria"
+    }
+},
+{
+    "model": "states.localgovernmentarea",
+    "pk": 435,
+    "fields": {
+        "name": "Bunkure",
+        "state": 22,
+        "short_code": "BNR",
+        "zip_code": "700001",
+        "secretariat": "Bunkure Local Government Area, Bunkure, Kano State Nigeria"
+    }
+},
+{
+    "model": "states.localgovernmentarea",
+    "pk": 436,
+    "fields": {
+        "name": "Bichi",
+        "state": 22,
+        "short_code": "BCH",
+        "zip_code": "700001",
+        "secretariat": "Bichi Local Government Area Secretariat, Bichi, Kano State Nigeria"
+    }
+},
+{
+    "model": "states.localgovernmentarea",
+    "pk": 437,
+    "fields": {
+        "name": "Bebeji",
+        "state": 22,
+        "short_code": "BBJ",
+        "zip_code": "700001",
+        "secretariat": "Bebeji Local Government Area, Bebeji, Kano State Nigeria"
+    }
+},
+{
+    "model": "states.localgovernmentarea",
+    "pk": 438,
+    "fields": {
+        "name": "Wudil",
+        "state": 22,
+        "short_code": "WDI",
+        "zip_code": "700001",
+        "secretariat": "Wudil Local Government Area Headquarters, Wudil, Kano State Nigeria"
+    }
+},
+{
+    "model": "states.localgovernmentarea",
+    "pk": 439,
+    "fields": {
+        "name": "Warawa",
+        "state": 22,
+        "short_code": "WRW",
+        "zip_code": "700001",
+        "secretariat": "Warawa Local Government Area Building, Warawa, Kano State Nigeria"
+    }
+},
+{
+    "model": "states.localgovernmentarea",
+    "pk": 440,
+    "fields": {
+        "name": "Ungogo",
+        "state": 22,
+        "short_code": "UGG",
+        "zip_code": "700001",
+        "secretariat": "Ungogo Local Government Area Secretariat, Ungogo, Kano State Nigeria"
+    }
+},
+{
+    "model": "states.localgovernmentarea",
+    "pk": 441,
+    "fields": {
+        "name": "Tundun Wada",
+        "state": 22,
+        "short_code": "TND",
+        "zip_code": "700001",
+        "secretariat": "Tundun Wada Local Government Area Secretariat, Tundun Wada, Kano State Nigeria"
+    }
+},
+{
+    "model": "states.localgovernmentarea",
+    "pk": 442,
+    "fields": {
+        "name": "Tsanyawa",
+        "state": 22,
+        "short_code": "TAW",
+        "zip_code": "700001",
+        "secretariat": "Tsanyawa Local government Area Building, Tsanyawa, Kano State Nigeria"
+    }
+},
+{
+    "model": "states.localgovernmentarea",
+    "pk": 443,
+    "fields": {
+        "name": "Tofa",
+        "state": 22,
+        "short_code": "TOF",
+        "zip_code": "700001",
+        "secretariat": "Tofa Local Government Area Headquarters, Tofa, Kano State Nigeria"
+    }
+},
+{
+    "model": "states.localgovernmentarea",
+    "pk": 444,
+    "fields": {
+        "name": "Tarauni",
+        "state": 22,
+        "short_code": "TRN",
+        "zip_code": "700001",
+        "secretariat": "Tarauni Local Government Area Building, Unguwa Uku, Kano State Nigeria"
+    }
+},
+{
+    "model": "states.localgovernmentarea",
+    "pk": 445,
+    "fields": {
+        "name": "Takai",
+        "state": 22,
+        "short_code": "TKA",
+        "zip_code": "700001",
+        "secretariat": "Takai Local Government Area Headquarters, Takai, Kano State Nigeria"
+    }
+},
+{
+    "model": "states.localgovernmentarea",
+    "pk": 446,
+    "fields": {
+        "name": "Sumaila",
+        "state": 22,
+        "short_code": "SML",
+        "zip_code": "700001",
+        "secretariat": "Sumaila Local Government Area Building, Sumaila, Kano State Nigeria"
     }
 },
 {

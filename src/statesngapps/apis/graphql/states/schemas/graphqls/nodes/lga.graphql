@@ -1,0 +1,15 @@
+type LocalGovernmentAreaNode implements LGAInterface  {
+    name: String!
+    state: StateNode!
+    short_code: String!
+    zip_code: String
+    secretariat: String
+}
+
+type LGANode implements LGAInterface {
+    name: String!
+    state: StateNode!
+    short_code: String!
+    zip_code: String
+    secretariat: String
+}

@@ -1,0 +1,10 @@
+type StateQuery {
+    allStates: [StateNode!]!
+    allStatesByGeoPoliticalZone(geoPoliticalZone: String!): [StateNode!]
+    searchState(stateName: String, shortCode: String): StateNode!
+}
+
+type GovernorQuery {
+    allGovernors: [GovernorNode!]!
+    allGovernorsByState(stateName: String): [GovernorNode!]
+}
