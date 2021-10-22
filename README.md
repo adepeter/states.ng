@@ -15,12 +15,12 @@ A **RESTAPI** and **GraphQL** driven platform that exposes the list states in Ni
 The landing page to the website is built on Bootstrap 5 technology with highly responsive mobile and desktop previews. The
 Screenshots below
 ### Desktop Preview
-![https://ibb.co/CWGzcqJ](https://i.ibb.co/CWGzcqJ/desktop-preview-statesng-1.png)
-![url=https://ibb.co/PNJWr32](https://i.ibb.co/PNJWr32/desktop-preview-statesng-2.png)
+![https://ibb.co/PNJWr32](https://i.ibb.co/NsfNFQ0/desktop-preview-statesng-2.png[)
+![https://ibb.co/CWGzcqJ](https://i.ibb.co/hCzy6kX/desktop-preview-statesng-1.png)
 
 ### Mobile Preview
-![url=https://ibb.co/rs073Gj](https://i.ibb.co/rs073Gj/mobile-view-statesng-1.png)
-![url=https://ibb.co/Lx8pbpc](https://i.ibb.co/Lx8pbpc/mobile-view-statesng-2.png)
+![https://ibb.co/rs073Gj](https://i.ibb.co/2NhnS79/mobile-view-statesng-1.png)
+<img src="https://i.ibb.co/N9sYQYJ/mobile-view-statesng-2.png" alt="mobile-view-statesng-2" border="0">
 
 API URL
 - [GraphQL](https://statesng.com.ng/pages/api/graphql/)
