@@ -46,6 +46,7 @@ INSTALLED_APPS = [
     'drf_spectacular',
     'graphene_django',
     'rest_framework',
+    'rest_framework.authtoken',
 
     # statesng apps
     'statesngapps.admin.apps.AdminConfig',
@@ -53,6 +54,7 @@ INSTALLED_APPS = [
     'statesngapps.pages.apps.PagesConfig',
     'statesngapps.search.apps.SearchConfig',
     'statesngapps.states.apps.StatesConfig',
+    'statesngapps.users.apps.UsersConfig',
 ]
 
 MIDDLEWARE = [
@@ -141,6 +143,11 @@ MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 # https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+AUTHENTICATION_BACKENDS = [
+    'statesngapps.users.authentication_backends.AuthenticationBackend',
+    'django.contrib.auth.backends.ModelBackend',
+]
 
 
 REST_FRAMEWORK = {

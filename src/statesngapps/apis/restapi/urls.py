@@ -6,6 +6,7 @@ app_name = 'restapi'
 
 urlpatterns = [
     path('', include('statesngapps.apis.restapi.states.urls', namespace='states')),
+    path('users/', include('statesngapps.apis.restapi.users.urls', namespace='users')),
 ]
 
 urlpatterns += [
