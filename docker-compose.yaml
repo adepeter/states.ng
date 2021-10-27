@@ -78,8 +78,6 @@ services:
       - nginxproxy
     env_file:
       - ./configs/envs/nginxproxy_acme.env
-    environment:
-      - DEFAULT_EMAIL=adepeter26@gmail.com
 
 
   pgadmin4:
@@ -87,9 +85,6 @@ services:
     env_file:
       - ./configs/envs/pgadmin4.env
     environment:
-      - PGADMIN_DEFAULT_EMAIL=adepeter26@gmail.com
-      - PGADMIN_DEFAULT_PASSWORD=pgadmin
-      - PGADMIN_LISTEN_PORT=5050
       - VIRTUAL_PORT=5050
     volumes:
       - nginxproxy-certs:/certs
