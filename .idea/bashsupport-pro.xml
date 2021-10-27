@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="bashsupport-pro.project">
+    <globalVariables>
+      <var name="statesng" />
+      <var name="postgres" />
+      <var name="pgadmin" />
+      <var name="letsencrypt" />
+      <var name="nginx_letsencrypt" />
+      <var name="nginxproxy_letsencrypt" />
+      <var name="nginxproxy" />
+      <var name="redis" />
+    </globalVariables>
+  </component>
+</project>

@@ -90,6 +90,7 @@ services:
       - PGADMIN_DEFAULT_EMAIL=adepeter26@gmail.com
       - PGADMIN_DEFAULT_PASSWORD=pgadmin
       - PGADMIN_LISTEN_PORT=5050
+      - VIRTUAL_PORT=5050
     volumes:
       - nginxproxy-certs:/certs
       - pgadmin4_data:/var/lib/pgadmin
