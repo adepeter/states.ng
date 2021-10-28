@@ -247,7 +247,6 @@ setup_statesng() {
   local statesng_env_file="${ENV_FILES_DIR}/${ARRAY_OF_ENV_FILES[statesng]}"
   echo "Backend configuration setup"
   secret_key=$(generate_secret_code)
-  echo $secret_key
   domain_name="$(setup_domain_name)"
   for subdomain in ${SUBDOMAINS[*]}; do
     if [[ ${SUBDOMAINS[0]} = "${subdomain}" ]]; then
