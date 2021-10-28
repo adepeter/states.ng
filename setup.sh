@@ -125,7 +125,7 @@ grep_match_domain_name() {
 
 generate_secret_code() {
   local random_code secret_code
-  random_code=$(tr -cd "'[[:alnum:][:punct:]]'" </dev/urandom | tr -d "'[\"\']'" | head -c 50)
+  random_code=$(tr -cd "'[[:alnum:][:punct:]]'" </dev/urandom | tr -d "'[\"\'\\]'" | head -c 50)
   secret_code="django-secure-${random_code}"
   echo "${secret_code}"
 }
@@ -247,7 +247,8 @@ setup_statesng() {
   local statesng_env_file="${ENV_FILES_DIR}/${ARRAY_OF_ENV_FILES[statesng]}"
   echo "Backend configuration setup"
   secret_key=$(generate_secret_code)
-  domain_name=$(setup_domain_name)
+  echo $secret_key
+  domain_name="$(setup_domain_name)"
   for subdomain in ${SUBDOMAINS[*]}; do
     if [[ ${SUBDOMAINS[0]} = "${subdomain}" ]]; then
       subdomains="${domain_name},"
