@@ -7,10 +7,7 @@ ALLOWED_HOST = os.environ.get('ROOT_DOMAIN_NAME', 'statesng.com.ng')
 # DEBUG = False
 ALLOWED_HOSTS = [
     '{domain}',
-    'www.{domain}',
-    'cpanel.{domain}',
-    'pages.{domain}',
-    'api.{domain}'.format(domain=ALLOWED_HOST)
+    'www.{domain}'.format(domain=ALLOWED_HOST)
 ]
 
 INSTALLED_APPS += [
