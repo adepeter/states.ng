@@ -11,6 +11,7 @@ RUN pacman -Syu --noconfirm base-devel \
     vi \
     postgresql \
     git \
+    redis \
     uwsgi \
     uwsgi-plugin-python \
     uwsgitop \
