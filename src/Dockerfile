@@ -4,6 +4,7 @@ ARG statesng_environment=development
 ENV STATESNG_USER ${statesng_user}
 ENV STATESNG_PATH /srv/http/${STATESNG_USER}
 ENV PIPENV_VERBOSITY=-1
+ENV PYTHONDONTWRITEBYTECODE=1
 RUN pacman -Syu --noconfirm base-devel \
     lynx \
     nano \
