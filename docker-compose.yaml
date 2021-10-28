@@ -23,7 +23,7 @@ services:
       - ./src:/srv/http/statesng:z
     depends_on:
       - postgres
-      - nginxproxy-acme
+      - nginxproxy
       - redis
 
   postgres:
