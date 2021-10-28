@@ -211,10 +211,15 @@ collect_static_files() {
   $(base_docker_command_for_backend) collectstatic --no-input
 }
 
+load_dummy_data() {
+  $(base_docker_command_for_backend) loaddata db.json
+}
+
 post_installation_setup() {
   make_migrations
   migrate
   collect_static_files
+  load_dummy_data
 }
 
 setup_domain_name() {
