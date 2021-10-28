@@ -20,7 +20,7 @@ services:
       - STATESNG_DB_HOST=postgres
       - STATESNG_DB_PORT=5432
     volumes:
-      - ./src:/srv/http/statesng:z
+      - ./src:/srv/http/statesng
     depends_on:
       - postgres
       - nginxproxy
@@ -58,8 +58,8 @@ services:
       - /var/run/docker.sock:/tmp/docker.sock:ro
       - ./configs/nginxproxy/conf.d:/etc/nginx/conf.d
       - ./configs/nginxproxy/vhost.d:/etc/nginx/vhost.d
-      - ./src/static:/srv/ftp/statesng/static:z
-      - ./src/media:/srv/ftp/statesng/media:z
+      - ./src/static:/srv/ftp/statesng/static
+      - ./src/media:/srv/ftp/statesng/media
     ports:
       - "80:80"
       - "443:443"

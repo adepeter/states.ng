@@ -15,8 +15,8 @@ RUN pacman -Syu --noconfirm base-devel \
     uwsgi-plugin-python \
     uwsgitop \
     python \
-    python-{pip,setuptools,wheel,django} && \
-    pip install --upgrade pip setuptools wheel uwsgi && \
+    python-{pip,setuptools,wheel,django,pipenv} && \
+    pip install --upgrade pip pipenv setuptools wheel uwsgi && \
     pacman -Scc --noconfirm
 RUN useradd --create-home --shell /bin/bash ${statesng_user} && \
     echo "statesng:statesng" | chpasswd && \
@@ -25,6 +25,7 @@ RUN useradd --create-home --shell /bin/bash ${statesng_user} && \
 # COPY --chown=${STATESNG_USER} . ${STATESNG_PATH}
 COPY . ${STATESNG_PATH}
 WORKDIR ${STATESNG_PATH}
+RUN chmod +x pipenv.sh && ./pipenv.sh
 ENV STATESNG_ENVIRONMENT ${STATESNG_USER}.settings.${statesng_environment}
 RUN pip install -r requirements.txt --no-warn-script-location
 CMD ["uwsgi", "--emperor", "uwsgi.ini"]
