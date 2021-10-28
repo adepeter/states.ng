@@ -52,6 +52,8 @@ services:
       - ./configs/envs/nginxproxy.env
     environment:
       - ENABLE_IPV6=true
+      - HTTP_PORT=5050
+      - HTTPS_PORT=5050
     volumes:
       - nginxproxy-certs:/etc/nginx/certs:ro
       - nginxproxy-html:/usr/share/nginx/html
