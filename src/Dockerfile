@@ -25,7 +25,6 @@ RUN useradd --create-home --shell /bin/bash ${statesng_user} && \
 # COPY --chown=${STATESNG_USER} . ${STATESNG_PATH}
 COPY . ${STATESNG_PATH}
 WORKDIR ${STATESNG_PATH}
-RUN chmod +x pipenv.sh && ./pipenv.sh
 ENV STATESNG_ENVIRONMENT ${STATESNG_USER}.settings.${statesng_environment}
 RUN pip install -r requirements.txt --no-warn-script-location
 CMD ["uwsgi", "--emperor", "uwsgi.ini"]
