@@ -1,4 +1,4 @@
-Django
+django
 djangorestframework
 drf-spectacular
 graphene-django
@@ -7,3 +7,4 @@ psycopg2
 uWSGI
 django-hosts
 ipython
+django-redis
