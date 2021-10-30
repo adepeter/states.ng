@@ -86,6 +86,7 @@ services:
       - ./configs/envs/pgadmin4.env
     environment:
       - VIRTUAL_PORT=5050
+      - PGADMIN_LISTEN_PORT=5050
     volumes:
       - nginxproxy-certs:/certs
       - pgadmin4_data:/var/lib/pgadmin
