@@ -22,8 +22,9 @@ services:
       - ./src:/srv/http/statesng
     depends_on:
       - postgres
-      - nginxproxy
       - redis
+    ports:
+      - "8000:8000"
 
   postgres:
     image: postgres
