@@ -9,7 +9,7 @@ ENV_FILES_DIR="${CONFIG_DIR}/envs/"
 # SUBDOMAINS=("api" "cpanel" "pages" "www" "admin")
 SUBDOMAINS=("www")
 ROOT_DOMAIN_NAME="statesng.com.ng"
-# PGADMIN4_SUBDOMAIN_NAME="pgadmin4"
+PGADMIN4_SUBDOMAIN_NAME="pgadmin4"
 ARRAY_OF_ENV_FILES=(
   [nginxproxy]="nginxproxy.env"
   [nginxproxy_letsencrypt]="nginxproxy_acme.env"
@@ -267,7 +267,7 @@ setup_statesng() {
   echo -e "VIRTUAL_HOST=${subdomains}\nLETSENCRYPT_HOST=${subdomains}" >>"$statesng_env_file"
 
   local pgadmin4_env_file="${ENV_FILES_DIR}/${ARRAY_OF_ENV_FILES[pgadmin]}"
-  local pgadmin4_domain="${domain_name},www.${domain_name}"
+  local pgadmin4_domain="${PGADMIN4_SUBDOMAIN_NAME}.${domain_name}"
   echo -e "VIRTUAL_HOST=${pgadmin4_domain}\nLETSENCRYPT_HOST=${pgadmin4_domain}" >>"${pgadmin4_env_file}"
 
 }
