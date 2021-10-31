@@ -10,6 +10,8 @@
       <var name="nginxproxy_letsencrypt" />
       <var name="nginxproxy" />
       <var name="redis" />
+      <var name="subdomain" />
+      <var name="email_address" />
     </globalVariables>
   </component>
 </project>

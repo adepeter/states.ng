@@ -155,7 +155,12 @@ validate_email() {
 }
 
 setup_allowed_hosts() {
-  echo "Setting up allowed host"
+  local hosts=${1}
+  local current_dir production_settings_file
+  current_dir=$(dirname "${0}")
+  production_settings_file="${current_dir}/src/statesng/settings/production.py"
+  sed -i "/ALLOWED_HOSTS/d" "$production_settings_file"
+  echo -e "\nALLOWED_HOSTS = [${hosts}]\n" >>"$production_settings_file"
 }
 
 setup_postgres() {
@@ -182,14 +187,14 @@ setup_pgadmin4() {
 
   local pgadmin4_email_address pgadmin4_password is_valid=false
   local pgadmin4_env_file="${ENV_FILES_DIR}/${ARRAY_OF_ENV_FILES[pgadmin]}"
-    until $is_valid; do
-      read -p "Enter PGADMIN4 login e-mail address: " pgadmin4_email_address
-      validate_email "${pgadmin4_email_address}"
-      if [[ $? -eq 0 ]]; then
-        echo "${pgadmin4_email_address}"
-        is_valid=true
-      fi
-    done
+  until $is_valid; do
+    read -p "Enter PGADMIN4 login e-mail address: " pgadmin4_email_address
+    validate_email "${pgadmin4_email_address}"
+    if [[ $? -eq 0 ]]; then
+      echo "${pgadmin4_email_address}"
+      is_valid=true
+    fi
+  done
   until [[ -n ${pgadmin4_password} ]]; do
     echo "Please enter your PGADMIN4 login password: "
     read -rs
@@ -249,27 +254,26 @@ setup_email() {
 }
 
 setup_statesng() {
-  local secret_key domain_name subdomains
+  local secret_key domain_name subdomains ALLOWED_DOMAINS
   local statesng_env_file="${ENV_FILES_DIR}/${ARRAY_OF_ENV_FILES[statesng]}"
   echo "Backend configuration setup"
   secret_key=$(generate_secret_code)
   domain_name="$(setup_domain_name)"
+  subdomains="${domain_name},"
+  ALLOWED_DOMAINS="'${domain_name}', "
   for subdomain in ${SUBDOMAINS[*]}; do
-    if [[ ${SUBDOMAINS[0]} = "${subdomain}" ]]; then
-      subdomains="${domain_name},"
-    elif [[ ${SUBDOMAINS[*]: -1} != "${subdomain}" ]]; then
-      subdomains+="${subdomain}.${domain_name},"
-    else
-      subdomains+="${subdomain}.${domain_name}"
-    fi
+    subdomains+="${subdomain}.${domain_name},"
+    ALLOWED_DOMAINS+="'${subdomain}.${domain_name}', "
   done
-  echo -e "ROOT_DOMAIN_NAME=${domain_name}\nSTATESNG_SECRET_KEY=${secret_key}" >>"$statesng_env_file"
-  echo -e "VIRTUAL_HOST=${subdomains}\nLETSENCRYPT_HOST=${subdomains}" >>"$statesng_env_file"
+  ALLOWED_DOMAINS=${ALLOWED_DOMAINS%, } # trail out ending comma and whitespace
+  echo -e "STATESNG_SECRET_KEY=${secret_key}" >>"$statesng_env_file"
+  echo -e "VIRTUAL_HOST=${subdomains%,}\nLETSENCRYPT_HOST=${subdomains%,}" >>"$statesng_env_file"
 
   local pgadmin4_env_file="${ENV_FILES_DIR}/${ARRAY_OF_ENV_FILES[pgadmin]}"
   local pgadmin4_domain="${PGADMIN4_SUBDOMAIN_NAME}.${domain_name}"
   echo -e "VIRTUAL_HOST=${pgadmin4_domain}\nLETSENCRYPT_HOST=${pgadmin4_domain}" >>"${pgadmin4_env_file}"
 
+  setup_allowed_hosts "$ALLOWED_DOMAINS"
 }
 
 global_configuration_setup() {

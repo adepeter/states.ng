@@ -1,14 +1,8 @@
 from .staging import *
 
 SECRET_KEY = os.environ.get('STATESNG_SECRET_KEY')
-ALLOWED_HOST = os.environ.get('ROOT_DOMAIN_NAME', 'statesng.com.ng')
-
 
 # DEBUG = False
-ALLOWED_HOSTS = [
-    '{domain}',
-    'www.{domain}'.format(domain=ALLOWED_HOST)
-]
 
 INSTALLED_APPS += [
     'django_hosts',
@@ -46,3 +40,6 @@ SECURE_SSL_REDIRECT = True
 USE_X_FORWARDED_HOST = True
 
 USE_X_FORWARDED_PORT = True
+
+ALLOWED_HOSTS = ['google.com', 'api.google.com', 'www.google.com']
+
