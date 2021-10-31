@@ -8255,19 +8255,1025 @@
     }
 },
 {
+    "model": "admin.logentry",
+    "pk": 636,
+    "fields": {
+        "action_time": "2021-10-24T01:59:59.246Z",
+        "user": 1,
+        "content_type": 4,
+        "object_id": "1",
+        "object_repr": "adepeter",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Email address\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 637,
+    "fields": {
+        "action_time": "2021-10-24T08:25:23.943Z",
+        "user": 1,
+        "content_type": 18,
+        "object_id": "5",
+        "object_repr": "Device object (5)",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 638,
+    "fields": {
+        "action_time": "2021-10-24T08:25:23.963Z",
+        "user": 1,
+        "content_type": 18,
+        "object_id": "4",
+        "object_repr": "Device object (4)",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 639,
+    "fields": {
+        "action_time": "2021-10-24T08:25:23.975Z",
+        "user": 1,
+        "content_type": 18,
+        "object_id": "3",
+        "object_repr": "Device object (3)",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 640,
+    "fields": {
+        "action_time": "2021-10-24T08:25:23.986Z",
+        "user": 1,
+        "content_type": 18,
+        "object_id": "2",
+        "object_repr": "Device object (2)",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 641,
+    "fields": {
+        "action_time": "2021-10-24T08:25:23.999Z",
+        "user": 1,
+        "content_type": 18,
+        "object_id": "1",
+        "object_repr": "Device object (1)",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 642,
+    "fields": {
+        "action_time": "2021-10-24T08:25:32.342Z",
+        "user": 1,
+        "content_type": 20,
+        "object_id": "1",
+        "object_repr": "9c9e87c36bf345e77082e072c65d3106afb01aab",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 643,
+    "fields": {
+        "action_time": "2021-10-24T08:29:21.182Z",
+        "user": 1,
+        "content_type": 20,
+        "object_id": "1",
+        "object_repr": "5842c5f7bc988e3736f565a229c71241a0627de6",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 644,
+    "fields": {
+        "action_time": "2021-10-24T08:29:33.634Z",
+        "user": 1,
+        "content_type": 20,
+        "object_id": "1",
+        "object_repr": "4736d108a06582974e235eefe2f1a4d3329f0518",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 645,
+    "fields": {
+        "action_time": "2021-10-24T08:38:45.028Z",
+        "user": 1,
+        "content_type": 18,
+        "object_id": "7",
+        "object_repr": "Device object (7)",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 646,
+    "fields": {
+        "action_time": "2021-10-24T08:38:45.048Z",
+        "user": 1,
+        "content_type": 18,
+        "object_id": "6",
+        "object_repr": "Device object (6)",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 647,
+    "fields": {
+        "action_time": "2021-10-24T08:38:54.250Z",
+        "user": 1,
+        "content_type": 20,
+        "object_id": "1",
+        "object_repr": "4736d108a06582974e235eefe2f1a4d3329f0518",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 648,
+    "fields": {
+        "action_time": "2021-10-24T09:34:37.453Z",
+        "user": 1,
+        "content_type": 18,
+        "object_id": "9",
+        "object_repr": "Device object (9)",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 649,
+    "fields": {
+        "action_time": "2021-10-24T09:34:37.486Z",
+        "user": 1,
+        "content_type": 18,
+        "object_id": "8",
+        "object_repr": "Device object (8)",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 650,
+    "fields": {
+        "action_time": "2021-10-24T09:34:43.647Z",
+        "user": 1,
+        "content_type": 20,
+        "object_id": "1",
+        "object_repr": "c54666b2b2699d81f0541e3dc5f1291339d6fa3a",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 651,
+    "fields": {
+        "action_time": "2021-10-24T10:00:31.053Z",
+        "user": 1,
+        "content_type": 18,
+        "object_id": "11",
+        "object_repr": "adepeter - kkkkk - af9811a3c289c950423dc109ee2baf9377573335",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 652,
+    "fields": {
+        "action_time": "2021-10-24T10:00:46.530Z",
+        "user": 1,
+        "content_type": 18,
+        "object_id": "11",
+        "object_repr": "adepeter - kkkkk - af9811a3c289c950423dc109ee2baf9377573335",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 653,
+    "fields": {
+        "action_time": "2021-10-24T10:01:13.087Z",
+        "user": 1,
+        "content_type": 18,
+        "object_id": "10",
+        "object_repr": "adepeter - Mozilla/5.0 (X11; Linux x86_64; rv:93.0) Gecko/20100101 Firefox/93.0 - af9811a3c289c950423dc109ee2baf9377573335",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 654,
+    "fields": {
+        "action_time": "2021-10-24T10:01:20.114Z",
+        "user": 1,
+        "content_type": 20,
+        "object_id": "1",
+        "object_repr": "af9811a3c289c950423dc109ee2baf9377573335",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 655,
+    "fields": {
+        "action_time": "2021-10-24T10:21:49.869Z",
+        "user": 1,
+        "content_type": 18,
+        "object_id": "13",
+        "object_repr": "adepeter - Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36 - 63d8f3b4934bc24f21d92dd584b6d04dbd56e626",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 656,
+    "fields": {
+        "action_time": "2021-10-24T10:21:49.894Z",
+        "user": 1,
+        "content_type": 18,
+        "object_id": "12",
+        "object_repr": "adepeter - Mozilla/5.0 (X11; Linux x86_64; rv:93.0) Gecko/20100101 Firefox/93.0 - 63d8f3b4934bc24f21d92dd584b6d04dbd56e626",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 657,
+    "fields": {
+        "action_time": "2021-10-24T10:24:18.329Z",
+        "user": 1,
+        "content_type": 20,
+        "object_id": "1",
+        "object_repr": "769450a05dbaf2dc7b80e22fab45917bb10f3ac5",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 658,
+    "fields": {
+        "action_time": "2021-10-24T10:24:24.923Z",
+        "user": 1,
+        "content_type": 18,
+        "object_id": "14",
+        "object_repr": "adepeter - Mozilla/5.0 (X11; Linux x86_64; rv:93.0) Gecko/20100101 Firefox/93.0 - 769450a05dbaf2dc7b80e22fab45917bb10f3ac5",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 659,
+    "fields": {
+        "action_time": "2021-10-24T10:27:00.022Z",
+        "user": 1,
+        "content_type": 18,
+        "object_id": "15",
+        "object_repr": "adepeter - Mozilla/5.0 (X11; Linux x86_64; rv:93.0) Gecko/20100101 Firefox/93.0 - 3d26281fd9e8398472e345dee07b663d6f2304ac",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 660,
+    "fields": {
+        "action_time": "2021-10-24T10:35:27.478Z",
+        "user": 1,
+        "content_type": 20,
+        "object_id": "1",
+        "object_repr": "63c13b5485964f458631fc72e78fde074c10a135",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 661,
+    "fields": {
+        "action_time": "2021-10-24T10:35:35.277Z",
+        "user": 1,
+        "content_type": 18,
+        "object_id": "17",
+        "object_repr": "adepeter - Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36 - 63c13b5485964f458631fc72e78fde074c10a135",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 662,
+    "fields": {
+        "action_time": "2021-10-24T10:35:35.297Z",
+        "user": 1,
+        "content_type": 18,
+        "object_id": "16",
+        "object_repr": "adepeter - Mozilla/5.0 (X11; Linux x86_64; rv:93.0) Gecko/20100101 Firefox/93.0 - 63c13b5485964f458631fc72e78fde074c10a135",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 663,
+    "fields": {
+        "action_time": "2021-10-24T10:42:33.443Z",
+        "user": 1,
+        "content_type": 20,
+        "object_id": "1",
+        "object_repr": "8d216051777c26028fc5e4a15d3ad10cdd52a8ec",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 664,
+    "fields": {
+        "action_time": "2021-10-24T10:42:42.578Z",
+        "user": 1,
+        "content_type": 18,
+        "object_id": "18",
+        "object_repr": "adepeter - Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36 - 8d216051777c26028fc5e4a15d3ad10cdd52a8ec",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 665,
+    "fields": {
+        "action_time": "2021-10-31T13:55:01.581Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "14",
+        "object_repr": "Plateau",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"State map\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 666,
+    "fields": {
+        "action_time": "2021-10-31T14:01:18.346Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "447",
+        "object_repr": "Barkin Ladi",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"district\", \"object\": \"Barkin Ladi\"}}, {\"added\": {\"name\": \"district\", \"object\": \"Gashishi\"}}, {\"added\": {\"name\": \"district\", \"object\": \"Kura Falls\"}}, {\"added\": {\"name\": \"district\", \"object\": \"Mazat\"}}, {\"added\": {\"name\": \"district\", \"object\": \"Marit\"}}, {\"added\": {\"name\": \"district\", \"object\": \"Lobiving\"}}, {\"added\": {\"name\": \"district\", \"object\": \"Kapwis\"}}, {\"added\": {\"name\": \"district\", \"object\": \"Helpane\"}}, {\"added\": {\"name\": \"district\", \"object\": \"Gindi Akwati\"}}, {\"added\": {\"name\": \"district\", \"object\": \"Gassa & Sho\"}}, {\"added\": {\"name\": \"district\", \"object\": \"Tafan\"}}, {\"added\": {\"name\": \"district\", \"object\": \"Zabot\"}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 667,
+    "fields": {
+        "action_time": "2021-10-31T14:02:13.335Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "448",
+        "object_repr": "Bassa Jos",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 668,
+    "fields": {
+        "action_time": "2021-10-31T14:05:59.399Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "449",
+        "object_repr": "Bokkos",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 669,
+    "fields": {
+        "action_time": "2021-10-31T14:06:49.704Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "450",
+        "object_repr": "Jos East",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 670,
+    "fields": {
+        "action_time": "2021-10-31T14:07:29.065Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "451",
+        "object_repr": "Jos North",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 671,
+    "fields": {
+        "action_time": "2021-10-31T14:08:07.204Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "452",
+        "object_repr": "Jos South",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 672,
+    "fields": {
+        "action_time": "2021-10-31T14:09:14.848Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "453",
+        "object_repr": "Kanam",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 673,
+    "fields": {
+        "action_time": "2021-10-31T14:09:32.022Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "454",
+        "object_repr": "Kanke",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 674,
+    "fields": {
+        "action_time": "2021-10-31T14:12:45.615Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "455",
+        "object_repr": "Langtang South",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 675,
+    "fields": {
+        "action_time": "2021-10-31T14:13:13.978Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "456",
+        "object_repr": "Langtang North",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 676,
+    "fields": {
+        "action_time": "2021-10-31T14:13:41.575Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "457",
+        "object_repr": "Mangu",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 677,
+    "fields": {
+        "action_time": "2021-10-31T14:14:02.142Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "458",
+        "object_repr": "Mikang",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 678,
+    "fields": {
+        "action_time": "2021-10-31T14:14:32.425Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "459",
+        "object_repr": "Pankshin",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 679,
+    "fields": {
+        "action_time": "2021-10-31T14:14:54.295Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "460",
+        "object_repr": "Qua'An Pan",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 680,
+    "fields": {
+        "action_time": "2021-10-31T14:15:47.549Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "461",
+        "object_repr": "Riyom",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 681,
+    "fields": {
+        "action_time": "2021-10-31T14:16:05.180Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "462",
+        "object_repr": "Shendam",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 682,
+    "fields": {
+        "action_time": "2021-10-31T14:16:21.303Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "463",
+        "object_repr": "Wase",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 683,
+    "fields": {
+        "action_time": "2021-10-31T14:18:41.249Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "464",
+        "object_repr": "Zing",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 684,
+    "fields": {
+        "action_time": "2021-10-31T14:19:02.220Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "465",
+        "object_repr": "Yorro",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 685,
+    "fields": {
+        "action_time": "2021-10-31T14:20:55.961Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "466",
+        "object_repr": "Wakuri",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 686,
+    "fields": {
+        "action_time": "2021-10-31T14:21:20.289Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "467",
+        "object_repr": "Ussa",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 687,
+    "fields": {
+        "action_time": "2021-10-31T14:22:34.624Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "468",
+        "object_repr": "Takum",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 688,
+    "fields": {
+        "action_time": "2021-10-31T14:23:43.838Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "469",
+        "object_repr": "Sardauna",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 689,
+    "fields": {
+        "action_time": "2021-10-31T14:24:04.252Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "470",
+        "object_repr": "Lau",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 690,
+    "fields": {
+        "action_time": "2021-10-31T14:24:57.868Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "471",
+        "object_repr": "Kurmi",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 691,
+    "fields": {
+        "action_time": "2021-10-31T14:25:20.064Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "472",
+        "object_repr": "Karim Lamido",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 692,
+    "fields": {
+        "action_time": "2021-10-31T14:25:36.265Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "473",
+        "object_repr": "Jalingo",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 693,
+    "fields": {
+        "action_time": "2021-10-31T14:25:56.919Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "474",
+        "object_repr": "Ibi",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 694,
+    "fields": {
+        "action_time": "2021-10-31T14:26:12.985Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "475",
+        "object_repr": "Gassol",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 695,
+    "fields": {
+        "action_time": "2021-10-31T14:26:33.855Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "476",
+        "object_repr": "Gashaka",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 696,
+    "fields": {
+        "action_time": "2021-10-31T14:26:49.450Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "477",
+        "object_repr": "Donga",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 697,
+    "fields": {
+        "action_time": "2021-10-31T14:27:06.597Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "478",
+        "object_repr": "Bali",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 698,
+    "fields": {
+        "action_time": "2021-10-31T14:27:26.763Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "479",
+        "object_repr": "Ardo Kola",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 699,
+    "fields": {
+        "action_time": "2021-10-31T14:31:38.576Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "480",
+        "object_repr": "Akwanga",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 700,
+    "fields": {
+        "action_time": "2021-10-31T14:31:56.141Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "481",
+        "object_repr": "Awe",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 701,
+    "fields": {
+        "action_time": "2021-10-31T14:32:14.700Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "482",
+        "object_repr": "Doma",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 702,
+    "fields": {
+        "action_time": "2021-10-31T14:32:32.790Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "483",
+        "object_repr": "Karu",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 703,
+    "fields": {
+        "action_time": "2021-10-31T14:32:47.840Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "484",
+        "object_repr": "Keana",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 704,
+    "fields": {
+        "action_time": "2021-10-31T14:33:07.090Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "485",
+        "object_repr": "Keffi",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 705,
+    "fields": {
+        "action_time": "2021-10-31T14:33:28.653Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "486",
+        "object_repr": "Kokona",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 706,
+    "fields": {
+        "action_time": "2021-10-31T14:33:50.691Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "487",
+        "object_repr": "Lafia",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 707,
+    "fields": {
+        "action_time": "2021-10-31T14:34:09.134Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "488",
+        "object_repr": "Nasarawa Egon",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 708,
+    "fields": {
+        "action_time": "2021-10-31T14:34:37.161Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "489",
+        "object_repr": "Nassarawa",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 709,
+    "fields": {
+        "action_time": "2021-10-31T14:35:42.834Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "490",
+        "object_repr": "Obi Nassarawa",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 710,
+    "fields": {
+        "action_time": "2021-10-31T14:35:59.656Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "491",
+        "object_repr": "Toto",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 711,
+    "fields": {
+        "action_time": "2021-10-31T14:36:14.321Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "492",
+        "object_repr": "Wamba",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
     "model": "auth.user",
     "pk": 1,
     "fields": {
         "password": "pbkdf2_sha256$260000$flZclFHTfUx1SY2tnvckFZ$t9YMecsbdHip9FbgvLwRFgto+AVVuScz6BMX4rxcKpI=",
-        "last_login": "2021-10-20T18:04:42.279Z",
+        "last_login": "2021-10-31T13:52:52.554Z",
         "is_superuser": true,
         "username": "adepeter",
         "first_name": "",
         "last_name": "",
-        "email": "adepeeter26@gmail.com",
+        "email": "adepeter26@gmail.com",
         "is_staff": true,
         "is_active": true,
-        "date_joined": "2021-09-07T14:18:56.051Z",
+        "date_joined": "2021-09-07T14:18:56Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 2,
+    "fields": {
+        "password": "pbkdf2_sha256$260000$IomPPyvpm6voGjy1WZvQEz$0pqx1JtecSpkmx0bXTBrqv5x98N58m+Z1eBz/C9x8Ec=",
+        "last_login": "2021-10-24T02:26:38.406Z",
+        "is_superuser": true,
+        "username": "admin",
+        "first_name": "",
+        "last_name": "",
+        "email": "admin@admin.com",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2021-10-24T02:22:18.522Z",
         "groups": [],
         "user_permissions": []
     }
@@ -8286,6 +9292,14 @@
     "fields": {
         "session_data": ".eJxVjDsOwjAQBe_iGlls1rHXlPQ5g7X-4QCypTipEHeHSCmgfTPzXsLxtha39bS4OYqLAHH63TyHR6o7iHeutyZDq-sye7kr8qBdTi2m5_Vw_w4K9_KtCX2kqFFTNkBoM2rw58yMAylDI4BVHIwdyQQwmiEgaEZvFMMAKor3B76LNrc:1mNbz7:cdhPBropR0K0olOFxkKk_EDXqN7MtabckesSbMnKB5k",
         "expire_date": "2021-09-21T14:22:01.116Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "fyr9f6qb6tmkz5fclyj5bwvnz8qf02kz",
+    "fields": {
+        "session_data": ".eJxVjMsKwjAQAP8lZyluN0223vRHwuZlihCLm57Ef9eAgr3ODPNUjrdW3Cbp4ZaoTgrU4Z95DrdUu5DGLUm98rrK0J0MPUu1LYHbcq-_Vobzjl--i923sJTPlNBHigYNZQuEc0YD_piZcSRtaQKYNQc7T2QDWMMQEAyjt5phBB3V6w2GrEDQ:1mhBGW:OEg23UN1s_MC10T_1ZJSd1KP4CztvsxBdKHVE8cVHJ8",
+        "expire_date": "2021-11-14T13:52:52.570Z"
     }
 },
 {
@@ -8322,10 +9336,26 @@
 },
 {
     "model": "sessions.session",
+    "pk": "ts084bi5f5uy105fzr688f99nohg1s7k",
+    "fields": {
+        "session_data": ".eJxVjMsKwjAQAP8lZyluN0223vRHwuZlihCLm57Ef9eAgr3ODPNUjrdW3Cbp4ZaoTgrU4Z95DrdUu5DGLUm98rrK0J0MPUu1LYHbcq-_Vobzjl--i923sJTPlNBHigYNZQuEc0YD_piZcSRtaQKYNQc7T2QDWMMQEAyjt5phBB3V6w2GrEDQ:1meb5l:0Z5ogAG4TCzpKlj0WO6TBhYGUTLnsAZlpPRd35uglSk",
+        "expire_date": "2021-11-07T10:51:05.539Z"
+    }
+},
+{
+    "model": "sessions.session",
     "pk": "vjkdv6he7b85d82ntq14zo3t9ajwtcj5",
     "fields": {
         "session_data": ".eJxVjDsOwjAQBe_iGlls1rHXlPQ5g7X-4QCypTipEHeHSCmgfTPzXsLxtha39bS4OYqLAHH63TyHR6o7iHeutyZDq-sye7kr8qBdTi2m5_Vw_w4K9_KtCX2kqFFTNkBoM2rw58yMAylDI4BVHIwdyQQwmiEgaEZvFMMAKor3B76LNrc:1mSPpL:V4qiF2wSTSmVVLe-49NSDYTUosHDv81yCwQjgDhdFy0",
         "expire_date": "2021-10-04T20:23:47.154Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "w9n51otbod49wd9ecao2nv591ejgfzvp",
+    "fields": {
+        "session_data": ".eJxVjMsKwjAQAP8lZyluN0223vRHwuZlihCLm57Ef9eAgr3ODPNUjrdW3Cbp4ZaoTgrU4Z95DrdUu5DGLUm98rrK0J0MPUu1LYHbcq-_Vobzjl--i923sJTPlNBHigYNZQuEc0YD_piZcSRtaQKYNQc7T2QDWMMQEAyjt5phBB3V6w2GrEDQ:1meb0p:BGm3oZuTwxAtw_VqM7yj7iSy3Ag8ytlZSVcjtBlWF8U",
+        "expire_date": "2021-11-07T10:45:59.017Z"
     }
 },
 {
@@ -8366,6 +9396,14 @@
         "sites": [
             1
         ]
+    }
+},
+{
+    "model": "authtoken.token",
+    "pk": "0115984ff40ee83c83e0a7a4f115b29f76f37be0",
+    "fields": {
+        "user": 1,
+        "created": "2021-10-31T13:52:52.513Z"
     }
 },
 {
@@ -8910,6 +9948,102 @@
     "fields": {
         "name": "Isonga",
         "lga": 375
+    }
+},
+{
+    "model": "states.district",
+    "pk": 71,
+    "fields": {
+        "name": "Barkin Ladi",
+        "lga": 447
+    }
+},
+{
+    "model": "states.district",
+    "pk": 72,
+    "fields": {
+        "name": "Gashishi",
+        "lga": 447
+    }
+},
+{
+    "model": "states.district",
+    "pk": 73,
+    "fields": {
+        "name": "Kura Falls",
+        "lga": 447
+    }
+},
+{
+    "model": "states.district",
+    "pk": 74,
+    "fields": {
+        "name": "Mazat",
+        "lga": 447
+    }
+},
+{
+    "model": "states.district",
+    "pk": 75,
+    "fields": {
+        "name": "Marit",
+        "lga": 447
+    }
+},
+{
+    "model": "states.district",
+    "pk": 76,
+    "fields": {
+        "name": "Lobiving",
+        "lga": 447
+    }
+},
+{
+    "model": "states.district",
+    "pk": 77,
+    "fields": {
+        "name": "Kapwis",
+        "lga": 447
+    }
+},
+{
+    "model": "states.district",
+    "pk": 78,
+    "fields": {
+        "name": "Helpane",
+        "lga": 447
+    }
+},
+{
+    "model": "states.district",
+    "pk": 79,
+    "fields": {
+        "name": "Gindi Akwati",
+        "lga": 447
+    }
+},
+{
+    "model": "states.district",
+    "pk": 80,
+    "fields": {
+        "name": "Gassa & Sho",
+        "lga": 447
+    }
+},
+{
+    "model": "states.district",
+    "pk": 81,
+    "fields": {
+        "name": "Tafan",
+        "lga": 447
+    }
+},
+{
+    "model": "states.district",
+    "pk": 82,
+    "fields": {
+        "name": "Zabot",
+        "lga": 447
     }
 },
 {
@@ -13819,6 +14953,512 @@
     }
 },
 {
+    "model": "states.localgovernmentarea",
+    "pk": 447,
+    "fields": {
+        "name": "Barkin Ladi",
+        "state": 14,
+        "short_code": "BRD",
+        "zip_code": "930001",
+        "secretariat": "Barkin Ladi Local Government Area Secretariat, Barkin Ladi, Plateau State, Nigeria"
+    }
+},
+{
+    "model": "states.localgovernmentarea",
+    "pk": 448,
+    "fields": {
+        "name": "Bassa Jos",
+        "state": 14,
+        "short_code": "BSA",
+        "zip_code": "930001",
+        "secretariat": "Bassa Local Government Area secretariat, Bassa, Plateau State Nigeria"
+    }
+},
+{
+    "model": "states.localgovernmentarea",
+    "pk": 449,
+    "fields": {
+        "name": "Bokkos",
+        "state": 14,
+        "short_code": "BKO",
+        "zip_code": "930001",
+        "secretariat": "Bokkos Local Government Area Secretariat, Bokkos, Plateau State, Nigeria"
+    }
+},
+{
+    "model": "states.localgovernmentarea",
+    "pk": 450,
+    "fields": {
+        "name": "Jos East",
+        "state": 14,
+        "short_code": "JSS",
+        "zip_code": "930001",
+        "secretariat": "Jos East Local Government Area, Angware, Plateau State Nigeria"
+    }
+},
+{
+    "model": "states.localgovernmentarea",
+    "pk": 451,
+    "fields": {
+        "name": "Jos North",
+        "state": 14,
+        "short_code": "JST",
+        "zip_code": "930001",
+        "secretariat": "Jos North local government Area Secretariat, Jos City, Plateau State, Nigeria"
+    }
+},
+{
+    "model": "states.localgovernmentarea",
+    "pk": 452,
+    "fields": {
+        "name": "Jos South",
+        "state": 14,
+        "short_code": "JSH",
+        "zip_code": "930001",
+        "secretariat": "Jos South Local Government Area Secretariat, Buruku, Plateau State, Nigeria"
+    }
+},
+{
+    "model": "states.localgovernmentarea",
+    "pk": 453,
+    "fields": {
+        "name": "Kanam",
+        "state": 14,
+        "short_code": "KNA",
+        "zip_code": "930001",
+        "secretariat": "Kanam Local Government Area Secretariat, Dengi, Plateau State, Nigeria"
+    }
+},
+{
+    "model": "states.localgovernmentarea",
+    "pk": 454,
+    "fields": {
+        "name": "Kanke",
+        "state": 14,
+        "short_code": "KNK",
+        "zip_code": "930001",
+        "secretariat": "Kanke Local Government Area, Kwal, Plateau State Nigeria"
+    }
+},
+{
+    "model": "states.localgovernmentarea",
+    "pk": 455,
+    "fields": {
+        "name": "Langtang South",
+        "state": 14,
+        "short_code": "LNT",
+        "zip_code": "930001",
+        "secretariat": "Langtang South Local Government Area Secretariat, Mabudi"
+    }
+},
+{
+    "model": "states.localgovernmentarea",
+    "pk": 456,
+    "fields": {
+        "name": "Langtang North",
+        "state": 14,
+        "short_code": "LNH",
+        "zip_code": "930001",
+        "secretariat": "Langtang North Local Government Area Secretariat, Langtang, Plateau State, Nigeria"
+    }
+},
+{
+    "model": "states.localgovernmentarea",
+    "pk": 457,
+    "fields": {
+        "name": "Mangu",
+        "state": 14,
+        "short_code": "MNG",
+        "zip_code": "930001",
+        "secretariat": "Mangu Local Government Area, Mangu, Plateau State, Nigeria"
+    }
+},
+{
+    "model": "states.localgovernmentarea",
+    "pk": 458,
+    "fields": {
+        "name": "Mikang",
+        "state": 14,
+        "short_code": "MKN",
+        "zip_code": "930001",
+        "secretariat": "Mikang Local Government Area Secretariat, Tunkus, Plateau State, Nigeria"
+    }
+},
+{
+    "model": "states.localgovernmentarea",
+    "pk": 459,
+    "fields": {
+        "name": "Pankshin",
+        "state": 14,
+        "short_code": "PNI",
+        "zip_code": "930001",
+        "secretariat": "Pankshin Local Government Area Secretariat, Pankshin, Plateau State, Nigeria"
+    }
+},
+{
+    "model": "states.localgovernmentarea",
+    "pk": 460,
+    "fields": {
+        "name": "Qua'An Pan",
+        "state": 14,
+        "short_code": "QAA",
+        "zip_code": "930001",
+        "secretariat": "Qua'an Pan Local Government Area Secretariat, Baap, Plateau State, Nigeria"
+    }
+},
+{
+    "model": "states.localgovernmentarea",
+    "pk": 461,
+    "fields": {
+        "name": "Riyom",
+        "state": 14,
+        "short_code": "RYO",
+        "zip_code": "930001",
+        "secretariat": "Riyom Local Government Area Riyom, Plateau State, Nigeria"
+    }
+},
+{
+    "model": "states.localgovernmentarea",
+    "pk": 462,
+    "fields": {
+        "name": "Shendam",
+        "state": 14,
+        "short_code": "SEA",
+        "zip_code": "930001",
+        "secretariat": "Shendam Local Government Area Secretariat, Shendam, Plateau State, Nigeria"
+    }
+},
+{
+    "model": "states.localgovernmentarea",
+    "pk": 463,
+    "fields": {
+        "name": "Wase",
+        "state": 14,
+        "short_code": "WAS",
+        "zip_code": "930001",
+        "secretariat": "Wase Local Government Area secretariat, Wase, Plateau State of Nigeria"
+    }
+},
+{
+    "model": "states.localgovernmentarea",
+    "pk": 464,
+    "fields": {
+        "name": "Zing",
+        "state": 12,
+        "short_code": "ZIN",
+        "zip_code": "660001",
+        "secretariat": "Zing LGA Secretariat, Zing Town, Taraba Nigeria"
+    }
+},
+{
+    "model": "states.localgovernmentarea",
+    "pk": 465,
+    "fields": {
+        "name": "Yorro",
+        "state": 12,
+        "short_code": "YRR",
+        "zip_code": "660001",
+        "secretariat": "Yorro LGA Secretariat, Kpantisawa, Taraba Nigeria"
+    }
+},
+{
+    "model": "states.localgovernmentarea",
+    "pk": 466,
+    "fields": {
+        "name": "Wakuri",
+        "state": 12,
+        "short_code": "WKR",
+        "zip_code": "660001",
+        "secretariat": "Wakuri Local Government Area Headquarters, Wakuri, Taraba State Nigeria"
+    }
+},
+{
+    "model": "states.localgovernmentarea",
+    "pk": 467,
+    "fields": {
+        "name": "Ussa",
+        "state": 12,
+        "short_code": "USS",
+        "zip_code": "660001",
+        "secretariat": "Ussa Local Government Area Building, Lissam, Taraba State Nigeria"
+    }
+},
+{
+    "model": "states.localgovernmentarea",
+    "pk": 468,
+    "fields": {
+        "name": "Takum",
+        "state": 12,
+        "short_code": "TKU",
+        "zip_code": "660001",
+        "secretariat": "Takum Local Government Area Secretariat, Takum, Taraba State Nigeria"
+    }
+},
+{
+    "model": "states.localgovernmentarea",
+    "pk": 469,
+    "fields": {
+        "name": "Sardauna",
+        "state": 12,
+        "short_code": "SRN",
+        "zip_code": "660001",
+        "secretariat": "Sardauna Local Government Area Secretariat, Gembu, Taraba State Nigeria"
+    }
+},
+{
+    "model": "states.localgovernmentarea",
+    "pk": 470,
+    "fields": {
+        "name": "Lau",
+        "state": 12,
+        "short_code": "LAU",
+        "zip_code": "660001",
+        "secretariat": "Lau Local Government Area Headquarters, Lau, Taraba State Nigeria"
+    }
+},
+{
+    "model": "states.localgovernmentarea",
+    "pk": 471,
+    "fields": {
+        "name": "Kurmi",
+        "state": 12,
+        "short_code": "KRM",
+        "zip_code": "660001",
+        "secretariat": "Kurmi Local Government Area, Baissa, Taraba State Nigeria"
+    }
+},
+{
+    "model": "states.localgovernmentarea",
+    "pk": 472,
+    "fields": {
+        "name": "Karim Lamido",
+        "state": 12,
+        "short_code": "KRD",
+        "zip_code": "660001",
+        "secretariat": "Karim Lamido Local Government Area Secretariat, Karim Lamido, Taraba State Nigeria"
+    }
+},
+{
+    "model": "states.localgovernmentarea",
+    "pk": 473,
+    "fields": {
+        "name": "Jalingo",
+        "state": 12,
+        "short_code": "JLG",
+        "zip_code": "660001",
+        "secretariat": "Jalingo Local Government Area Building, Jalingo, Taraba State Nigeria"
+    }
+},
+{
+    "model": "states.localgovernmentarea",
+    "pk": 474,
+    "fields": {
+        "name": "Ibi",
+        "state": 12,
+        "short_code": "IBI",
+        "zip_code": "660001",
+        "secretariat": "Ibi Local Government Area Secretariat, lbi, Taraba State Nigeria"
+    }
+},
+{
+    "model": "states.localgovernmentarea",
+    "pk": 475,
+    "fields": {
+        "name": "Gassol",
+        "state": 12,
+        "short_code": "GSO",
+        "zip_code": "660001",
+        "secretariat": "Gassol Local Government Area Headquarters, Mutum, Taraba State Nigeria"
+    }
+},
+{
+    "model": "states.localgovernmentarea",
+    "pk": 476,
+    "fields": {
+        "name": "Gashaka",
+        "state": 12,
+        "short_code": "GSK",
+        "zip_code": "660001",
+        "secretariat": "Gashaka Local Government Area Building, Serti, Taraba State Nigeria"
+    }
+},
+{
+    "model": "states.localgovernmentarea",
+    "pk": 477,
+    "fields": {
+        "name": "Donga",
+        "state": 12,
+        "short_code": "DNG",
+        "zip_code": "660001",
+        "secretariat": "Donga Local Government Area Secretariat, Donga, Taraba State Nigeria"
+    }
+},
+{
+    "model": "states.localgovernmentarea",
+    "pk": 478,
+    "fields": {
+        "name": "Bali",
+        "state": 12,
+        "short_code": "BAL",
+        "zip_code": "660001",
+        "secretariat": "Bali Local Government Area Building, Bali, Taraba State Nigeria"
+    }
+},
+{
+    "model": "states.localgovernmentarea",
+    "pk": 479,
+    "fields": {
+        "name": "Ardo Kola",
+        "state": 12,
+        "short_code": "ADL",
+        "zip_code": "660001",
+        "secretariat": "Ardo Kola Local Government Local Area Headquarters, Sunkani, Taraba State Nigeria"
+    }
+},
+{
+    "model": "states.localgovernmentarea",
+    "pk": 480,
+    "fields": {
+        "name": "Akwanga",
+        "state": 20,
+        "short_code": "AWG",
+        "zip_code": "000001",
+        "secretariat": "Akwanga LGA Secretariat, Akwanga, Nasarawa Nigeria"
+    }
+},
+{
+    "model": "states.localgovernmentarea",
+    "pk": 481,
+    "fields": {
+        "name": "Awe",
+        "state": 20,
+        "short_code": "AWE",
+        "zip_code": "000001",
+        "secretariat": "Awe Local Government Area Secretariat, Awe Town, Nasarawa Nigeria"
+    }
+},
+{
+    "model": "states.localgovernmentarea",
+    "pk": 482,
+    "fields": {
+        "name": "Doma",
+        "state": 20,
+        "short_code": "DOM",
+        "zip_code": "000001",
+        "secretariat": "Doma LGA Secretariat, Doma Town, Nasarawa Nigeria"
+    }
+},
+{
+    "model": "states.localgovernmentarea",
+    "pk": 483,
+    "fields": {
+        "name": "Karu",
+        "state": 20,
+        "short_code": "KAR",
+        "zip_code": "000001",
+        "secretariat": "Karu LGA Secretariat, New Karu, Nasarawa Nigeria"
+    }
+},
+{
+    "model": "states.localgovernmentarea",
+    "pk": 484,
+    "fields": {
+        "name": "Keana",
+        "state": 20,
+        "short_code": "KAN",
+        "zip_code": "000001",
+        "secretariat": "Keana LGA Secretariat, Keana Town, Nasarawa Nigeria"
+    }
+},
+{
+    "model": "states.localgovernmentarea",
+    "pk": 485,
+    "fields": {
+        "name": "Keffi",
+        "state": 20,
+        "short_code": "KFF",
+        "zip_code": "000001",
+        "secretariat": "Keffi LGA Secretariat, Keffi, Nasarawa Nigeria"
+    }
+},
+{
+    "model": "states.localgovernmentarea",
+    "pk": 486,
+    "fields": {
+        "name": "Kokona",
+        "state": 20,
+        "short_code": "KKN",
+        "zip_code": "000001",
+        "secretariat": "Kokona LGA Secretariat, Kokona, Nasarawa Nigeria"
+    }
+},
+{
+    "model": "states.localgovernmentarea",
+    "pk": 487,
+    "fields": {
+        "name": "Lafia",
+        "state": 20,
+        "short_code": "LFI",
+        "zip_code": "000001",
+        "secretariat": "Lafia LGA Secretariat, Lafia, Nasarawa Nigeria"
+    }
+},
+{
+    "model": "states.localgovernmentarea",
+    "pk": 488,
+    "fields": {
+        "name": "Nasarawa Egon",
+        "state": 20,
+        "short_code": "NSO",
+        "zip_code": "000001",
+        "secretariat": "Nasarawa Egon LGA Secretariat, Nasarawa Egon LGA, Nasarawa Nigeria"
+    }
+},
+{
+    "model": "states.localgovernmentarea",
+    "pk": 489,
+    "fields": {
+        "name": "Nassarawa",
+        "state": 20,
+        "short_code": "NSW",
+        "zip_code": "000001",
+        "secretariat": "Nasarawa LGA Secretariat, Nasarawa Town, Nasarawa Nigeria"
+    }
+},
+{
+    "model": "states.localgovernmentarea",
+    "pk": 490,
+    "fields": {
+        "name": "Obi Nassarawa",
+        "state": 20,
+        "short_code": "OBI",
+        "zip_code": "000001",
+        "secretariat": "Obi Local Government Area Secretariat, Obi Town, Nasarawa Nigeria"
+    }
+},
+{
+    "model": "states.localgovernmentarea",
+    "pk": 491,
+    "fields": {
+        "name": "Toto",
+        "state": 20,
+        "short_code": "TOT",
+        "zip_code": "000001",
+        "secretariat": "Toto LGA Secretariat, Toto Town, Nasarawa Nigeria"
+    }
+},
+{
+    "model": "states.localgovernmentarea",
+    "pk": 492,
+    "fields": {
+        "name": "Wamba",
+        "state": 20,
+        "short_code": "WMB",
+        "zip_code": "000001",
+        "secretariat": "Wamba LGA Secretariat, Wamba Town, Nasarawa Nigeria"
+    }
+},
+{
     "model": "states.state",
     "pk": 1,
     "fields": {
@@ -14023,7 +15663,7 @@
         "short_code": "PL",
         "geo_zone": "nc",
         "website": "https://plateaustate.gov.ng",
-        "map": "",
+        "map": "states/Plateau-State-Political-Map.jpg",
         "postal_code": "930001",
         "creation_date": "2021-10-16"
     }
@@ -14551,6 +16191,26 @@
         "date_started": "2008-04-29",
         "date_ended": "2014-07-15",
         "is_current": false
+    }
+},
+{
+    "model": "users.device",
+    "pk": 19,
+    "fields": {
+        "user": 1,
+        "token": "5c86a2ed0b89fcff2e26429f42fb3b97baed23a6",
+        "user_agent": "Mozilla/5.0 (X11; Linux x86_64; rv:93.0) Gecko/20100101 Firefox/93.0",
+        "date_logged": "2021-10-24T10:42:55.314Z"
+    }
+},
+{
+    "model": "users.device",
+    "pk": 20,
+    "fields": {
+        "user": 1,
+        "token": "5c86a2ed0b89fcff2e26429f42fb3b97baed23a6",
+        "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36",
+        "date_logged": "2021-10-24T10:45:58.931Z"
     }
 }
 ]
