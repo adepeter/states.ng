@@ -1,3 +1,5 @@
+listen [::]:5050;
+
 location /static/ {
   alias /srv/ftp/statesng/static/;
   add_header Access-Control-Allow-Origin *;
