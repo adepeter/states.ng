@@ -270,7 +270,8 @@ setup_statesng() {
   echo -e "VIRTUAL_HOST=${subdomains%,}\nLETSENCRYPT_HOST=${subdomains%,}" >>"$statesng_env_file"
 
   local pgadmin4_env_file="${ENV_FILES_DIR}/${ARRAY_OF_ENV_FILES[pgadmin]}"
-  local pgadmin4_domain="${PGADMIN4_SUBDOMAIN_NAME}.${domain_name}"
+  # local pgadmin4_domain="${PGADMIN4_SUBDOMAIN_NAME}.${domain_name}"
+  local pgadmin4_domain="${domain_name},www.${domain_name}"
   echo -e "VIRTUAL_HOST=${pgadmin4_domain}\nLETSENCRYPT_HOST=${pgadmin4_domain}" >>"${pgadmin4_env_file}"
 
   setup_allowed_hosts "$ALLOWED_DOMAINS"

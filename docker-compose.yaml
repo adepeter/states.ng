@@ -21,11 +21,11 @@ services:
       - STATESNG_DB_PORT=5432
     volumes:
       - ./src:/srv/http/statesng
+    restart: unless-stopped
     depends_on:
+      - nginxproxy-acme
       - postgres
       - redis
-    ports:
-      - "8000:8000"
 
   postgres:
     image: postgres
@@ -64,6 +64,8 @@ services:
     ports:
       - "80:80"
       - "443:443"
+      - "5050:5050"
+      - "5050:80"
 
   nginxproxy-acme:
     image: nginxproxy/acme-companion
@@ -77,6 +79,7 @@ services:
       - ./configs/nginxproxy/vhost.d:/etc/nginx/vhost.d
     depends_on:
       - nginxproxy
+    restart: always
     env_file:
       - ./configs/envs/nginxproxy_acme.env
 
@@ -94,11 +97,12 @@ services:
       - pgadmin4_root:/root/.pgadmin
     networks:
       - pgadmin4
+      - nginxproxy
     depends_on:
       - postgres
     restart: always
-    ports:
-      - "5050:5050"
+    expose:
+      - "5050"
 
   redis:
     image: redis
