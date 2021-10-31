@@ -23,7 +23,7 @@ services:
       - ./src:/srv/http/statesng
     restart: unless-stopped
     depends_on:
-      - nginxproxy-acme
+      - nginxproxy
       - postgres
       - redis
 
