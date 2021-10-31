@@ -65,7 +65,6 @@ services:
       - "80:80"
       - "443:443"
       - "5050:5050"
-      - "5050:80"
 
   nginxproxy-acme:
     image: nginxproxy/acme-companion
