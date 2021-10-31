@@ -269,10 +269,10 @@ setup_statesng() {
   echo -e "STATESNG_SECRET_KEY=${secret_key}" >>"$statesng_env_file"
   echo -e "VIRTUAL_HOST=${subdomains%,}\nLETSENCRYPT_HOST=${subdomains%,}" >>"$statesng_env_file"
 
-  local pgadmin4_env_file="${ENV_FILES_DIR}/${ARRAY_OF_ENV_FILES[pgadmin]}"
-  local pgadmin4_domain="${PGADMIN4_SUBDOMAIN_NAME}.${domain_name}"
+  # local pgadmin4_env_file="${ENV_FILES_DIR}/${ARRAY_OF_ENV_FILES[pgadmin]}"
+  # local pgadmin4_domain="${PGADMIN4_SUBDOMAIN_NAME}.${domain_name}"
   # local pgadmin4_domain="${domain_name},www.${domain_name}"
-  echo -e "VIRTUAL_HOST=${pgadmin4_domain}\nLETSENCRYPT_HOST=${pgadmin4_domain}" >>"${pgadmin4_env_file}"
+  # echo -e "VIRTUAL_HOST=${pgadmin4_domain}\nLETSENCRYPT_HOST=${pgadmin4_domain}" >>"${pgadmin4_env_file}"
 
   setup_allowed_hosts "$ALLOWED_DOMAINS"
 }
@@ -300,7 +300,7 @@ start() {
   global_configuration_setup
   setup_postgres
   setup_statesng
-  setup_pgadmin4
+  # setup_pgadmin4
   docker-compose up -d
   post_installation_setup
 }
