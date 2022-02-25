@@ -31,7 +31,13 @@ class StateAdmin(admin.ModelAdmin):
     list_filter = [
         'geo_zone'
     ]
-
+    search_fields = [
+        'name',
+        'short_code',
+        'website',
+        'capital',
+        'slogan'
+    ]
     fieldsets = [
         (_('Basic'), {
             'description': _('Basic info of state'),
@@ -44,7 +50,6 @@ class StateAdmin(admin.ModelAdmin):
             'fields': ['creation_date']
         })
     ]
-
     readonly_fields = [
         'map_preview'
     ]
@@ -116,6 +121,9 @@ class GovernorAdmin(admin.ModelAdmin):
     ordering = [
         'date_started',
         '-date_ended'
+    ]
+    search_fields = [
+        'name'
     ]
 
 

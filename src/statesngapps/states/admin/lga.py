@@ -29,6 +29,16 @@ class LGAAdmin(admin.ModelAdmin):
         'short_code',
         'zip_code'
     ]
+    autocomplete_fields = [
+        'state'
+    ]
+    search_fields = [
+        'name',
+        'name__icontains'
+    ]
+    list_select_related = [
+        'state'
+    ]
     inlines = [
         DistrictInline
     ]

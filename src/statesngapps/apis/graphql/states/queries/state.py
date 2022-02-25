@@ -1,5 +1,4 @@
 import graphene
-from IPython.core.release import description
 from django.shortcuts import get_object_or_404
 
 from django.utils.translation import gettext_lazy as _

@@ -20,6 +20,6 @@
   },
   "homepage": "https://github.com/adepeter/states.ng#readme",
   "dependencies": {
-    "spectaql": "^0.9.2"
+    "spectaql": "^0.11.0"
   }
 }

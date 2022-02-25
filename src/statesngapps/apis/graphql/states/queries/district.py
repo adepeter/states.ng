@@ -1,5 +1,4 @@
 import graphene
-from django.db.models import Q
 
 from django.utils.translation import gettext_lazy as _
 from graphql import GraphQLError
@@ -53,11 +52,11 @@ class DistrictQuery:
             raise GraphQLError(_('Cannot call query without params'))
         new_fields = {}
         if 'state_name' in kwargs:
-            new_fields.update({'lga__state__name__icontains': kwargs['state_name']})
+            new_fields['lga__state__name__icontains'] = kwargs['state_name']
         if 'short_code' in kwargs:
-            new_fields.update({'lga__state___short_code__iexact': kwargs['state_short_code']})
+            new_fields['lga__state___short_code__iexact'] = kwargs['state_short_code']
         if 'state_postal_code' in kwargs:
-            new_fields.update({'lga__state__postal_code__exact': kwargs['state_postal_code']})
+            new_fields['lga__state__psostal_code__exact'] = kwargs['state_postal_code']
         return District.objects.filter(**new_fields)
 
     def resolve_all_districts_by_lga_short_code(self, info, lga_short_code):
