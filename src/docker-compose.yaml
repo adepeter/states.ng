@@ -6,7 +6,7 @@ services:
     build:
       context: .
       args:
-        - statesng_environment=staging
+        - deployment_environment=staging
     environment:
       - STATESNG_SECRET_KEY=mysecretkey
     volumes:

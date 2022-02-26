@@ -1,11 +1,11 @@
-FROM archlinux
+FROM archlinux:base-devel
 ARG statesng_user=statesng
-ARG statesng_environment=development
+ARG deployment_environment=development
 ENV STATESNG_USER ${statesng_user}
 ENV STATESNG_PATH /srv/http/${STATESNG_USER}
 ENV PIPENV_VERBOSITY=-1
 ENV PYTHONDONTWRITEBYTECODE=1
-RUN pacman -Syu --noconfirm base-devel \
+RUN pacman -Syu --noconfirm \
     lynx \
     nano \
     vi \
@@ -26,7 +26,7 @@ RUN useradd --create-home --shell /bin/bash ${statesng_user} && \
 # COPY --chown=${STATESNG_USER} . ${STATESNG_PATH}
 COPY . ${STATESNG_PATH}
 WORKDIR ${STATESNG_PATH}
-ENV STATESNG_ENVIRONMENT ${STATESNG_USER}.settings.${statesng_environment}
+ENV DEPLOYMENT_ENVIRONMENT ${deployment_environment}
 RUN pip install -r requirements.txt --no-warn-script-location
-CMD ["uwsgi", "--emperor", "uwsgi.ini"]
+CMD ["uwsgi", "--emperor", "uwsgi.ini", "--env", "DEPLOYMENT_ENVIRONMENT=${DEPLOYMENT_ENVIRONMENT}"]
 EXPOSE 8000

@@ -6,8 +6,8 @@ import sys
 
 def main():
     """Run administrative tasks."""
-    statesng_environment = os.environ.get('STATESNG_ENVIRONMENT', 'statesng.settings.development')
-    os.environ.setdefault('DJANGO_SETTINGS_MODULE', statesng_environment)
+    deployment_environment = os.environ.get('DEPLOYMENT_ENVIRONMENT', 'development')
+    os.environ.setdefault('DJANGO_SETTINGS_MODULE', f'statesng.settings.{deployment_environment}')
     try:
         from django.core.management import execute_from_command_line
     except ImportError as exc:

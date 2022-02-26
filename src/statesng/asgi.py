@@ -11,7 +11,7 @@ import os
 
 from django.core.asgi import get_asgi_application
 
-statesng_environment = os.environ.get('STATESNG_ENVIRONMENT', 'statesng.settings.development')
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', statesng_environment)
+deployment_environment = os.environ.get('DEPLOYMENT_ENVIRONMENT', 'development')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', f'statesng.settings.{deployment_environment}')
 
 application = get_asgi_application()

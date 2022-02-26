@@ -6,7 +6,7 @@ services:
     build:
       context: ./src
       args:
-        - statesng_environment=production
+        - deployment_environment=production
     networks:
       - nginxproxy
       - postgres
