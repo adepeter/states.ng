@@ -41,5 +41,7 @@ USE_X_FORWARDED_HOST = True
 
 USE_X_FORWARDED_PORT = True
 
-ALLOWED_HOSTS = ['google.com', 'api.google.com', 'www.google.com']
+
+
+ALLOWED_HOSTS = ['statesng.com.ng', 'api.statesng.com.ng', 'cpanel.statesng.com.ng', 'pages.statesng.com.ng', 'www.statesng.com.ng', 'admin.statesng.com.ng']
 

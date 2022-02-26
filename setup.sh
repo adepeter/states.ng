@@ -298,10 +298,19 @@ start() {
   echo ""
   create_env_files
   global_configuration_setup
+  echo ""
+  echo ""
   setup_postgres
+  echo ""
+  echo ""
   setup_statesng
+  echo ""
+  echo ""
   setup_pgadmin4
+  echo ""
+  echo ""
   docker-compose up -d
+  echo ""
   post_installation_setup
 }
 
