@@ -28,5 +28,5 @@ COPY . ${STATESNG_PATH}
 WORKDIR ${STATESNG_PATH}
 ENV DEPLOYMENT_ENVIRONMENT ${deployment_environment}
 RUN pip install -r requirements.txt --no-warn-script-location
-CMD ["uwsgi", "--emperor", "uwsgi.ini", "--env", "DEPLOYMENT_ENVIRONMENT=${DEPLOYMENT_ENVIRONMENT}", "--uid", "${STATESNG_USER}", "--master"]
+CMD ["uwsgi", "--emperor", "uwsgi.ini", "--env", "DEPLOYMENT_ENVIRONMENT=${DEPLOYMENT_ENVIRONMENT}", "--uid", "${statesng_user}", "--master"]
 EXPOSE 8000
